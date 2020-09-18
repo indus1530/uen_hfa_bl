@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:text="FACILITY SERVICES"
+        android:textColor="@color/text_hard"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:scrollbarSize="50dip">
+        <!-- Parent layout starts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1F1F1"
+            android:orientation="vertical">
+
+
+            <!--  F1   Starts CB -->
+
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+                    android:id="@+id/lv_f1"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_F1"
+                        style="@style/TextView"
+                        android:text="@string/L_F1" />
+
+
+                    <CheckBox
+                        android:id="@+id/C_F1_1"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_1" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_2"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_2" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_3"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_3" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_4"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_4" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_5"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_5" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_6"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_6" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_7"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_7" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_8"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_8" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_9"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_9" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_10"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_10" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_11"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_11" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_12"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_12" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_13"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_13" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_14"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_14" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_15"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_15" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_16"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_16" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_17"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_17" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_18"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_18" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_19"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_19" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_20"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_20" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_21"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_21" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_22"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_22" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_23"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_23" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_24"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_24" />
+
+                    <CheckBox
+                        android:id="@+id/C_F1_25"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F1_25" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- F1 ends CB-->
+
+
+            <!--  F2   Starts CB -->
+
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+                    android:id="@+id/lv_f2"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_F2"
+                        style="@style/TextView"
+                        android:text="@string/L_F2" />
+
+
+                    <CheckBox
+                        android:id="@+id/C_F2_1"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_1" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_2"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_2" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_3"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_3" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_4"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_4" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_5"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_5" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_6"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_6" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_7"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_7" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_8"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_8" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_9"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_9" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_10"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_10" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_11"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_11" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_12"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_12" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_13"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_13" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_14"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_14" />
+
+                    <CheckBox
+                        android:id="@+id/C_F2_15"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F2_15" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- F2 ends CB-->
+
+            <!--  F3   Starts CB -->
+
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+                    android:id="@+id/lv_f3"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_F3"
+                        style="@style/TextView"
+                        android:text="@string/L_F3" />
+
+
+                    <CheckBox
+                        android:id="@+id/C_F3_1"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_1" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_2"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_2" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_3"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_3" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_4"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_4" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_5"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_5" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_6"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_6" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_7"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_7" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_8"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_8" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_9"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_9" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_10"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_10" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_11"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_11" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_12"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_12" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_13"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_13" />
+
+                    <CheckBox
+                        android:id="@+id/C_F3_14"
+                        style="@style/CheckBox"
+                        android:text="@string/C_F3_14" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- F3 ends CB-->
+
+
+            <Button
+                android:id="@+id/btn_A_next"
+                style="@style/Button_collder"
+                android:layout_margin="10dp"
+                android:text="Next" />
+
+        </LinearLayout>
+        <!-- Parent layout ENds -->
+
+
+    </ScrollView>
+
+
+</LinearLayout>

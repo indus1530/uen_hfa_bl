@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                style="@style/Q_Linerlayout_v"
+
+                android:layout_marginBottom="60dp">
+
+                <TextView
+
+                    android:id="@+id/txt_WS"
+                    style="@style/TextView"
+                    android:text="Are  you Sure you want to  Put  Interview in Pending ?"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <!-- E0 Ends  Radio Button-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/btn_dialog_back_cancel"
+            style="@style/Button_collder"
+
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="#EA4335"
+            android:text="Yes"
+            android:textSize="14sp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_dialog_back_pending"
+            style="@style/Button_collder"
+
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:text="No"
+
+            android:textSize="14sp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\abdul.sajid\\Desktop\\ANDROID Apps\\New folder\\HFAapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w500dp-v13\\values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\abdul.sajid\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\f6f95b9914721c1e51bc8e3bd38cb5d4\\res\\values-w500dp-v13\\values-w500dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

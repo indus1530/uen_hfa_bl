@@ -1,0 +1,187 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.aku.abdulsajid.uen_hfa_bl.GpsFragment">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="50dp"
+
+        android:orientation="vertical"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="Instruction for GPS:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text=" 1.Make Sure you are In open Air"
+            android:textColor="#000"
+
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text=" 2.Device GPS is ON"
+            android:textColor="#000"
+
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text=" 3.wait for at least one mint"
+            android:textColor="#000"
+
+            android:textSize="15sp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text=" 4.GPS Format Should be like 00.00 "
+            android:textColor="#000"
+
+            android:textSize="15sp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txt_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="GPS"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <EditText
+                android:id="@+id/text_frag_gps_latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:digits="[.]+0123456789"
+                android:hint="Latitude"
+
+                android:textAppearance="@style/MyTextAppearance" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/text_frag_gps_longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:digits="[.]+0123456789"
+                android:hint="Longitude"
+
+
+                android:textAppearance="@style/MyTextAppearance" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btn_frag_gps_device"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/btn_color"
+            android:text="Get GPS Via Device"
+            android:textAppearance="@style/MyTextAppearance"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_frag_gps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/btn_color"
+            android:text="Get GPS Via Internet"
+            android:textAppearance="@style/MyTextAppearance"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+
+        <Button
+            android:id="@+id/btn_frag_gps_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@color/btn_color"
+            android:text="Next"
+            android:textAppearance="@style/MyTextAppearance"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</FrameLayout>

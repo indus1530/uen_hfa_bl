@@ -1,0 +1,1214 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.aku.abdulsajid.uen_hfa_bl.Fragment_j">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="NEWBORN HEALTH"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="8dp"
+            android:fadeScrollbars="false"
+            android:fillViewport="true"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+            android:scrollbarSize="50dip">
+            <!-- Parent layout starts -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- serila number layout starts -->
+                <android.support.v7.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_serial_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Mother Name"
+                            android:textAppearance="@style/MyTextAppearance" />
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Mother Name"
+                            android:textAppearance="@style/MyTextAppearance" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!-- serila number  layout ends -->
+
+
+                <!-- J1 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J1"
+                            style="@style/TextView"
+                            android:text="@string/txt_J1"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J1_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_J1_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J1_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_J1_2" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J1_3"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_J1_3" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J1 Ends  Radio Button-->
+                <!-- J2 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J2"
+                            style="@style/TextView"
+                            android:text="@string/txt_J2"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J2_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+
+                        <Button
+
+                            android:id="@+id/b_J2"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J2 End  Button -->
+
+
+                <!-- J3 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J3"
+                            style="@style/TextView"
+                            android:text="@string/txt_J3"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J3_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J3"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J3 End  Button -->
+
+                <!-- J4 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J4"
+                            style="@style/TextView"
+                            android:text="@string/txt_J4"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J4_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J4"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J4 End  Button -->
+
+                <!-- J5 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J5"
+                            style="@style/TextView"
+                            android:text="@string/txt_J5"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J5_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J5"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J5 End  Button -->
+
+                <!-- J6 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J6"
+                            style="@style/TextView"
+                            android:text="@string/txt_J6"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J6_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J6"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J6 End  Button -->
+
+                <!-- J6 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J7"
+                            style="@style/TextView"
+                            android:text="@string/txt_J6"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J7_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J7"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J6 End  Button -->
+
+                <!-- J8 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J8"
+                            style="@style/TextView"
+                            android:text="@string/txt_J8"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J8_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J8"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J8 End  Button -->
+
+                <!-- J9 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J9"
+                            style="@style/TextView"
+                            android:text="@string/txt_J9"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J9_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J9"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J9 End  Button -->
+
+                <!-- J10 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J10"
+                            style="@style/TextView"
+                            android:text="@string/txt_J10"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J10_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J10"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J10 End  Button -->
+
+                <!-- J11 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J11"
+                            style="@style/TextView"
+                            android:text="@string/txt_J11"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J11_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J11"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J11 End  Button -->
+
+                <!-- J12 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J12"
+                            style="@style/TextView"
+                            android:text="@string/txt_J12"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J12_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J12"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J12 End  Button -->
+
+                <!-- J13 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J13"
+                            style="@style/TextView"
+                            android:text="@string/txt_J13"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J13_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J13"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J13 End  Button -->
+
+                <!-- J14 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J14"
+                            style="@style/TextView"
+                            android:text="@string/txt_J14"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J14_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J14"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J14 End  Button -->
+
+                <!-- J15 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J15"
+                            style="@style/TextView"
+                            android:text="@string/txt_J15"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J15_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J15"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J15 End  Button -->
+
+                <!-- J16 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J16"
+                            style="@style/TextView"
+                            android:text="@string/txt_J16"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J16_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J16"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J16 End  Button -->
+
+                <!-- J17 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J17"
+                            style="@style/TextView"
+                            android:text="@string/txt_J17"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J17_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J17"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J17 End  Button -->
+
+                <!-- J18 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J18"
+                            style="@style/TextView"
+                            android:text="@string/txt_J18"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J18_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J18"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J18 End  Button -->
+
+                <!-- J19 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J19"
+                            style="@style/TextView"
+                            android:text="@string/txt_J19"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J19_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J19"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J19 End  Button -->
+
+
+                <!-- J20 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J20"
+                            style="@style/TextView"
+                            android:text="@string/txt_J20"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J20_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J20_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_no" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J20_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J20 Ends  Radio Button-->
+
+                <!-- J21 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J21"
+                            style="@style/TextView"
+                            android:text="@string/txt_J21"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J21_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J21_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_no" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J21_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J21 Ends  Radio Button-->
+
+                <!-- J22 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J22"
+                            style="@style/TextView"
+                            android:text="@string/txt_J22"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J22_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J22_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_no" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J22_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J22 Ends  Radio Button-->
+
+                <!-- J23 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J23"
+                            style="@style/TextView"
+                            android:text="@string/txt_J23"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J23_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J23_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_no" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J23_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J23 Ends  Radio Button-->
+
+                <!-- J24 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J24"
+                            style="@style/TextView"
+                            android:text="@string/txt_J24"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J24_1"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_J24_1" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J24_2"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_J24_2" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J24 Ends  Radio Button-->
+
+
+                <!--J25 Starts  EditeTExt-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J25"
+                            style="@style/TextView"
+                            android:text="@string/txt_J25"
+
+
+                            />
+
+                        <EditText
+
+                            android:id="@+id/et_J25"
+                            style="@style/EditText_number"
+                            android:hint="NO Of TImes"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J25 End  EditeTExt -->
+
+                <!-- J26 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J26"
+                            style="@style/TextView"
+                            android:text="@string/txt_J26"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J26_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J26_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J26_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J26 Ends  Radio Button-->
+
+                <!--J27 Starts  EditeTExt-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J27"
+                            style="@style/TextView"
+                            android:text="@string/txt_J27"
+
+
+                            />
+
+                        <EditText
+
+                            android:id="@+id/et_J27"
+                            style="@style/EditText_number"
+                            android:hint="NO Of TImes"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J27 End  EditeTExt -->
+
+                <!-- J28 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J28"
+                            style="@style/TextView"
+                            android:text="@string/txt_J28"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J28_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J28_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J28_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J28 Ends  Radio Button-->
+
+                <!-- J29 starts  Radio b-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView"
+
+                    >
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+
+                            android:id="@+id/txt_J29"
+                            style="@style/TextView"
+                            android:text="@string/txt_J29"
+
+                            />
+
+                        <RadioGroup style="@style/RadioGroup"
+
+                            >
+
+                            <RadioButton
+                                android:id="@+id/rb_J29_yes"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J29_no"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_yes" />
+
+                            <RadioButton
+                                android:id="@+id/rb_J29_dnt"
+                                style="@style/RadioButton"
+                                android:text="@string/rb_dontknow" />
+
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J29 Ends  Radio Button-->
+
+                <!-- J30 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J30"
+                            style="@style/TextView"
+                            android:text="@string/txt_J30"
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J30_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J30"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J30 End  Button -->
+
+                <!-- J31 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J31"
+                            style="@style/TextView"
+                            android:text="@string/txt_J31"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_J31_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J31"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J31 End  Button -->
+
+                <!-- J32 Starts  Button-->
+                <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                    <LinearLayout style="@style/Q_Linerlayout_v">
+
+                        <TextView
+                            android:id="@+id/txt_J32"
+                            style="@style/TextView"
+                            android:text="@string/txt_J32" />
+
+                        <TextView
+                            android:id="@+id/txt_J32_date"
+                            style="@style/TextView"
+                            android:text="01/01/2015" />
+
+                        <Button
+
+                            android:id="@+id/b_J32"
+                            style="@style/Button_trasnparnt"
+                            android:text="Select Date"
+
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <!-- J32 End  Button -->
+
+                <Button
+                    android:id="@+id/btn_frag_immu_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Next"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

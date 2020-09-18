@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:background="@color/white"
+        android:layout_below="@+id/txt_h"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="4">
+
+            <TextView
+                style="@style/TextView"
+
+                android:id="@+id/text_item_name"
+                android:layout_margin="5dp"
+
+                android:layout_weight="3"
+                android:text="Person" />
+
+
+            <Spinner
+                style="@style/Spiner"
+                android:id="@+id/spin_item_name"
+                android:layout_margin="5dp"
+
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

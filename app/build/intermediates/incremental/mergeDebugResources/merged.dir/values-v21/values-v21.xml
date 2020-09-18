@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interview_cancellation">
+        <item>Refused</item>
+        <item>Dwelling permanent locked</item>
+        <item>Dwelling temporary locked</item>
+        <item>Dwelling vacant </item>
+    </string-array>
+    <string name="C_A14_3_1">Number of beds for obstetrics and gynecology ward(s)</string>
+    <string name="C_A14_3_10">Number of beds for Medicine  ward(s)</string>
+    <string name="C_A14_3_11">Number of beds for Pulmonology ward(s)</string>
+    <string name="C_A14_3_12">Number of beds for Orthopedics ward(s)</string>
+    <string name="C_A14_3_13">Number of beds for Surgery ward(s)</string>
+    <string name="C_A14_3_14">Number of Cart(s) for Paediatrics nursery</string>
+    <string name="C_A14_3_15">Number of Incubator(s) for Paediatrics nursery</string>
+    <string name="C_A14_3_16">Number of Labour room(s)</string>
+    <string name="C_A14_3_17">Number of operation theatre(s)</string>
+    <string name="C_A14_3_2">Number of beds for emergency ward(s)</string>
+    <string name="C_A14_3_3">Number of beds Paediatrics/Children ward(s)</string>
+    <string name="C_A14_3_4">Number of beds for ENT ward(s)</string>
+    <string name="C_A14_3_5">Number of beds for Eye ward(s)</string>
+    <string name="C_A14_3_6">Number of beds for Skin ward(s)</string>
+    <string name="C_A14_3_7">Number of beds for Psychiatry ward(s)</string>
+    <string name="C_A14_3_8">Number of beds for Cardiology ward(s</string>
+    <string name="C_A14_3_9">Number of beds for Neurology ward(s)</string>
+    <string name="C_B6_1">Morning </string>
+    <string name="C_B6_2">Afternoon</string>
+    <string name="C_B6_3">Evening</string>
+    <string name="C_B6_4">Night</string>
+    <string name="C_F1_1">Out-patient PHC services (General OPD)</string>
+    <string name="C_F1_10">Mammography</string>
+    <string name="C_F1_11">Hysterography</string>
+    <string name="C_F1_12">Ultrasonography</string>
+    <string name="C_F1_13">Surgical Services</string>
+    <string name="C_F1_14">AmbulanceService</string>
+    <string name="C_F1_15">Pharmacy Services </string>
+    <string name="C_F1_16">TB DOTS center</string>
+    <string name="C_F1_17">Screening for HIV, HBV and HCV</string>
+    <string name="C_F1_18">Dog bite vaccination center</string>
+    <string name="C_F1_19">Blood bank</string>
+    <string name="C_F1_2">Out-patient specialists services</string>
+    <string name="C_F1_20">Snakebite treatment center</string>
+    <string name="C_F1_21">Heat Stroke management center</string>
+    <string name="C_F1_22">Diabetic clinic</string>
+    <string name="C_F1_23">Physiotherapy and rehabilitation</string>
+    <string name="C_F1_24">Health education</string>
+    <string name="C_F1_25">Medical social services</string>
+    <string name="C_F1_3">General emergency services</string>
+    <string name="C_F1_4">Basic laboratory diagnosis (Anemia, Malaria, Pregnancy Test, Urine test for sugar and protein) </string>
+    <string name="C_F1_5">Advance laboratory diagnosis</string>
+    <string name="C_F1_6">X-ray</string>
+    <string name="C_F1_7">CT Scan</string>
+    <string name="C_F1_8">MRI (Magnetic Resonance Imaging)  </string>
+    <string name="C_F1_9">MRA (Magnetic Resonance Angiography)</string>
+    <string name="C_F2_1">Antenatal/Postnatal Clinic</string>
+    <string name="C_F2_10">Family planning Services (at least 3 methods)</string>
+    <string name="C_F2_11">Family planning counseling</string>
+    <string name="C_F2_12">Emergency obstetrics services</string>
+    <string name="C_F2_13">Post abortion care</string>
+    <string name="C_F2_14">Manual removal placenta</string>
+    <string name="C_F2_15">Removal of retrained products (D and C)</string>
+    <string name="C_F2_2">Normal Vaginal Delivery</string>
+    <string name="C_F2_3">Assisted  Vaginal Delivery (Vacuum, extraction, forceps)</string>
+    <string name="C_F2_4">C-Section</string>
+    <string name="C_F2_5">Out-reach deliveries (community based)</string>
+    <string name="C_F2_6">Specialist Services (Gynae)</string>
+    <string name="C_F2_7">TT Immunization Services</string>
+    <string name="C_F2_8">Nutrition Counseling</string>
+    <string name="C_F2_9">Maternal related out-reach services</string>
+    <string name="C_F3_1">Newborn resuscitation</string>
+    <string name="C_F3_10">Drying and skin to skin contact space and allocated staff</string>
+    <string name="C_F3_11">Eye prophylaxis (tetracycline eye ointment)</string>
+    <string name="C_F3_12">Incubator</string>
+    <string name="C_F3_13">Paeds. Nursery</string>
+    <string name="C_F3_14">Early and exclusive breast feeding counseling</string>
+    <string name="C_F3_2">Pneumonia and diarrhea treatment and management </string>
+    <string name="C_F3_3">Specialist Services (Paeds)</string>
+    <string name="C_F3_4">EPI Immunization Services</string>
+    <string name="C_F3_5">Child nutrition services</string>
+    <string name="C_F3_6">Nutrition Counseling </string>
+    <string name="C_F3_7">Growth monitoring </string>
+    <string name="C_F3_8">Emergency neonatal services</string>
+    <string name="C_F3_9">Diarrheal diseases center</string>
+    <string name="C_G11_1">Blood C/P</string>
+    <string name="C_G11_10">Testing for Hep C</string>
+    <string name="C_G11_11">Culture sensitivity</string>
+    <string name="C_G11_12">Biopsy</string>
+    <string name="C_G11_13">Other</string>
+    <string name="C_G11_2">Stool R/E</string>
+    <string name="C_G11_3">Urine R/E</string>
+    <string name="C_G11_4">Malaria Microscopy</string>
+    <string name="C_G11_5">TB Microscopy</string>
+    <string name="C_G11_6">Biochemistry</string>
+    <string name="C_G11_7">Blood grouping/matching</string>
+    <string name="C_G11_8">Testing for HIV</string>
+    <string name="C_G11_9">Testing for Hep B</string>
+    <string name="C_G1_1">Patient record</string>
+    <string name="C_G1_2">Service record</string>
+    <string name="C_G1_3">Inventory (drugs/supplies) </string>
+    <string name="C_G1_4">None</string>
+    <string name="C_G1_5">Don’t Know</string>
+    <string name="C_H3_1">MNCH (Maternal Newborn and Child Health)</string>
+    <string name="C_H3_2">IMNCH (Integrated Maternal, Newborn and Child Health</string>
+    <string name="C_H3_3">HBB (Helping Baby Breathe)</string>
+    <string name="C_H3_4">Family planning</string>
+    <string name="C_H3_5">EPI (Expanded Programme on Immunization)</string>
+    <string name="C_H3_6">Facility HMIS (Health Management Information System)</string>
+    <string name="C_H3_7">LHW HMIS (Health Management Information System)</string>
+    <string name="C_H3_8">IYCF (Infant Young Child Feeding)</string>
+    <string name="C_H3_9">Nutrition Counseling</string>
+    <string name="C_H4_1">Doctor</string>
+    <string name="C_H4_2">Nurse</string>
+    <string name="C_H4_3">Lady Health Visitor</string>
+    <string name="C_H4_4">Mid wife</string>
+    <string name="C_H4_5">Lady Health Workder</string>
+    <string name="C_H4_6">Lady Health Suprevisor</string>
+    <string name="C_H4_7">Dispenser</string>
+    <string name="C_H4_8">EPI Vaccinator</string>
+    <string name="C_H9_1">MNCH (Maternal Newborn and Child Health)</string>
+    <string name="C_H9_10">Other</string>
+    <string name="C_H9_2">IMNCH (Integrated Maternal, Newborn and Child Health</string>
+    <string name="C_H9_3">HBB (Helping Baby Breathe)</string>
+    <string name="C_H9_4">Family planning</string>
+    <string name="C_H9_5">EPI (Expanded Programme on Immunization)</string>
+    <string name="C_H9_6">Facility HMIS (Health Management Information System)</string>
+    <string name="C_H9_7">LHW HMIS (Health Management Information System)</string>
+    <string name="C_H9_8">IYCF (Infant Young Child Feeding)</string>
+    <string name="C_H9_9">Nutrition Counseling</string>
+    <string name="C_I4_1">Director General Health</string>
+    <string name="C_I4_2">DOH/EDO Health</string>
+    <string name="C_I4_3">DHIS Coordinator</string>
+    <string name="C_I4_4">District Coordination Officer/DC</string>
+    <string name="C_I4_5">Other</string>
+    <string name="C_J7_1">Deputy Commissioner</string>
+    <string name="C_J7_2">Assistant Commissioner</string>
+    <string name="C_J7_3">Director General Health Services</string>
+    <string name="C_J7_4">District Health Officer/Chief Executive Officer</string>
+    <string name="C_J7_5">Deputy District Officer Health</string>
+    <string name="C_J7_6">Taluka/Tehsil Health Officer</string>
+    <string name="C_J7_7">District Chairman</string>
+    <string name="C_J7_8">Taluka/Tehsil Chairman</string>
+    <string name="C_L11_1">When hospital do not have capacity /expertise to manage case</string>
+    <string name="C_L11_2">Patient or attendant requested for that</string>
+    <string name="C_L11_3">Hospital was overload and patient did not want to wait</string>
+    <string name="C_L11_4">Patient was serious and services provision was risky</string>
+    <string name="C_L11_5">Patient could not afford private treatment</string>
+    <string name="C_L11_6">Odd time – public sector could not help patient</string>
+    <string name="C_L13_1">Traditional Birth Attendent</string>
+    <string name="C_L13_2">Lady Health Visitor</string>
+    <string name="C_L13_3">Community Midwife</string>
+    <string name="C_L13_4">Lady Health Worker</string>
+    <string name="C_L13_5">Self</string>
+    <string name="C_L13_6">Family/Friends</string>
+    <string name="C_L5_1">Hospital did not have facilities/resources</string>
+    <string name="C_L5_2">Required services are not available</string>
+    <string name="C_L5_3">Patient or attendant requested for that</string>
+    <string name="C_L5_4">Hospital was overload</string>
+    <string name="C_L5_5">Patient was too serious</string>
+    <string name="C_L5_6">Patient was not capable to meet expenditure</string>
+    <string name="C_L6_1">Hospital did not have facilities / resources </string>
+    <string name="C_L6_2">required services are not available </string>
+    <string name="C_L6_3">Patient or attendant requested for that</string>
+    <string name="C_L6_4">Hospital was overload</string>
+    <string name="C_L6_5">Patient was too serious</string>
+    <string name="C_L6_6">Patient was not capable to meet expenditure</string>
+    <string name="C_L7_1">Lady Health Visitor</string>
+    <string name="C_L7_2">Community Midwife</string>
+    <string name="C_L7_3">Lady Health Worker</string>
+    <string name="C_L7_4">Traditional Birth Attendant/Dai</string>
+    <string name="C_L7_5">Doctor</string>
+    <string name="C_L7_6">Family/Friends </string>
+    <string name="C_L8_1">Hospital did not have facilities / resources </string>
+    <string name="C_L8_2">Required services are not available </string>
+    <string name="C_L8_3">Patient or attendant requested for that</string>
+    <string name="C_L8_4">Hospital was overload</string>
+    <string name="C_L8_5">Patient was too serious</string>
+    <string name="C_L8_6">Patient was not capable to meet expenditure</string>
+    <string name="C_L9_1">Hospital did not have facilities / resources </string>
+    <string name="C_L9_2">Required services are not available </string>
+    <string name="C_L9_3">Patient or attendant requested for that</string>
+    <string name="C_L9_4">Hospital was overload</string>
+    <string name="C_L9_5">Patient was too serious</string>
+    <string name="C_L9_6">Patient was not capable to meet expenditure</string>
+    <string name="C_M4_1">Transportation of dead bodies</string>
+    <string name="C_M4_10">None of the above</string>
+    <string name="C_M4_2">Pick and drop of staff for emergency call</string>
+    <string name="C_M4_3">Routine pick and drop of staff</string>
+    <string name="C_M4_4">On payment to patients or attendants</string>
+    <string name="C_M4_5">On payment to staff for private use</string>
+    <string name="C_M4_6">Transportation of patients referred to other hospital</string>
+    <string name="C_M4_7">Transportation of patients referred from other hospital</string>
+    <string name="C_M4_8">Medical coverage for VIP movement</string>
+    <string name="C_M4_9">Medical coverage for important events </string>
+    <string name="C_N11_1">Ambo bag (adults)</string>
+    <string name="C_N11_10">Bandage</string>
+    <string name="C_N11_11">Sticking Plaster</string>
+    <string name="C_N11_12">Local Anesthesia</string>
+    <string name="C_N11_13">Steroid Injections</string>
+    <string name="C_N11_14">Adrenaline Injections</string>
+    <string name="C_N11_15">Atropine Injection</string>
+    <string name="C_N11_16">Aminophylline Injection</string>
+    <string name="C_N11_17">Buscopan/ Anticholinergic Injection</string>
+    <string name="C_N11_18">Avil Injections/ Antihistamine)</string>
+    <string name="C_N11_19">Pethidine Injections/Analgesic Injection</string>
+    <string name="C_N11_2">Ambo bag (neonates)</string>
+    <string name="C_N11_20">Sodabicarb injection</string>
+    <string name="C_N11_3">I/V solution</string>
+    <string name="C_N11_4">Cannula/Branula</string>
+    <string name="C_N11_5">Stomach Tube/Nasogastric Tube</string>
+    <string name="C_N11_6">Tracheotomy Tube</string>
+    <string name="C_N11_7">Rubber tube</string>
+    <string name="C_N11_8">Cotton</string>
+    <string name="C_N11_9">Disposable Syringe</string>
+    <string name="C_N13_1">Gloves</string>
+    <string name="C_N13_10">Local Anesthesia</string>
+    <string name="C_N13_2">Scalpel</string>
+    <string name="C_N13_3">Disposable blade</string>
+    <string name="C_N13_4">Disposable Syringe</string>
+    <string name="C_N13_5">Forceps</string>
+    <string name="C_N13_6">Artery Forceps</string>
+    <string name="C_N13_7">Cotton</string>
+    <string name="C_N13_8">Allies</string>
+    <string name="C_N13_9">Cannula/Branula</string>
+    <string name="C_P13_1">Proper scrub area</string>
+    <string name="C_P13_2">Intact water supply</string>
+    <string name="C_P13_3">Disinfectant for scrub/washing hands</string>
+    <string name="C_P13_4">Functional light sources</string>
+    <string name="C_P20_1">Doctor</string>
+    <string name="C_P20_2">Anesthetist</string>
+    <string name="C_P20_3">Paramedic</string>
+    <string name="C_Q4_1">Medical Superintendent</string>
+    <string name="C_Q4_10">Radiologist</string>
+    <string name="C_Q4_11">Pathologist</string>
+    <string name="C_Q4_12">Health technician</string>
+    <string name="C_Q4_13">Homeopath</string>
+    <string name="C_Q4_14">Senior Medical Officer/Medical Officer</string>
+    <string name="C_Q4_15">Woman Medical Officer</string>
+    <string name="C_Q4_16">Nurse</string>
+    <string name="C_Q4_17">Lady Health Visitors (LHV)</string>
+    <string name="C_Q4_18">Family Welfare Assistant (FWA)</string>
+    <string name="C_Q4_19">Family Welfare Worker (FWW)</string>
+    <string name="C_Q4_2">Deputy Medical Superintendent /Assistant Medical Superintendent</string>
+    <string name="C_Q4_20">Dai/Midwife</string>
+    <string name="C_Q4_21">Dispensers</string>
+    <string name="C_Q4_22">Lab. Technicians</string>
+    <string name="C_Q4_23">Operation Theatre technicians</string>
+    <string name="C_Q4_24">Anesthesia technician</string>
+    <string name="C_Q4_3">Genral Physician</string>
+    <string name="C_Q4_4">Surgeon</string>
+    <string name="C_Q4_5">Gynecologist</string>
+    <string name="C_Q4_6">Pediatrician</string>
+    <string name="C_Q4_7">Ear Nose Throat specialist</string>
+    <string name="C_Q4_8">Ophthalmologist</string>
+    <string name="C_Q4_9">Anesthetist</string>
+    <string name="C_Q7_1">Vacant positions</string>
+    <string name="C_Q7_2">Absenteeism</string>
+    <string name="C_Q7_3">Poor skills</string>
+    <string name="C_Q7_4">Poor Attitude</string>
+    <string name="C_Q7_5">Non cooperation</string>
+    <string name="C_Q7_6">Rapid transfers of key staff</string>
+    <string name="C_Q7_7">Lack of training facilities</string>
+    <string name="C_Q7_8">Low salary package</string>
+    <string name="C_R5_1">Simple mixed with municipal waste in bin</string>
+    <string name="C_R5_2">Simple buried without appropriate treatment</string>
+    <string name="C_R5_3">Burnt in open air</string>
+    <string name="C_R5_4">Destroyed in incinerator </string>
+    <string name="C_R5_5">Chemical disinfection</string>
+    <string name="C_R5_6">Sanitary land filling</string>
+    <string name="C_R5_7">Discharge to sewer</string>
+    <string name="ET_L13_7">Other</string>
+    <string name="ET_L6_7">Other specify </string>
+    <string name="ET_L7_7">Other</string>
+    <string name="ET_L8_7">Other specify </string>
+    <string name="ET_L9_7">Other specify </string>
+    <string name="ET_P15_4">Other</string>
+    <string name="ET_P22_1">Total Operations</string>
+    <string name="ET_P22_2">C sections</string>
+    <string name="ET_P22_3">Hysterectomy</string>
+    <string name="ET_P22_4">D and Cs</string>
+    <string name="ET_P22_5">Neo-natal operations</string>
+    <string name="ET_P22_6">Total deaths</string>
+    <string name="ET_P22_7">Maternal deaths</string>
+    <string name="ET_P22_8">Neo-natal deaths</string>
+    <string name="ET_Q7_9">Other (specify)</string>
+    <string name="ET_Q8_17">Other priority disease</string>
+    <string name="ET_Q8_18">Other priority disease</string>
+    <string name="ET_R5_8">Other (specify)</string>
+    <string name="E_L5_7">Other specify</string>
+    <string name="Et_J7_9">Others</string>
+    <string name="L_A1">A1.Form number</string>
+    <string name="L_A10">A10.Address of Health Facility</string>
+    <string name="L_A11">A11.Name of Health Facility</string>
+    <string name="L_A12">A12.Health Facility Level</string>
+    <string name="L_A13">A13.Health Facility service provision</string>
+    <string name="L_A14">A14.How many beds are there in this health facility?</string>
+    <string name="L_A14_1">A14.1.Do you have separate wards for male and female in this health facility??</string>
+    <string name="L_A14_2">A14.2.Do you have separate beds assigned to different specialties?</string>
+    <string name="L_A14_3">A14.3.What specialties do you have separate beds?</string>
+    <string name="L_A15">A15.Who manages this health facility</string>
+    <string name="L_A16">A16.What is the qualification of the person who owns/runs this health facility?</string>
+    <string name="L_A17">A17.Name of Contact Person</string>
+    <string name="L_A18">A18.Designation of Contact Person</string>
+    <string name="L_A19">A19.How long have you been working in this health facility?</string>
+    <string name="L_A2">A2.Latitude</string>
+    <string name="L_A20">A20.Office number</string>
+    <string name="L_A21">A21.Personal mobile number</string>
+    <string name="L_A3">A3.Longitude</string>
+    <string name="L_A4">A4.Health Facility type</string>
+    <string name="L_A5">A5.Health Facility DHIS ID</string>
+    <string name="L_A6">A6.Name of Province</string>
+    <string name="L_A7">A7.Name of District</string>
+    <string name="L_A8">A8.Name of Taluka/Tehsil</string>
+    <string name="L_A9">A9.Name of Union Council</string>
+    <string name="L_B1">B1.Is catchment area of this health facility defined?</string>
+    <string name="L_B2">B2.What is the estimated population of the catchment area of this health facility?</string>
+    <string name="L_B3">B3.What is the source of recorded population?</string>
+    <string name="L_B4">B4.How many days in a week this health facility is functional?</string>
+    <string name="L_B5">B5.How many hours in a day this health facility is functional?</string>
+    <string name="L_B6">B6.What is the usual working shift of this health facility?</string>
+    <string name="L_B7">B7.Usually who is the main health care provider at this health facility?</string>
+    <string name="L_C1">C1.What is the Number of Following Staff Working at this Facility?</string>
+    <string name="L_C1_1">Medical Superintendent</string>
+    <string name="L_C1_10">Radiologist </string>
+    <string name="L_C1_11">Pathologist</string>
+    <string name="L_C1_12">Dental Surgeon</string>
+    <string name="L_C1_13">Health technician</string>
+    <string name="L_C1_14">Homeopath</string>
+    <string name="L_C1_15">Senior Medical Officer/Medical Officer</string>
+    <string name="L_C1_16">Woman Medical Officer</string>
+    <string name="L_C1_17">Nutritionist</string>
+    <string name="L_C1_18">Nurse</string>
+    <string name="L_C1_19">Lady Health Visitor</string>
+    <string name="L_C1_1_1">Sanctioned</string>
+    <string name="L_C1_1_2">Filled</string>
+    <string name="L_C1_1_3">Working Days In a Week</string>
+    <string name="L_C1_2">Deputy Medical Superintendent/Assistant Medical Superintendent</string>
+    <string name="L_C1_20">Lady Health Worker</string>
+    <string name="L_C1_21">Lady Health Supervisor</string>
+    <string name="L_C1_22">Community Midwife</string>
+    <string name="L_C1_23">Dai/Midwife</string>
+    <string name="L_C1_24">Dispensers</string>
+    <string name="L_C1_25">Lab. Technicians</string>
+    <string name="L_C1_26">Operation Theater Technicians</string>
+    <string name="L_C1_27">Anesthesia Technician</string>
+    <string name="L_C1_28">IT Person</string>
+    <string name="L_C1_29">EPI Vaccinator</string>
+    <string name="L_C1_3">General Physician(Medical Specialist)</string>
+    <string name="L_C1_30">Ward boy</string>
+    <string name="L_C1_31">Sanitation Staff</string>
+    <string name="L_C1_32">Security Staff</string>
+    <string name="L_C1_33">Clerk</string>
+    <string name="L_C1_34">Driver</string>
+    <string name="L_C1_35">Aaya</string>
+    <string name="L_C1_36">Sanitary worker</string>
+    <string name="L_C1_37">Chawkidar</string>
+    <string name="L_C1_4">Surgeon</string>
+    <string name="L_C1_5">Gynecologist</string>
+    <string name="L_C1_6">Pediatrician</string>
+    <string name="L_C1_7">Ear,Nose,Throat(ENT) Specialist</string>
+    <string name="L_C1_8">Ophthalmologist(Eye Specialist)</string>
+    <string name="L_C1_9">Anesthetist</string>
+    <string name="L_C2">C2.1.What is the status of medicines and supplies, please comment on the available stock as provided in the code list.?</string>
+    <string name="L_C2_1">Ambo Bag (Neonate)</string>
+    <string name="L_C2_10">Auto calve</string>
+    <string name="L_C2_11">Clean Delivery Kit (CDK)</string>
+    <string name="L_C2_12">Adhesive tape</string>
+    <string name="L_C2_13">Bandages </string>
+    <string name="L_C2_14">Cotton</string>
+    <string name="L_C2_15">Gauze</string>
+    <string name="L_C2_16">Gloves</string>
+    <string name="L_C2_17">Inj: Ampicillin</string>
+    <string name="L_C2_18">Cap: Ampicillin</string>
+    <string name="L_C2_19">Inj: Benz. Penicillin</string>
+    <string name="L_C2_2">Ambo Bag (Adults)</string>
+    <string name="L_C2_20">Inj: Pro. Penicillin</string>
+    <string name="L_C2_21">Inj: Ceftriaxone </string>
+    <string name="L_C2_22">Tab: Ciprofloxacillin</string>
+    <string name="L_C2_23">Inj: Kanamycin</string>
+    <string name="L_C2_24">Tab: Sulphamethoxazole</string>
+    <string name="L_C2_25">Tab: Trimethoprim</string>
+    <string name="L_C2_26">Cap: Amoxicillin </string>
+    <string name="L_C2_27">Syp: Amoxicillin</string>
+    <string name="L_C2_28">Tab: Contriimoxazole</string>
+    <string name="L_C2_29">Syp: Contriimoxazole</string>
+    <string name="L_C2_3">Oxygen Cylinder</string>
+    <string name="L_C2_30">Tab: Metronidazole </string>
+    <string name="L_C2_31">Syp: Metronidazole</string>
+    <string name="L_C2_32">Tab: Diclofene</string>
+    <string name="L_C2_33">Syp: Paracetamol</string>
+    <string name="L_C2_34">Inj: Diclofene</string>
+    <string name="L_C2_35">Tab: Chloroquine</string>
+    <string name="L_C2_36">Syp: Salbutainol</string>
+    <string name="L_C2_37">Antihelminthic</string>
+    <string name="L_C2_38">Inj: Dexamethasone </string>
+    <string name="L_C2_39">Inj: MgSo4</string>
+    <string name="L_C2_4">Incubator</string>
+    <string name="L_C2_40">Misoprostol</string>
+    <string name="L_C2_41">Cap: Transamine</string>
+    <string name="L_C2_42">Inj: Transmine</string>
+    <string name="L_C2_43">Iron/Folic Acid</string>
+    <string name="L_C2_44">Tetracycline</string>
+    <string name="L_C2_45">Silver nitrate eye drops</string>
+    <string name="L_C2_46">Inj: Ergometrine</string>
+    <string name="L_C2_47">Inj: Oxytocin</string>
+    <string name="L_C2_48">Chlorhexdine</string>
+    <string name="L_C2_49">Surgical Spirit</string>
+    <string name="L_C2_5">Pulse Oximeter</string>
+    <string name="L_C2_50">Oral Rehydration Salt</string>
+    <string name="L_C2_51">IV (Saline) drips</string>
+    <string name="L_C2_52">Blood transfusion sets</string>
+    <string name="L_C2_53">Methyldopa</string>
+    <string name="L_C2_54">Propranolol</string>
+    <string name="L_C2_55">Disinfectant</string>
+    <string name="L_C2_56">Inj: Hydralazine</string>
+    <string name="L_C2_57">Tab: Aldomet</string>
+    <string name="L_C2_58">Nitrous Oxide or other GA</string>
+    <string name="L_C2_59">Inj: Diazepam</string>
+    <string name="L_C2_6">Stethoscope</string>
+    <string name="L_C2_60">Inj: Ketamine</string>
+    <string name="L_C2_61">Lignocain/Zylocain2% or other</string>
+    <string name="L_C2_62">Syringes</string>
+    <string name="L_C2_63">Vaccine Syringes</string>
+    <string name="L_C2_64">Prickers</string>
+    <string name="L_C2_65">Slides</string>
+    <string name="L_C2_66">BCG(BacilleCalmette Guerin Vaccine)</string>
+    <string name="L_C2_67">OPV(Oral Polio Vaccine)</string>
+    <string name="L_C2_68">Penta</string>
+    <string name="L_C2_69">PCV(Pneumococcal Conjugate Vaccine)</string>
+    <string name="L_C2_7">BP Apparatus</string>
+    <string name="L_C2_70">Measles </string>
+    <string name="L_C2_71">IPV(Injected Polio Vaccine)</string>
+    <string name="L_C2_72">TT(Tetanus Toxoid Vaccine)</string>
+    <string name="L_C2_73">Rotavirus</string>
+    <string name="L_C2_74">Condoms</string>
+    <string name="L_C2_75">Comb. Oral Pills (cycles) </string>
+    <string name="L_C2_76">IUCD(intrauterine contraceptive device) </string>
+    <string name="L_C2_77">Injectable vials</string>
+    <string name="L_C2_78">Norplant</string>
+    <string name="L_C2_8">Scissors</string>
+    <string name="L_C2_9">Stiches</string>
+    <string name="L_C2a">C2.What is the status of supplies at this health facility?.</string>
+    <string name="L_C3">C3.Are these medicines free of cost?</string>
+    <string name="L_C4">C4.What is the replenishment mechanism for the medicine?</string>
+    <string name="L_C4_1">C4.1.When is the next replenishment cycle due?</string>
+    <string name="L_C5">C5.How long the medicine usually last once replenished?</string>
+    <string name="L_C6">C6.Are there other mechanisms for medicine supply?</string>
+    <string name="L_C7">C7.What are the other mechanisms for medicine supply?</string>
+    <string name="L_D1">D1.Does the health facility staff/administration conduct meetings at community level?</string>
+    <string name="L_D2">D1.Does the health facility staff/administration conduct meetings at community level?</string>
+    <string name="L_D3">D2.How often the health facility staff/administration meet with community representatives?</string>
+    <string name="L_D4">D3.Does the health facility administration engage with the community for increasing access to health care?</string>
+    <string name="L_D5">D3.Does any LHW associated with the health facility conduct VHC meetings in the community?</string>
+    <string name="L_D6">D4.How often do they conduct VHC meetings?</string>
+    <string name="L_E1">E1.Is there LHW deployed at this health facility?</string>
+    <string name="L_E2">E2.How many Lady Health Workers (LHWs)are appointed at this health facility?</string>
+    <string name="L_E3">E3.How frequently the Lady Health Workers (LHWs) report to the health facility?</string>
+    <string name="L_E4">E4.How many Lady Health Workers (LHWs)of this health facility are performing their duties regularly?</string>
+    <string name="L_E5">E5.Do you receive patients that are referred by the LHW to this health facility?</string>
+    <string name="L_E6">E6.On average what proportion of patients that comes to this health facility in a month are referred by a LHW?</string>
+    <string name="L_E6_1">Less than or equal to 5%</string>
+    <string name="L_E6_2">6% to 10%</string>
+    <string name="L_E6_3">11% to 25%</string>
+    <string name="L_E6_4">26% to 50%</string>
+    <string name="L_E6_5">51% to 75%</string>
+    <string name="L_E6_6">76% to 100%</string>
+    <string name="L_F1">F1.What general services are provided by this health facility? </string>
+    <string name="L_F2">F2.What maternal services  are provided by this health facility?</string>
+    <string name="L_F3">F3.What paeds services are provided by this health facility?</string>
+    <string name="L_G1">G1.What type of data is available at health facility?</string>
+    <string name="L_G10">G10.Please provide the number of deaths in this facility in regards to MNCH for last one month, write numbers in front of each category.?
+    ( if none write 0, if do not know write 888)</string>
+    <string name="L_G10_1">Maternal</string>
+    <string name="L_G10_2">Neonate</string>
+    <string name="L_G10_3">Children</string>
+    <string name="L_G11">G11.What sort of Lab services available at this facility, please check the box provided if answer is yes.?</string>
+    <string name="L_G2">G2.Is this data mentioned above recorded in a standard format?</string>
+    <string name="L_G3">G3.Is the data available for the last one year?</string>
+    <string name="L_G4">G4.Does this health facility have capacity to digitize the data?</string>
+    <string name="L_G5">G5.How many outdoor patients regarding MNCH issues visited this health facility in the last one month?</string>
+    <string name="L_G5_1">Antenatal check up</string>
+    <string name="L_G5_2">Postnatal check up</string>
+    <string name="L_G5_3">Neonate(0 to 28 days)</string>
+    <string name="L_G5_4">Child(Under 5 years)</string>
+    <string name="L_G5_5">Deliveries</string>
+    <string name="L_G5_6">Immunization</string>
+    <string name="L_G5_7">Emergencies (MNCH)</string>
+    <string name="L_G6">G6.How many in-patient’s regarding MNCH visited this health facility in the last one month?</string>
+    <string name="L_G6_1">All maternal causes</string>
+    <string name="L_G6_2">Neonate causes</string>
+    <string name="L_G6_3">Children causes </string>
+    <string name="L_G6_4">Others</string>
+    <string name="L_G7">G7.How many home deliveries were attended in the last one month. (If this service is not available then write 999)</string>
+    <string name="L_G8">G8.Do you manage deliveries at health the facility?</string>
+    <string name="L_G9">G9.How many deliveries have been managed at this health facility for last one month, please write the number against each mode of delivery.
+    (Write 888 for do not know)
+    </string>
+    <string name="L_G9_1">Normal Vaginal delivery (NVD)</string>
+    <string name="L_G9_2">Assisted delivery</string>
+    <string name="L_G9_3">C-Section</string>
+    <string name="L_H1">H1.Does anyone at this health facility been trained on MNCH in Past?</string>
+    <string name="L_H2">H2.When was the last training conducted for health facility staff?</string>
+    <string name="L_H3">H3.Which training was conducted?</string>
+    <string name="L_H4">H4.Who was trained?</string>
+    <string name="L_H5">H5.What was the duration of the training?</string>
+    <string name="L_H6">H6.During the training who filled in for the staff who were at the training?</string>
+    <string name="L_H7">H7.Did the training improve service provision at the health facility?</string>
+    <string name="L_H8">H8.Does the health facility have plan for training of staff on MNCH?</string>
+    <string name="L_H9">H9.What trainings are needed for the staff now?</string>
+    <string name="L_I1">I1.Does your health facility have Health Management Information System (HMIS)?</string>
+    <string name="L_I10">I10.What action is taken on the findings of the data from the health facility?</string>
+    <string name="L_I11">I11.Is there a single individual responsible for HMIS at this health facility?</string>
+    <string name="L_I12">I12.What is the designation of the responsible person for HMIS at this health facility?</string>
+    <string name="L_I13">I13.Is the individual trained in HMIS?</string>
+    <string name="L_I14">I14.Who attended the last training on HMIS?</string>
+    <string name="L_I15">I15.When was the last training conducted for HMIS for this health  facility?</string>
+    <string name="L_I2">I2.How frequently do you send the information to the higher authorities?</string>
+    <string name="L_I3">I3.For which month the last HMIS report was sent from this health facility?</string>
+    <string name="L_I4">I4.To whom did you send the HMIS report?</string>
+    <string name="L_I5">I5.Do you receive any feedback on the information you send to the higher authorities?</string>
+    <string name="L_I6">I6.When did you get last feedback on HMIS report of your health facility?</string>
+    <string name="L_I7">I7.Is there a mechanism at the health facility to review the patient data with the facility team?</string>
+    <string name="L_I8">I8.Is there a mechanism to review the data on medicine and supplies?</string>
+    <string name="L_I9">I9.Do you take any action based on the health facility information?</string>
+    <string name="L_J1">J1.Is there any internal monitoring mechanism to improve health delivery at the health facility?</string>
+    <string name="L_J10">J10.Did you take any action based on feedback they provided?</string>
+    <string name="L_J2">J2.Is monitoring team separate from service delivery team?</string>
+    <string name="L_J3">J3.How frequently the monitoring activities take place at the health facility?</string>
+    <string name="L_J4">J4.Do you take any actions on the basis of information that you gather during monitoring activities?</string>
+    <string name="L_J5">J5.If no actions are taken, what are the reasons?</string>
+    <string name="L_J6">J6.Was there a supervisory/monitoring visit by government officials during last 6 months in this health facility?</string>
+    <string name="L_J7">J7.Who visited the health facility?</string>
+    <string name="L_J8">J8.Did you discuss the challenges in services delivery with them ?</string>
+    <string name="L_J9">J9.Did they provide any feedback based on their visit?</string>
+    <string name="L_K1">K1.Do you have regular DHMPT meeting?</string>
+    <string name="L_K2">K2.How frequently you are called to attend district (DHMPT) meeting?</string>
+    <string name="L_K3">K3.Was data from your health facility discussed in DHMPT meeting?</string>
+    <string name="L_L1">L1.What is the formal system for receiving referred cases from other facilities / clinics (public or private) working in your area?</string>
+    <string name="L_L10">L10.Do you refer cases to private sector hospital?</string>
+    <string name="L_L11">L11.Why do you refer cases to private sector hospital?</string>
+    <string name="L_L12">L12.Are cases of contraception (Family Planning)referred to this health facility?</string>
+    <string name="L_L13">L13.Who referee cases of contraception(Family Planning) to this health facility?</string>
+    <string name="L_L2">L2.What is the formal system for referring cases to other facilities / clinics (public or private) working in your area?</string>
+    <string name="L_L3">L3.Do you provide feedback and follow up instruction to the health facility/ person who referred the case to your health facility?</string>
+    <string name="L_L4">L4.Do you receive any feedback and follow up instruction from the facility/ person to whom you referred the case for management?</string>
+    <string name="L_L5">L5.What is the most frequent reason for referral obstetric complication patent’s referral by your hospital in the past one month ?</string>
+    <string name="L_L6">L6.What is the most frequent reason for obstetric complication patient’s referred to your hospital in the past one month?</string>
+    <string name="L_L7">L7.Who refer pregnant women to this health facility? </string>
+    <string name="L_L8">L8.What is the reason for neonates referral By this Health facility?</string>
+    <string name="L_L9">L9.What is the reason for neonates referral to this Health facility?</string>
+    <string name="L_M1">M1.Does this facility has any ambulance?</string>
+    <string name="L_M10">M10.What is the payment system for patient to avail hospital ambulance services?</string>
+    <string name="L_M11">M11.Is there a private sector ambulance facility available for patients?</string>
+    <string name="L_M12">M12.What kind of private ambulance service is available?</string>
+    <string name="L_M2">M2.How many ambulances do you have at health facility?</string>
+    <string name="L_M3">M3.How many of the available ambulances are in working condition?</string>
+    <string name="L_M4">M4.Do you use health facility ambulances for either of the following purposes?</string>
+    <string name="L_M5">M5.How many patients were transferred from home or lower level health facility to your hospital during last one month using your hospital ambulance? </string>
+    <string name="L_M6">M6.How many referrals/emergency cases were transferred through hospital ambulance to higher level health facilities during last one month?</string>
+    <string name="L_M7">M7.Does neonates with complications avail hospital transport services from home or place of referral to this hospital?</string>
+    <string name="L_M8">M8.Does women with emergency obstetric complications availhospital transport services from homeor place of referral to this hospitalduring last one month?</string>
+    <string name="L_M9">M9.How many women with emergency obstrical complications were benefited from hospital ambulance during last month?</string>
+    <string name="L_N1">N1.How maternal and neonate emergencies are managed in the facility/hospital?</string>
+    <string name="L_N10">N10.Is an emergency Tray/Cabinet/trolley readily accessible?</string>
+    <string name="L_N11">N11.Are the following items available in the emergency trolley?</string>
+    <string name="L_N12">N12.Is a cut down tray readily accessible?</string>
+    <string name="L_N13">N13.Are the following items available in cut down tray?</string>
+    <string name="L_N14">N14.Which of the following Staff working for emergency services (indicate number)</string>
+    <string name="L_N14_1">Specialists</string>
+    <string name="L_N14_2">Medical officers</string>
+    <string name="L_N14_3">Woman medical officers</string>
+    <string name="L_N14_4">Nurses</string>
+    <string name="L_N14_5">Paramedics</string>
+    <string name="L_N14_6">Other support staff</string>
+    <string name="L_N15">N15.Provide availability and functioning of Cardiopulmonary Resuscitation (CPR) equipment?</string>
+    <string name="L_N15_1">Available</string>
+    <string name="L_N15_2">Functional</string>
+    <string name="L_N15_3">Staff trained</string>
+    <string name="L_N16">N16.Which of the mentioned Services available in emergency unit/ department, please check if available?</string>
+    <string name="L_N16_1">X-ray</string>
+    <string name="L_N16_2">Pharmacy</string>
+    <string name="L_N16_3">Laboratory</string>
+    <string name="L_N17">N17.What is the policy for provision of drugs and supplies in the emergency department?</string>
+    <string name="L_N2">N2.How many beds are available for emergency unit of the hospital?</string>
+    <string name="L_N2_1">General Beds</string>
+    <string name="L_N2_2">Obstetric Beds</string>
+    <string name="L_N2_3">Neonate Bed</string>
+    <string name="L_N3">N3.Is record of patients kept for all patients utilizing the emergency?</string>
+    <string name="L_N4">N4.Are the protocols for emergency obstetric care displayed?</string>
+    <string name="L_N5">N5.Are the protocols for neonatal resuscitation displayed</string>
+    <string name="L_N6">N6.Are the protocols for neonatal care displayed?</string>
+    <string name="L_N7">N7.Are important telephone numbers of doctors displayed?</string>
+    <string name="L_N8">N8.Is there a list of emergency medicine available?</string>
+    <string name="L_N9">N9.Is the roster for staff on duty displayed?</string>
+    <string name="L_O1">O1.How maternal and neonatal are managed in the facility/hospital?</string>
+    <string name="L_O2">O2.Are the protocols displayed for:</string>
+    <string name="L_O2_1">Delivery Care</string>
+    <string name="L_O2_2">Post-natal Care</string>
+    <string name="L_O2_3">Immunization</string>
+    <string name="L_O2_4">Neo-natal Care</string>
+    <string name="L_O3">O3.Are the instructions for visiting hours displayed ?</string>
+    <string name="L_O4">O4.Is an emergency trolley readily accessible?</string>
+    <string name="L_O5">O5.If yes, then confirm availability of following items:</string>
+    <string name="L_O5_1">Ambo-bag</string>
+    <string name="L_O5_10">Sticking plaster</string>
+    <string name="L_O5_11">Local anesthetic</string>
+    <string name="L_O5_12">Lifesaving drugs:</string>
+    <string name="L_O5_13">Steroid injections</string>
+    <string name="L_O5_14">Adrenaline injections</string>
+    <string name="L_O5_15">Atropine injections</string>
+    <string name="L_O5_16">Aminophylline injections</string>
+    <string name="L_O5_17">Buscopan / Anti-cholinergic injections</string>
+    <string name="L_O5_18">Avil injections</string>
+    <string name="L_O5_19">Pethidine injections</string>
+    <string name="L_O5_2">I/V solution</string>
+    <string name="L_O5_20">Analgesic injections</string>
+    <string name="L_O5_21">Sodabicarb injections</string>
+    <string name="L_O5_3">Cannula/Branula</string>
+    <string name="L_O5_4">Stomach tube</string>
+    <string name="L_O5_5">Tracheotomy tube</string>
+    <string name="L_O5_6">Rubber tube</string>
+    <string name="L_O5_7">Cotton</string>
+    <string name="L_O5_8">Disposable syringe</string>
+    <string name="L_O5_9">Bandage</string>
+    <string name="L_O6">O6.Is the cut-down tray readily accessible?</string>
+    <string name="L_O7">O7.If yes, then confirm availability of following items:</string>
+    <string name="L_O7_1">Gloves</string>
+    <string name="L_O7_10">Local anesthetic</string>
+    <string name="L_O7_2">Scalpel</string>
+    <string name="L_O7_3">Disposable blade</string>
+    <string name="L_O7_4">Disposable syringe</string>
+    <string name="L_O7_5">Forceps</string>
+    <string name="L_O7_6">Artery forceps</string>
+    <string name="L_O7_7">Cotton</string>
+    <string name="L_O7_8">Alice forceps</string>
+    <string name="L_O7_9">Cannula/Branula</string>
+    <string name="L_P1">P1.Is operation theater available for maternal cases only  in this health facility?</string>
+    <string name="L_P10">P10.Whether everyone in the OT has changed to OT clothes?</string>
+    <string name="L_P11">P11.Whether OT personal including anesthesia staff and surgeon change while coming out of OT?</string>
+    <string name="L_P12">P12.How patients are called to OT?</string>
+    <string name="L_P13">P13.Are the following available in OT?</string>
+    <string name="L_P14">P14.How are the surgical instruments sterilized?</string>
+    <string name="L_P15">P15.What is the level of understanding of the OT staff about sterilization methods?</string>
+    <string name="L_P15_1">OT technician</string>
+    <string name="L_P15_2">OT attendant</string>
+    <string name="L_P15_3">OT nurse</string>
+    <string name="L_P16">P16.How often fumigation of OT is done?</string>
+    <string name="L_P17">P17.Is there a central medical gases and suction system available in the hospital?</string>
+    <string name="L_P18">P18.Do the patients have to bring surgery-related medicines and other materials?</string>
+    <string name="L_P19">P19.Does a post-operative recovery room exist?</string>
+    <string name="L_P1_1">P1.1.Is an operation theater available for general patients in this health facility?</string>
+    <string name="L_P2">P2.Is the operation theater operational?</string>
+    <string name="L_P20">P20.If yes, then who looks after the patient in post-operative recovery room</string>
+    <string name="L_P21">P21.What arrangements for alternate power supply are available?</string>
+    <string name="L_P21_1">Independent Standby generator</string>
+    <string name="L_P21_2">Shared Standby generator</string>
+    <string name="L_P21_3">Automatic Standby generator</string>
+    <string name="L_P21_4">Manual Standby generator</string>
+    <string name="L_P21_5">Emergency OT light</string>
+    <string name="L_P22">P22.Performance of the OT during last one month?</string>
+    <string name="L_P3">P3.What type of anesthesia is available in the OT?</string>
+    <string name="L_P4">P4.Does a pre-operative exercise take place a day before the scheduled operation?</string>
+    <string name="L_P5">P5.Is the operation list prepared and displayed outside the OT?</string>
+    <string name="L_P6">P6.Is there a waiting room/hall for the relatives of patients outside the OT?</string>
+    <string name="L_P7">P7.Is there a marking restricting entry for staff only?</string>
+    <string name="L_P8">P8.Is the operation theatre air conditioned?</string>
+    <string name="L_P9">P9.Is there a pre-operative preparation room for the patients?</string>
+    <string name="L_Q1">Q1.Does this facility have a facility operational manual?</string>
+    <string name="L_Q10">Q10.Is the medicine record maintained?</string>
+    <string name="L_Q11">Q11.Is the vehicle log book record maintained?</string>
+    <string name="L_Q2">Q2.Does this facility have a defined services package available?</string>
+    <string name="L_Q3">Q3.Is list of essential drugs for this facility defined, available and implemented</string>
+    <string name="L_Q4">Q4.Do you have job descriptions available for the following staff?</string>
+    <string name="L_Q5">Q5.Do you have any in-service training program for your staff?</string>
+    <string name="L_Q6">Q6.Is there a hospital human resource policy?</string>
+    <string name="L_Q7">Q7.What are the major human resource issues that are being faced by this hospital?</string>
+    <string name="L_Q8">Q8.Are protocols available and displayed for the following processes/ disease management?</string>
+    <string name="L_Q8_1">Diarrheal disease</string>
+    <string name="L_Q8_10">C-Section</string>
+    <string name="L_Q8_11">Newborn Care</string>
+    <string name="L_Q8_12">New born Resuscitation</string>
+    <string name="L_Q8_13">Newborn Asphyxia</string>
+    <string name="L_Q8_14">Childhood malnutrition</string>
+    <string name="L_Q8_15">Family Planning</string>
+    <string name="L_Q8_16">Tuberculosis</string>
+    <string name="L_Q8_2">Acute Respiratory Infection</string>
+    <string name="L_Q8_3">Malaria</string>
+    <string name="L_Q8_4">Antenatal care</string>
+    <string name="L_Q8_5">Delivery (natal) care</string>
+    <string name="L_Q8_6">Postnatal (women and infants)</string>
+    <string name="L_Q8_7">Emergency Obstetric Care</string>
+    <string name="L_Q8_8">Excessive bleeding</string>
+    <string name="L_Q8_9">Eclampsia</string>
+    <string name="L_Q9">Q9.Is the equipment record maintained?</string>
+    <string name="L_R1">R1.Are separate toilets available for male and female?</string>
+    <string name="L_R10">R10.Does staff clean their hands after examining a patient?</string>
+    <string name="L_R11">R11.Does staff wear gloves when examining a patient?</string>
+    <string name="L_R12">R12.Has there been any needle stick injury in this health facility in the past?</string>
+    <string name="L_R13">R13.Does the health facility administration have coordination meeting with the local Town Municipal Administration (TMA) on environment issues?</string>
+    <string name="L_R14">R14.What is the source of the information you provided for this interview?</string>
+    <string name="L_R2">R2.Are the toilets clean?</string>
+    <string name="L_R3">R3.Is there alternate source of electricity (Power Generator) available?</string>
+    <string name="L_R4">R4.Do you have system for segregation of dangerous / non dangerous waste?</string>
+    <string name="L_R5">R5.How are health care wastes like infectious, anatomical, sharps, chemical and cytotoxic collected, transported and disposed?</string>
+    <string name="L_R6">R6.Is there an area identified for health care waste disposal?</string>
+    <string name="L_R7">R7.Where is the area located?</string>
+    <string name="L_R8">R8.Is clean running water available at the health facility?</string>
+    <string name="L_R9">R9.Does staff usually clean their hands before examining a patient? </string>
+    <string name="R_A12_1">District Head Quarter (DHQ) Hospital</string>
+    <string name="R_A12_10">Maternity Home</string>
+    <string name="R_A12_11">Private Hospital</string>
+    <string name="R_A12_12">Private Clinic</string>
+    <string name="R_A12_13">Others (Specify)</string>
+    <string name="R_A12_2">Civil Hospital</string>
+    <string name="R_A12_3">Taluka/Tehsil Head Quarter (THQ) Hospital</string>
+    <string name="R_A12_4">Specialized Teaching Institute</string>
+    <string name="R_A12_5">Teaching Hospital</string>
+    <string name="R_A12_6">Rural Health Center (RHC)</string>
+    <string name="R_A12_7">Basic Health Unit (BHU)</string>
+    <string name="R_A12_8">Mother and Child Health (MCH) Center</string>
+    <string name="R_A12_9">Civil/Government Dispensary (CD/GD)</string>
+    <string name="R_A13_1">Outpatient</string>
+    <string name="R_A13_2">Inpatient</string>
+    <string name="R_A15_1">DOH (District Office Health)</string>
+    <string name="R_A15_10">An individual</string>
+    <string name="R_A15_11">Others (specify)</string>
+    <string name="R_A15_2">PPHI (Peoples Primary Healthcare Initiative)</string>
+    <string name="R_A15_3">IHS (Integrated Health System)</string>
+    <string name="R_A15_4">PHFMC (Punjab Health Facilities Management Company)</string>
+    <string name="R_A15_5">HANDS (Health and Nutrition Development Society)</string>
+    <string name="R_A15_6">MERF</string>
+    <string name="R_A15_7">INDUS</string>
+    <string name="R_A15_8">PEI(Poverty Eradication Initiative)</string>
+    <string name="R_A15_9">NGO (specify the name of NGO)</string>
+    <string name="R_A16_1">MBBS</string>
+    <string name="R_A16_10">Masters (other than medicine)</string>
+    <string name="R_A16_11">Bachelors (other than medicine)</string>
+    <string name="R_A16_12">Matriculation (other than medicine)</string>
+    <string name="R_A16_13">Bachelors Homeopathy</string>
+    <string name="R_A16_14">Illiterate</string>
+    <string name="R_A16_15">Others (specify)</string>
+    <string name="R_A16_2">FCPS</string>
+    <string name="R_A16_3">Diploma in Nursing</string>
+    <string name="R_A16_4">Graduate Nursing</string>
+    <string name="R_A16_5">Post Graduate Nurse (Specialist)</string>
+    <string name="R_A16_6">Lady Health Visitor Diploma</string>
+    <string name="R_A16_7">B. Pharmacy</string>
+    <string name="R_A16_8">Diploma in Midwifery</string>
+    <string name="R_A16_9">Diploma in Dispensary </string>
+    <string name="R_A18_1">Medical Officer</string>
+    <string name="R_A18_2">Woman Medical Officer</string>
+    <string name="R_A18_3">Nurse</string>
+    <string name="R_A18_4">Lady Health Visitor</string>
+    <string name="R_A18_5">Dispenser</string>
+    <string name="R_A18_6">EPI Vaccinator</string>
+    <string name="R_A18_7">Clerk </string>
+    <string name="R_A18_8">Other</string>
+    <string name="R_A4_1">Public Health Facility</string>
+    <string name="R_A4_2">Private Health Facility</string>
+    <string name="R_A6_1">Balochistan</string>
+    <string name="R_A6_2">Punjab</string>
+    <string name="R_A6_3">Sindh</string>
+    <string name="R_A7_1">Jafferabad</string>
+    <string name="R_A7_2">Lasbella</string>
+    <string name="R_A7_3">Nasirabad</string>
+    <string name="R_A7_4">Muzzafargarh</string>
+    <string name="R_A7_5">RahimYar Khan</string>
+    <string name="R_A7_6">Badin</string>
+    <string name="R_A7_7">Hyderabad</string>
+    <string name="R_A7_8">Sanghar</string>
+    <string name="R_A7_9">QambarShahdadkot</string>
+    <string name="R_B3_1">Facility Record</string>
+    <string name="R_B3_2">Verbally (Estimated)</string>
+    <string name="R_B7_1">Doctor</string>
+    <string name="R_B7_2">Nurse</string>
+    <string name="R_B7_3">Lady Health Visitor</string>
+    <string name="R_B7_4">Mid wife</string>
+    <string name="R_B7_5">Lady Health Worker</string>
+    <string name="R_B7_6">Lady Health Supervisor</string>
+    <string name="R_B7_7">Dispenser</string>
+    <string name="R_B7_8">Other</string>
+    <string name="R_C1_1">Full Time</string>
+    <string name="R_C1_2">Part Time</string>
+    <string name="R_C2_1"> Out of Stock  </string>
+    <string name="R_C2_2"> Less than one month Stock  </string>
+    <string name="R_C2_3"> 1 To 6 months Stock</string>
+    <string name="R_C2_4"> 7 TO 12 months Stock</string>
+    <string name="R_C2_5"> Over one year Stock</string>
+    <string name="R_C2_6"> provided on daily basis by governmen</string>
+    <string name="R_C2_7"> Do not know</string>
+    <string name="R_C3_1">Yes, all of them</string>
+    <string name="R_C3_2">Yes, Only Emergency patients</string>
+    <string name="R_C3_3">Yes, Only Emergency Medicines </string>
+    <string name="R_C3_4">Partially  </string>
+    <string name="R_C3_5">No </string>
+    <string name="R_C4_1">Weekly</string>
+    <string name="R_C4_2">Fortnightly</string>
+    <string name="R_C4_3">Monthly </string>
+    <string name="R_C4_4">Quarterly</string>
+    <string name="R_C4_5">Yearly</string>
+    <string name="R_C4_6">On need basis</string>
+    <string name="R_C7_1">NGO</string>
+    <string name="R_C7_2">Donation (Philanthropist)</string>
+    <string name="R_C7_3">Other</string>
+    <string name="R_D3_1">Weekly</string>
+    <string name="R_D3_2">Fortnightly</string>
+    <string name="R_D3_3">Monthly</string>
+    <string name="R_D3_4">Quarterly</string>
+    <string name="R_D3_5">On need basis</string>
+    <string name="R_D6_1">Weekly</string>
+    <string name="R_D6_2">Fortnightly</string>
+    <string name="R_D6_3">Monthly</string>
+    <string name="R_D6_4">Quarterly</string>
+    <string name="R_D6_5">On need basis</string>
+    <string name="R_E3_1">Daily</string>
+    <string name="R_E3_2">Weekly</string>
+    <string name="R_E3_3">Fortnightly</string>
+    <string name="R_E3_4">Monthly</string>
+    <string name="R_E3_5">Quarterly</string>
+    <string name="R_E3_6">Not a set schedule</string>
+    <string name="R_H5_1">One day</string>
+    <string name="R_H5_2">Two days</string>
+    <string name="R_H5_3">Three days</string>
+    <string name="R_H5_4">Four days</string>
+    <string name="R_H5_5">Five days</string>
+    <string name="R_H5_6">More than five days</string>
+    <string name="R_H6_1">Staff divided in two groups</string>
+    <string name="R_H6_2">Staff from another health facility</string>
+    <string name="R_H6_3">Services were stopped</string>
+    <string name="R_H7_1">Highly improved</string>
+    <string name="R_H7_2">improved</string>
+    <string name="R_H7_3">Neutral</string>
+    <string name="R_H7_4">Not improved</string>
+    <string name="R_I12_1">Doctor</string>
+    <string name="R_I12_2">Paramedic </string>
+    <string name="R_I12_3">Nurse</string>
+    <string name="R_I12_4">Clerk</string>
+    <string name="R_I12_5">Dedicated IT Person  </string>
+    <string name="R_I12_6">Dispenser</string>
+    <string name="R_I12_7">Other</string>
+    <string name="R_I14_1">Administrative Staff</string>
+    <string name="R_I14_2">General duty doctor</string>
+    <string name="R_I14_3">Nurse</string>
+    <string name="R_I14_4">Lady Health Visitor</string>
+    <string name="R_I14_5">Dedicated IT Person  </string>
+    <string name="R_I14_6">Dispenser</string>
+    <string name="R_I14_7">Assigned Person</string>
+    <string name="R_I14_8">Other</string>
+    <string name="R_I2_1">Daily</string>
+    <string name="R_I2_2">Weekly</string>
+    <string name="R_I2_3">Fortnightly </string>
+    <string name="R_I2_4">Monthly</string>
+    <string name="R_I2_5">Quarterly</string>
+    <string name="R_I2_6">Yearly</string>
+    <string name="R_I2_7">Need Based </string>
+    <string name="R_I2_8">Never </string>
+    <string name="R_I6_1">Current Month </string>
+    <string name="R_I6_2">Last month</string>
+    <string name="R_I6_3">Two months ago</string>
+    <string name="R_I6_4">Three months ago</string>
+    <string name="R_I6_5">Six months ago</string>
+    <string name="R_I6_6">One year ago</string>
+    <string name="R_I6_7">Don’t know</string>
+    <string name="R_J3_1">Weekly</string>
+    <string name="R_J3_2">Fortnightly</string>
+    <string name="R_J3_3">Monthly</string>
+    <string name="R_J3_4">Quarterly</string>
+    <string name="R_J3_5">Yearly </string>
+    <string name="R_J3_6">On need basis</string>
+    <string name="R_K2_1">Weekly</string>
+    <string name="R_K2_2">Monthly</string>
+    <string name="R_K2_3">Quarterly</string>
+    <string name="R_K2_4">On need basis</string>
+    <string name="R_L1_1">Formal/Contractual arrangements</string>
+    <string name="R_L1_2">Informal understanding</string>
+    <string name="R_L1_3">Individual consultation have referral links</string>
+    <string name="R_L1_4">There is no system</string>
+    <string name="R_L2_1">Formal/Contractual arrangements</string>
+    <string name="R_L2_2">Informal understanding</string>
+    <string name="R_L2_3">Individual consultation have referral links</string>
+    <string name="R_L2_4">There is no system</string>
+    <string name="R_M10_1">Payment from all patients</string>
+    <string name="R_M10_2">Free according to policy</string>
+    <string name="R_M10_3">At discretion of MS/ AMS/ Specialist</string>
+    <string name="R_M10_4">No policy</string>
+    <string name="R_M12_1">Proper ambulances operated by NGO</string>
+    <string name="R_M12_2">Proper ambulances operated by private organization</string>
+    <string name="R_M12_3">Other transport used for transportation of patients</string>
+    <string name="R_N17_1">All item are supplied from the hospital</string>
+    <string name="R_N17_2">Most of the items are supplied from and hospital and All item are brought by the patient/ attendant</string>
+    <string name="R_N17_3">A few available items supplied by the hospital and Most of the items are brought by the patient/ attendant</string>
+    <string name="R_N17_4">All item are brought by the patients/attendants</string>
+    <string name="R_N17_5">No policy at all</string>
+    <string name="R_N1_1">All patients in one general emergency</string>
+    <string name="R_N1_2">Run separate emergency unit for neonates</string>
+    <string name="R_N1_3">Run separate emergency unit for Obstetric</string>
+    <string name="R_N1_4">No emergency unit is working</string>
+    <string name="R_No">No</string>
+    <string name="R_O1_1">All in general ward</string>
+    <string name="R_O1_2">Obstetric cases in maternal ward</string>
+    <string name="R_O1_3">Neonates in pediatric ward</string>
+    <string name="R_O1_4">Maternal and Neonatal cases are not entertained</string>
+    <string name="R_O2_1_1">Available and displayed</string>
+    <string name="R_O2_1_2">Available and NOT displayed </string>
+    <string name="R_O2_1_3">Neither available nor displayed</string>
+    <string name="R_O2_2_1">Available and displayed</string>
+    <string name="R_O2_2_2">Available and NOT displayed </string>
+    <string name="R_O2_2_3">Neither available nor displayed</string>
+    <string name="R_O2_3_1">Available and displayed</string>
+    <string name="R_O2_3_2">Available and NOT displayed </string>
+    <string name="R_O2_3_3">Neither available nor displayed</string>
+    <string name="R_O2_4_1">Available and displayed</string>
+    <string name="R_O2_4_2">Available and NOT displayed </string>
+    <string name="R_O2_4_3">Neither available nor displayed</string>
+    <string name="R_P10_1">All in OT clothes</string>
+    <string name="R_P10_2">Most in OT clothes</string>
+    <string name="R_P10_3">Some are in OT clothes</string>
+    <string name="R_P10_4">None in OT clothes</string>
+    <string name="R_P11_1">Yes change OT clothes</string>
+    <string name="R_P11_2">Do not change OT clothes</string>
+    <string name="R_P11_3">Partially change (shoes only)</string>
+    <string name="R_P12_1">Collective in morning</string>
+    <string name="R_P12_2">By turn by internal call</string>
+    <string name="R_P12_3">Mix practice</string>
+    <string name="R_P14_1">Boiling</string>
+    <string name="R_P14_2">Autoclave</string>
+    <string name="R_P14_3">Chemical</string>
+    <string name="R_P14_4">All of the above</string>
+    <string name="R_P15_1_1">Excellent</string>
+    <string name="R_P15_1_2">Good</string>
+    <string name="R_P15_1_3">Satisfactory</string>
+    <string name="R_P15_1_4">Un-satisfactory</string>
+    <string name="R_P15_1_5">Dirty</string>
+    <string name="R_P15_2_1">Excellent</string>
+    <string name="R_P15_2_2">Good</string>
+    <string name="R_P15_2_3">Satisfactory</string>
+    <string name="R_P15_2_4">Un-satisfactory</string>
+    <string name="R_P15_2_5">Dirty</string>
+    <string name="R_P15_3_1">Excellent</string>
+    <string name="R_P15_3_2">Good</string>
+    <string name="R_P15_3_3">Satisfactory</string>
+    <string name="R_P15_3_4">Un-satisfactory</string>
+    <string name="R_P15_3_5">Dirty</string>
+    <string name="R_P15_4_1">Excellent</string>
+    <string name="R_P15_4_2">Good</string>
+    <string name="R_P15_4_3">Satisfactory</string>
+    <string name="R_P15_4_4">Un-satisfactory</string>
+    <string name="R_P15_4_5">Dirty</string>
+    <string name="R_P16_1">Weekly</string>
+    <string name="R_P16_2">Fortnightly</string>
+    <string name="R_P16_3">Monthly</string>
+    <string name="R_P16_4">Quarterly</string>
+    <string name="R_P16_5">Six monthly</string>
+    <string name="R_P16_6">Annually</string>
+    <string name="R_P16_7">Occasionally</string>
+    <string name="R_P16_8">Never</string>
+    <string name="R_P18_1">All items</string>
+    <string name="R_P18_2">Some of items</string>
+    <string name="R_P18_3">All provided by hospital</string>
+    <string name="R_P21_1">Available and functional</string>
+    <string name="R_P21_2">Available and Not functional</string>
+    <string name="R_P21_3">Not Available</string>
+    <string name="R_P4_1">General Anesthesia</string>
+    <string name="R_P4_2">Regional blocks</string>
+    <string name="R_P4_3">All types</string>
+    <string name="R_P4_4">None</string>
+    <string name="R_Q3_1">Defined</string>
+    <string name="R_Q3_2">Available</string>
+    <string name="R_Q3_3">Implemented fully</string>
+    <string name="R_Q3_4">Implemented partially</string>
+    <string name="R_Q8_1">Available and Displayed</string>
+    <string name="R_Q8_2">Available but Not Displayed</string>
+    <string name="R_Q8_3">Not Available</string>
+    <string name="R_R13_1">Regular meetings</string>
+    <string name="R_R13_2">On need basis</string>
+    <string name="R_R13_3">Never</string>
+    <string name="R_R13_4">Dont know</string>
+    <string name="R_R14_1">Facility Record</string>
+    <string name="R_R14_2">Verbally (estimated)</string>
+    <string name="R_R14_3">Both</string>
+    <string name="R_R7_1">Within the premises of facility</string>
+    <string name="R_R7_2">Outside boundary of facility and away from residential area.</string>
+    <string name="R_dnt">Donnot Know</string>
+    <string name="R_yes">Yes</string>
+    <string name="app_name">HFA</string>
+    <string name="default_guest_name">Name</string>
+    <string name="default_p">#</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="title_home">Home</string>
+    <string name="title_new_survey">New Survey</string>
+    <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
+    <style name="Base.TextAppearance.AppCompat.Button" parent="android:TextAppearance.Material.Button"/>
+    <style name="Base.TextAppearance.AppCompat.Caption" parent="android:TextAppearance.Material.Caption"/>
+    <style name="Base.TextAppearance.AppCompat.Display1" parent="android:TextAppearance.Material.Display1"/>
+    <style name="Base.TextAppearance.AppCompat.Display2" parent="android:TextAppearance.Material.Display2"/>
+    <style name="Base.TextAppearance.AppCompat.Display3" parent="android:TextAppearance.Material.Display3"/>
+    <style name="Base.TextAppearance.AppCompat.Display4" parent="android:TextAppearance.Material.Display4"/>
+    <style name="Base.TextAppearance.AppCompat.Headline" parent="android:TextAppearance.Material.Headline"/>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="android:TextAppearance.Material.Inverse"/>
+    <style name="Base.TextAppearance.AppCompat.Large" parent="android:TextAppearance.Material.Large"/>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="android:TextAppearance.Material.Large.Inverse"/>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="android:TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="android:TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium" parent="android:TextAppearance.Material.Medium"/>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="android:TextAppearance.Material.Medium.Inverse"/>
+    <style name="Base.TextAppearance.AppCompat.Menu" parent="android:TextAppearance.Material.Menu"/>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="android:TextAppearance.Material.SearchResult.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="android:TextAppearance.Material.SearchResult.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small" parent="android:TextAppearance.Material.Small"/>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="android:TextAppearance.Material.Small.Inverse"/>
+    <style name="Base.TextAppearance.AppCompat.Subhead" parent="android:TextAppearance.Material.Subhead"/>
+    <style name="Base.TextAppearance.AppCompat.Title" parent="android:TextAppearance.Material.Title"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="android:TextAppearance.Material.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="android:TextAppearance.Material.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="android:TextAppearance.Material.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="android:TextAppearance.Material.Widget.Button"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="android:TextAppearance.Material.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="android:TextAppearance.Material.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch" parent="android:TextAppearance.Material.Button"/>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="android:TextAppearance.Material.Widget.TextView.SpinnerItem"/>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="android:TextAppearance.Material.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.Theme.AppCompat" parent="Base.V21.Theme.AppCompat"/>
+    <style name="Base.Theme.AppCompat.Dialog" parent="Base.V21.Theme.AppCompat.Dialog"/>
+    <style name="Base.Theme.AppCompat.Light" parent="Base.V21.Theme.AppCompat.Light"/>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="Base.V21.Theme.AppCompat.Light.Dialog"/>
+    <style name="Base.V21.Theme.AppCompat" parent="Base.V7.Theme.AppCompat">
+        <!-- Action Bar styling attributes -->
+        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarDivider">?android:attr/actionBarDivider</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
+        <item name="actionModeBackground">?android:attr/actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="homeAsUpIndicator">?android:attr/homeAsUpIndicator</item>
+
+        <!-- For PopupMenu -->
+        <item name="listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="textAppearanceLargePopupMenu">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:attr/textAppearanceSmallPopupMenu</item>
+
+        <!-- General view attributes -->
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="borderlessButtonStyle">?android:borderlessButtonStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+        <item name="dividerVertical">?android:attr/dividerVertical</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextColor">?android:attr/editTextColor</item>
+        <item name="listChoiceBackgroundIndicator">?android:attr/listChoiceBackgroundIndicator</item>
+
+        <!-- Copy the platform default styles for the AppCompat widgets -->
+        <item name="buttonStyle">?android:attr/buttonStyle</item>
+        <item name="buttonStyleSmall">?android:attr/buttonStyleSmall</item>
+        <item name="checkboxStyle">?android:attr/checkboxStyle</item>
+        <item name="checkedTextViewStyle">?android:attr/checkedTextViewStyle</item>
+        <item name="radioButtonStyle">?android:attr/radioButtonStyle</item>
+        <item name="ratingBarStyle">?android:attr/ratingBarStyle</item>
+        <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+
+        <!-- Copy our color theme attributes to the framework -->
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog" parent="Base.V11.Theme.AppCompat.Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light" parent="Base.V7.Theme.AppCompat.Light">
+        <!-- Action Bar styling attributes -->
+        <item name="actionBarSize">?android:attr/actionBarSize</item>
+        <item name="actionBarDivider">?android:attr/actionBarDivider</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionButtonStyle">?android:attr/actionButtonStyle</item>
+        <item name="actionModeBackground">?android:attr/actionModeBackground</item>
+        <item name="actionModeCloseDrawable">?android:attr/actionModeCloseDrawable</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="homeAsUpIndicator">?android:attr/homeAsUpIndicator</item>
+
+        <!-- For PopupMenu -->
+        <item name="listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="textAppearanceLargePopupMenu">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="textAppearanceSmallPopupMenu">?android:attr/textAppearanceSmallPopupMenu</item>
+
+        <!-- General view attributes -->
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+        <item name="selectableItemBackgroundBorderless">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="borderlessButtonStyle">?android:borderlessButtonStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+        <item name="dividerVertical">?android:attr/dividerVertical</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextColor">?android:attr/editTextColor</item>
+        <item name="listChoiceBackgroundIndicator">?android:attr/listChoiceBackgroundIndicator</item>
+
+        <!-- Copy the platform default styles for the AppCompat widgets -->
+        <item name="buttonStyle">?android:attr/buttonStyle</item>
+        <item name="buttonStyleSmall">?android:attr/buttonStyleSmall</item>
+        <item name="checkboxStyle">?android:attr/checkboxStyle</item>
+        <item name="checkedTextViewStyle">?android:attr/checkedTextViewStyle</item>
+        <item name="radioButtonStyle">?android:attr/radioButtonStyle</item>
+        <item name="ratingBarStyle">?android:attr/ratingBarStyle</item>
+        <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+
+        <!-- Copy our color theme attributes to the framework -->
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="Base.V11.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="android:Widget.Material.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView" parent="android:Widget.Material.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton" parent="android:Widget.Material.ActionButton">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode" parent="android:Widget.Material.ActionButton.CloseMode">
+        <item name="android:minWidth">56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="android:Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView" parent="android:Widget.Material.AutoCompleteTextView">
+        <item name="android:background">?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button" parent="android:Widget.Material.Button"/>
+    <style name="Base.Widget.AppCompat.Button.Borderless" parent="android:Widget.Material.Button.Borderless"/>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="android:Widget.Material.Button.Borderless.Colored"/>
+    <style name="Base.Widget.AppCompat.Button.Small" parent="android:Widget.Material.Button.Small"/>
+    <style name="Base.Widget.AppCompat.ButtonBar" parent="android:Widget.Material.ButtonBar"/>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox" parent="android:Widget.Material.CompoundButton.CheckBox"/>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton" parent="android:Widget.Material.CompoundButton.RadioButton"/>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="android:Widget.Material.DropDownItem.Spinner"/>
+    <style name="Base.Widget.AppCompat.EditText" parent="android:Widget.Material.EditText">
+        <item name="android:background">?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton" parent="android:Widget.Material.ImageButton"/>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="android:Widget.Material.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="android:Widget.Material.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="android:Widget.Material.Light.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="android:Widget.Material.Light.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:dropDownHorizontalOffset">-4dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow" parent="android:Widget.Material.ListPopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView" parent="android:Widget.Material.ListView"/>
+    <style name="Base.Widget.AppCompat.ListView.DropDown" parent="android:Widget.Material.ListView.DropDown"/>
+    <style name="Base.Widget.AppCompat.ListView.Menu"/>
+    <style name="Base.Widget.AppCompat.PopupMenu" parent="android:Widget.Material.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:dropDownHorizontalOffset">-4dip</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar" parent="android:Widget.Material.ProgressBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="android:Widget.Material.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar" parent="android:Widget.Material.RatingBar"/>
+    <style name="Base.Widget.AppCompat.SeekBar" parent="android:Widget.Material.SeekBar"/>
+    <style name="Base.Widget.AppCompat.Spinner" parent="android:Widget.Material.Spinner"/>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
+    </style>
+    <style name="Platform.AppCompat" parent="android:Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="android:Theme.Material.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+
+        <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat" parent="">
+        <!-- Copy our color theme attributes to the framework -->
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:colorControlNormal">?attr/colorControlNormal</item>
+        <item name="android:colorControlActivated">?attr/colorControlActivated</item>
+        <item name="android:colorControlHighlight">?attr/colorControlHighlight</item>
+        <item name="android:colorButtonNormal">?attr/colorButtonNormal</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
+    <style name="Platform.ThemeOverlay.AppCompat.Light"/>
+</resources>

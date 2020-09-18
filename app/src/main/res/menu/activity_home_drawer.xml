@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/new_interivew"
+            android:title="New interview" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/pending_interviw"
+            android:title="Pending interview" />
+        <item
+            android:id="@+id/nav_completed"
+            android:icon="@drawable/upload_interview"
+            android:title="upload interview" />
+
+
+    </group>
+
+    <item android:title="Dashborad">
+        <menu>
+            <item
+                android:id="@+id/nav_notifi"
+                android:icon="@drawable/message"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="LogIn" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+
+    <item android:title="Language">
+        <menu>
+            <item
+                android:id="@+id/nav_lang_e"
+                android:icon="@drawable/english"
+                android:title="English" />
+
+        </menu>
+    </item>
+
+</menu>

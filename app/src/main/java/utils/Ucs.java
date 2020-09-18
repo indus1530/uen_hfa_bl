@@ -1,0 +1,487 @@
+package utils;
+
+import com.google.common.collect.HashMultimap;
+import com.google.common.collect.Multimap;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+/**
+ * Created by Umeed-e-Nau on 12/21/2016.
+ */
+public class Ucs {
+
+    private static Multimap<String, String> data = HashMultimap.create();
+
+    public static List<String> get(String tehsil) {
+
+
+        data.put("Gandakha", "Ahmedabad");
+        data.put("Gandakha", "Bagh Head");
+        data.put("Gandakha", "Gandakha");
+        data.put("Gandakha", "Janan");
+        data.put("Gandakha", "Karia Pheri");
+        data.put("Gandakha", "Noshki Jadeed");
+        data.put("Gandakha", "Sibi Jadeed");
+        data.put("Gandakha", "Sobdrani 1");
+        data.put("Jhat Pat", "Band Manik");
+        data.put("Jhat Pat", "Cattle Farm");
+        data.put("Jhat Pat", "Chalgri");
+        data.put("Jhat Pat", "Hafeezabad");
+        data.put("Jhat Pat", "Manjhothi");
+        data.put("Jhat Pat", "Ramze Pur");
+        data.put("Jhat Pat", "Rojhan Jamali");
+        data.put("Jhat Pat", "Sathi");
+        data.put("Jhat Pat", "Taaj Pur");
+        data.put("Jhat Pat", "Union Council 1");
+        data.put("Jhat Pat", "Union Council 2");
+        data.put("Jhat Pat", "Union Council 3");
+        data.put("Jhat Pat", "Union Council 4");
+        data.put("Jhat Pat", "Ward No. 12");
+        data.put("Usta Muhammad", "Ali Abad Jamali");
+        data.put("Usta Muhammad", "Faizabad Jamali");
+        data.put("Usta Muhammad", "Hadeero");
+        data.put("Usta Muhammad", "Khan Pur Jamali");
+        data.put("Usta Muhammad", "Peeralabad");
+        data.put("Usta Muhammad", "Qaboola");
+        data.put("Usta Muhammad", "Sameji");
+        data.put("Usta Muhammad", "Union Council 1");
+        data.put("Usta Muhammad", "Union Council 2");
+        data.put("Usta Muhammad", "Union Council 3");
+        data.put("Usta Muhammad", "Union Council 4");
+        data.put("Kanraj", "Kanraj");
+        data.put("Bela", "Bela");
+        data.put("Bela", "Gador");
+
+        data.put("Bela", "Kanner");
+        data.put("Bela", "Kathor");
+        data.put("Bela", "North Walpat");
+        data.put("Bela", "South Walpat");
+        data.put("Duraji", "Duraji");
+        data.put("Duraji", "Lohi");
+        data.put("Hub", "Gadani");
+        data.put("Hub", "Hassan pir");
+        data.put("Hub", "Hub");
+        data.put("Hub", "Hub Co");
+
+        data.put("Hub", "Sakran");
+
+        data.put("Lakhra", "Hara sithar");
+        data.put("Lakhra", "Lakhra");
+        data.put("Lakhra", "Liari");
+        data.put("Lakhra", "Sheh");
+        data.put("Sommiani", "Kehnwari");
+        data.put("Sommiani", "Sommiani");
+        data.put("Sommiani", "Winder");
+        data.put("Sommiani", "Khurkherra");
+        data.put("Sommiani", "Nakakharri");
+        data.put("Uthal", "Ahora");
+
+        data.put("Uthal", "Kehnwari");
+        data.put("Uthal", "Uthal City");
+        data.put("Uthal", "Wayaro");
+
+
+        data.put("Chatter", "Chatter");
+        data.put("Chatter", "Drabhi Ghari");
+        data.put("Chatter", "Phulaji");
+        data.put("Chatter", "Shahpur");
+        data.put("Chatter", "Shori Drabhi");
+        data.put("Dera Murad Jamali", "Bedar");
+        data.put("Dera Murad Jamali", "Gharbi");
+        data.put("Dera Murad Jamali", "Jhudair I");
+        data.put("Dera Murad Jamali", "Jhudair II");
+        data.put("Dera Murad Jamali", "Jhudair N");
+        data.put("Dera Murad Jamali", "Manjhoti");
+        data.put("Dera Murad Jamali", "Quba Sher Khan");
+        data.put("Tamboo", "Abdul Bari");
+        data.put("Tamboo", "Ali Abad");
+        data.put("Tamboo", "Allah Abad");
+        data.put("Tamboo", "Ghari Rehman");
+        data.put("Tamboo", "Kharos Wah");
+        data.put("Tamboo", "Khona Tamboo");
+        data.put("Tamboo", "Khrose Wah");
+        data.put("Tamboo", "Manjoo Shori");
+        data.put("Tamboo", "Mir Wah");
+
+
+        data.put("Jatoi", "Meer Hazar");
+        data.put("Jatoi", "Belay Wala");
+        data.put("Jatoi", "Jatoi Shumali");
+        data.put("Jatoi", "Urban Jatoi");
+        data.put("Jatoi", "Damar Wala");
+        data.put("Jatoi", "Bakaini");
+        data.put("Jatoi", "Kotla Ganmon");
+        data.put("Jatoi", "Shaher Sultan");
+        data.put("Jatoi", "Jhalareen ");
+        data.put("Jatoi", "Vaince");
+        data.put("Jatoi", "Binda Ishaq");
+        data.put("Jatoi", "Bair Band");
+        data.put("Jatoi", "Jhuggi Wala");
+        data.put("Jatoi", "Bait Ram Pur");
+        data.put("Jatoi", "SHAHBAZ PUR");
+        data.put("Jatoi", "Sabay Wala");
+
+
+        data.put("Ali Pur", "Alli Walla");
+        data.put("Ali Pur", "Bait Mulan Wali");
+        data.put("Ali Pur", "Baz Walla");
+        data.put("Ali Pur", "Fateh Pur Janoobi");
+        data.put("Ali Pur", "Ghalwan");
+        data.put("Ali Pur", "Khairpur Sadat");
+        data.put("Ali Pur", "Khangarh Doma");
+        data.put("Ali Pur", "Langer Wah");
+        data.put("Ali Pur", "Mud Wala");
+        data.put("Ali Pur", "Muradpur Janobi");
+        data.put("Ali Pur", "SEET PUR");
+        data.put("Ali Pur", "Sultanpur");
+        data.put("Ali Pur", "Alipur Urban");
+        data.put("Ali Pur", "Yakiwali");
+
+
+        data.put("Kot Adu", "Gujraat");
+        data.put("Kot Adu", "Bhariog");
+        data.put("Kot Adu", "UC city 3");
+        data.put("Kot Adu", "DDPannah");
+        data.put("Kot Adu", "Ehsan Pur");
+        data.put("Kot Adu", "HANJRAI");
+        data.put("Kot Adu", "Bait Qaim wala");
+        data.put("Kot Adu", "Thatha Gurmani");
+        data.put("Kot Adu", "Ghazi Ghaat");
+        data.put("Kot Adu", "Patti Ghulam ALI");
+        data.put("Kot Adu", "Urban Kot Adu # 2");
+        data.put("Kot Adu", "UC1");
+        data.put("Kot Adu", "547TDA");
+        data.put("Kot Adu", "565TDA");
+        data.put("Kot Adu", "Alurid");
+        data.put("Kot Adu", "Meer pur bhagal");
+        data.put("Kot Adu", "CSS");
+        data.put("Kot Adu", "Doger klasra");
+        data.put("Kot Adu", "Budh");
+        data.put("Kot Adu", "Mannah");
+        data.put("Kot Adu", "SHadi Khan Munda");
+        data.put("Kot Adu", "Mehmoodkot");
+        data.put("Kot Adu", "Pattal Kot Adu");
+        data.put("Kot Adu", "Sinawan");
+        data.put("Kot Adu", "Wandhar");
+        data.put("Kot Adu", "Sheikh Umar");
+        data.put("Kot Adu", "632TDA");
+        data.put("Kot Adu", "Pattal Munda");
+
+
+        data.put("Muzaffargarh", "Ahmad Mohana");
+        data.put("Muzaffargarh", "Basira");
+        data.put("Muzaffargarh", "Basti Kharak");
+        data.put("Muzaffargarh", "Chack Frazi");
+        data.put("Muzaffargarh", "City 01");
+        data.put("Muzaffargarh", "City-2");
+        data.put("Muzaffargarh", "City 03");
+        data.put("Muzaffargarh", "Darin");
+        data.put("Muzaffargarh", "Ganga");
+        data.put("Muzaffargarh", "Gul Wala");
+        data.put("Muzaffargarh", "Manik Pur");
+        data.put("Muzaffargarh", "Mahra");
+        data.put("Muzaffargarh", "Lutkaran");
+        data.put("Muzaffargarh", "Murad Abad");
+        data.put("Muzaffargarh", "Aludey Wali");
+        data.put("Muzaffargarh", "Abrahim Wali");
+        data.put("Muzaffargarh", "Juggat Pur");
+        data.put("Muzaffargarh", "Kd Qureshi");
+        data.put("Muzaffargarh", "Khangarh");
+        data.put("Muzaffargarh", "Khanpur Shumali");
+        data.put("Muzaffargarh", "Manka Bhutta");
+        data.put("Muzaffargarh", "Nohan Wali");
+        data.put("Muzaffargarh", "Rang Pur");
+        data.put("Muzaffargarh", "Rohilan Wali");
+        data.put("Muzaffargarh", "Shah Jamal");
+        data.put("Muzaffargarh", "Wan Pitafi");
+        data.put("Muzaffargarh", "Utra Sandila");
+        data.put("Muzaffargarh", "Usman Koria");
+        data.put("Muzaffargarh", "Umar Pur Janobi");
+        data.put("Muzaffargarh", "Thatta Qureshi");
+        data.put("Muzaffargarh", "Shareef Chajra");
+        data.put("Muzaffargarh", "Garay Wahin");
+        data.put("Muzaffargarh", "Taliree");
+        data.put("Muzaffargarh", "Bhutta Pur");
+        data.put("Muzaffargarh", "Ghazanfar Garh");
+
+
+        data.put("Khan Pur", "71-B");
+        data.put("Khan Pur", "Azeem Shah");
+        data.put("Khan Pur", "Bagho Bahar");
+        data.put("Khan Pur", "Chachran Sharif 85");
+        data.put("Khan Pur", "Chak No. 45-P");
+        data.put("Khan Pur", "Chandia K-85");
+        data.put("Khan Pur", "Dinpur Sharif");
+        data.put("Khan Pur", "Garhi Ikhtiar Khan");
+        data.put("Khan Pur", "Gehna Lar");
+        data.put("Khan Pur", "Ghazipur");
+        data.put("Khan Pur", "Jajjah Abbasian");
+        data.put("Khan Pur", "Jetha Bhutta");
+        data.put("Khan Pur", "Jhoran");
+        data.put("Khan Pur", "Kotla Pathan");
+        data.put("Khan Pur", "Latki");
+        data.put("Khan Pur", "Mari Allah Bachaya");
+        data.put("Khan Pur", "Moinabad");
+        data.put("Khan Pur", "Mud Bhora");
+        data.put("Khan Pur", "Nawan Kot");
+        data.put("Khan Pur", "Neelgarh");
+        data.put("Khan Pur", "Qadir Pur");
+        data.put("Khan Pur", "Zahir Pir");
+        data.put("Liaquat Pur", "10-A 102");
+        data.put("Liaquat Pur", "178-7R 122");
+        data.put("Liaquat Pur", "42-A 103-L");
+        data.put("Liaquat Pur", "46-A 101");
+        data.put("Liaquat Pur", "68-A");
+        data.put("Liaquat Pur", "Ahmad Ali Lar L-121");
+        data.put("Liaquat Pur", "Allah Abad 113");
+        data.put("Liaquat Pur", "Allahabad");
+        data.put("Liaquat Pur", "Amin Abad L-121");
+        data.put("Liaquat Pur", "Chak No. 178-7R");
+        data.put("Liaquat Pur", "Chak No. 68-A");
+        data.put("Liaquat Pur", "CITY LQP");
+        data.put("Liaquat Pur", "Dashti L-108");
+        data.put("Liaquat Pur", "Dufli Kabeer Khan 120");
+        data.put("Liaquat Pur", "Ghooka L-111");
+        data.put("Liaquat Pur", "Gul Muhammad Langha L-106");
+        data.put("Liaquat Pur", "Hayat Lar 112");
+        data.put("Liaquat Pur", "Janpur 110");
+        data.put("Liaquat Pur", "Jhoke Ghulab Shah 105");
+        data.put("Liaquat Pur", "Khan Bela");
+        data.put("Liaquat Pur", "Muhammad Daha");
+        data.put("Liaquat Pur", "Pacca Laran L-117");
+        data.put("Liaquat Pur", "Shedani Sharif L-112");
+        data.put("Liaquat Pur", "Taranda Gurgage 100");
+        data.put("Liaquat Pur", "Trianda Mohammad Pan");
+        data.put("Liaquat Pur", "Zafarabad 119");
+        data.put("Rahim Yar Khan", "228-P");
+        data.put("Rahim Yar Khan", "84-P");
+        data.put("Rahim Yar Khan", "Abadpur");
+        data.put("Rahim Yar Khan", "Akram Abad 43");
+        data.put("Rahim Yar Khan", "Ameen Garh");
+        data.put("Rahim Yar Khan", "Amman Garh R-65");
+        data.put("Rahim Yar Khan", "Badli Sharif R-45");
+        data.put("Rahim Yar Khan", "Bahishti 62");
+        data.put("Rahim Yar Khan", "Bahoudi Pur Qurashian 50");
+        data.put("Rahim Yar Khan", "Bulaqi Wali 53");
+        data.put("Rahim Yar Khan", "Chak No. 105-P");
+        data.put("Rahim Yar Khan", "CHAK No. 139-P");
+        data.put("Rahim Yar Khan", "Chak No. 51-P");
+        data.put("Rahim Yar Khan", "City 31-B");
+        data.put("Rahim Yar Khan", "Dari Azeem Khan");
+        data.put("Rahim Yar Khan", "Galor Masuu Khan R-55");
+        data.put("Rahim Yar Khan", "Haji Pur");
+        data.put("Rahim Yar Khan", "Kot Mehdi Shah");
+        data.put("Rahim Yar Khan", "Kot Samaba");
+        data.put("Rahim Yar Khan", "Mao Mubarik ");
+        data.put("Rahim Yar Khan", "Mian Wali Qureshian");
+        data.put("Rahim Yar Khan", "Mian Wali Sheikhan R-52");
+        data.put("Rahim Yar Khan", "Murtazabad 51");
+        data.put("Rahim Yar Khan", "Rahim Yar Khan (Deh)");
+        data.put("Rahim Yar Khan", "Rajan Kalan");
+        data.put("Rahim Yar Khan", "Shah Pur 25");
+        data.put("Rahim Yar Khan", "Shareen 47");
+        data.put("Rahim Yar Khan", "Sonak 60");
+        data.put("Rahim Yar Khan", "Thul Khair Mohammad R-57");
+        data.put("Rahim Yar Khan", "Tibbi Gul Muhammad 58");
+        data.put("Rahim Yar Khan", "Trianda Saway Khan");
+        data.put("Rahim Yar Khan", "Wah Kohna 66");
+        data.put("Sadiqabad", "160P S-11");
+        data.put("Sadiqabad", "Adam Sahaba S-12");
+        data.put("Sadiqabad", "Ahmad pur Lamma");
+        data.put("Sadiqabad", "Bhong 21");
+        data.put("Sadiqabad", "Bhutawahan 28");
+        data.put("Sadiqabad", "Chak No. 173-P");
+        data.put("Sadiqabad", "Chak No. 264-P");
+        data.put("Sadiqabad", "Chak No. 264-P S-24");
+        data.put("Sadiqabad", "City A");
+        data.put("Sadiqabad", "Dhandi");
+        data.put("Sadiqabad", "Drigrah");
+        data.put("Sadiqabad", "Goth Jangoo 9");
+        data.put("Sadiqabad", "Jamal Din Wali");
+        data.put("Sadiqabad", "Kot Sanjar Khan");
+        data.put("Sadiqabad", "Machka");
+        data.put("Sadiqabad", "Mohib Shah");
+        data.put("Sadiqabad", "Mohib shah");
+        data.put("Sadiqabad", "Muhammad Pur 15");
+        data.put("Sadiqabad", "Nawazabad");
+        data.put("Sadiqabad", "Rahim Abad 18");
+        data.put("Sadiqabad", "Rangay Khan S-16");
+        data.put("Sadiqabad", "Rasool Pur  14");
+        data.put("Sadiqabad", "Roshan Bhait ");
+        data.put("Sadiqabad", "Sanjarpur");
+        data.put("Badin", "Abdullah Shah ");
+        data.put("Badin", "Badin-I");
+        data.put("Badin", "Badin-III");
+        data.put("Badin", "Bhugra Memon ");
+        data.put("Badin", "Kadhan ");
+        data.put("Badin", "Kadi Kazia ");
+        data.put("Badin", "Luari Sharif ");
+        data.put("Badin", "Mithi-III");
+        data.put("Badin", "Mohammad Khan Bhurgri");
+        data.put("Badin", "Nindo ");
+        data.put("Badin", "Seerani ");
+        data.put("Golarchi", "Ahmed Rajo ");
+        data.put("Golarchi", "Dubi ");
+        data.put("Golarchi", "Gharo ");
+        data.put("Golarchi", "Golarchi/ Fazal Rahu ");
+        data.put("Golarchi", "Kario Ghahwer ");
+        data.put("Golarchi", "Khorwah ");
+        data.put("Golarchi", "Rauki ");
+        data.put("Golarchi", "Tarai ");
+        data.put("Matli", "Budho Qambrani ");
+        data.put("Matli", "Dumbalo ");
+        data.put("Matli", "Ghulab Laghari/ Ghulam Shah Laghari ");
+        data.put("Matli", "Haji Sawan ");
+        data.put("Matli", "Helepota ");
+        data.put("Matli", "Malhan ");
+        data.put("Matli", "Manik Laghari ");
+        data.put("Matli", "Matli-I ");
+        data.put("Matli", "Phalkara ");
+        data.put("Matli", "Tando Ghulam Ali ");
+        data.put("Matli", "Thari ");
+        data.put("Talhar", "Peero Lashari ");
+        data.put("Talhar", "Rajo Khanani ");
+        data.put("Talhar", "Saeed Pur ");
+        data.put("Talhar", "Talhar ");
+        data.put("Tando Bago", "Chhabralo ");
+        data.put("Tando Bago", "Dadah ");
+        data.put("Tando Bago", "Dei Jerkis ");
+        data.put("Tando Bago", "Khadhero ");
+        data.put("Tando Bago", "Khairpur ");
+        data.put("Tando Bago", "Khalifo Qasim ");
+        data.put("Tando Bago", "Khoski ");
+        data.put("Tando Bago", "Pahar Mari ");
+        data.put("Tando Bago", "Pangrio ");
+        data.put("Tando Bago", "Tando Bago ");
+        data.put("Miro Khan", "Bahram Hethiyon");
+        data.put("Miro Khan", "Karira ");
+        data.put("Miro Khan", "Miro Khan ");
+        data.put("Miro Khan", "Khabar");
+        data.put("Nasirabad", "Deera ");
+        data.put("Nasirabad", "Lakha ");
+        data.put("Nasirabad", "Miandad Chinjni ");
+        data.put("Nasirabad", "Muradi ");
+        data.put("Nasirabad", "Nasirabad ");
+        data.put("Qambar", "Beer Sharif ");
+        data.put("Qambar", "Boohar ");
+        data.put("Qambar", "Ghaibi Dero ");
+        data.put("Qambar", "Jean Abro ");
+        data.put("Qambar", "Kalar ");
+        data.put("Qambar", "Khair pur joso ");
+        data.put("Qambar", "Qambar-I");
+        data.put("Qambar", "Qambar-II");
+        data.put("Qambar", "Qambar-III");
+        data.put("Qambar", "Ranwati ");
+        data.put("Qambar", "Dost Ali");
+        data.put("Qambar", "Ber");
+        data.put("Qubo Saeed Khan", "Bago Daro ");
+        data.put("Qubo Saeed Khan", "Qubo Saeed Khan ");
+        data.put("Qubo Saeed Khan", "Hazzar Wah");
+        data.put("Shahdkot", "Aitbar Khan Chandio");
+        data.put("Shahdkot", "Jamali ");
+        data.put("Shahdkot", "Shahdad Kot-I ");
+        data.put("Shahdkot", "Shahdad Kot-II ");
+        data.put("Shahdkot", "Shahdad Kot-III ");
+        data.put("Shahdkot", "Silra");
+        data.put("Sijawal", "Dhigano Khan ");
+        data.put("Sijawal", "Mastoi ");
+        data.put("Sijawal", "Sijawal ");
+        data.put("Sijawal", "Thool Chosool ");
+        data.put("Warah", "Abad ");
+        data.put("Warah", "Gaji Khuhawar");
+        data.put("Warah", "Lalu raunk ");
+        data.put("Warah", "Mir pur ");
+        data.put("Warah", "Wagan ");
+        data.put("Warah", "Warah");
+        data.put("Jaam Nawaz Ali", "Berani ");
+        data.put("Jaam Nawaz Ali", "Hot Wasan ");
+        data.put("Jaam Nawaz Ali", "Jam Nawaz Ali ");
+        data.put("Jaam Nawaz Ali", "Nau Abad ");
+        data.put("Khipro", "Bilawal Hingorojo ");
+        data.put("Khipro", "Dhilyar ");
+        data.put("Khipro", "Hathungo ");
+        data.put("Khipro", "Jinhar ");
+        data.put("Khipro", "Kamil Hingoro ");
+        data.put("Khipro", "Khahi ");
+        data.put("Khipro", "Khipro ");
+        data.put("Khipro", "Khori ");
+        data.put("Khipro", "Roonjho ");
+        data.put("Sanghar", "Chutiaryoon ");
+        data.put("Sanghar", "Gujri ");
+        data.put("Sanghar", "Kandiari ");
+        data.put("Sanghar", "Kanhar ");
+        data.put("Sanghar", "Kehore ");
+        data.put("Sanghar", "Khadwari ");
+        data.put("Sanghar", "Mian ");
+        data.put("Sanghar", "Sanghar-II ");
+        data.put("Sanghar", "Sathar Pir ");
+        data.put("Sanghar", "Shah Sikandar ");
+        data.put("Shahdad Pur", "Asgharabad ");
+        data.put("Shahdad Pur", "Barhoon ");
+        data.put("Shahdad Pur", "G.M Laghari ");
+        data.put("Shahdad Pur", "Lundo ");
+        data.put("Shahdad Pur", "Maldasi ");
+        data.put("Shahdad Pur", "Sarhari ");
+        data.put("Shahdad Pur", "Shahdadpur-IV");
+        data.put("Shahdad Pur", "Shahpur Chakar ");
+        data.put("Shahdad Pur", "Soomar Faqir ");
+        data.put("Sinjhoro", "J.K Laghari ");
+        data.put("Sinjhoro", "Jhol ");
+        data.put("Sinjhoro", "Khadro ");
+        data.put("Sinjhoro", "Kurkali ");
+        data.put("Sinjhoro", "Pritamabad ");
+        data.put("Sinjhoro", "S.Mardan Abad ");
+        data.put("Sinjhoro", "S.S.S.Rashdi ");
+        data.put("Sinjhoro", "Sinjhoro");
+        data.put("Tando Adam", "Kumb Daroon ");
+        data.put("Tando Adam", "Manik Thaheem ");
+        data.put("Tando Adam", "Mir Hassan Mari ");
+        data.put("Tando Adam", "Mitho Khoso ");
+        data.put("Tando Adam", "Piro Fakir Shoro ");
+        data.put("Tando Adam", "Tando Adam-III ");
+
+        data.put("Tando Muhammad Khan", "Lakhat");
+        data.put("Tando Muhammad Khan", "Shaikh Bhirkio");
+        data.put("Tando Muhammad Khan", "Tando Saeendad");
+        data.put("Tando Muhammad Khan", "TMK 01");
+        data.put("Tando Muhammad Khan", "TMK 02");
+        data.put("Tando Muhammad Khan", "TMK 03");
+        data.put("Tando Ghulam Hyder", "Dando");
+        data.put("Tando Ghulam Hyder", "Ghulam Shah Bagrani");
+        data.put("Tando Ghulam Hyder", "Nazarpur");
+        data.put("Tando Ghulam Hyder", "Tando Ghulam Hyder");
+        data.put("Bulri Shah Karim", "Allah Yar Turk");
+        data.put("Bulri Shah Karim", "Jinhan Soomro");
+        data.put("Bulri Shah Karim", "Bulri Shah Karim");
+        data.put("Bulri Shah Karim", "Saeed Khan Lund");
+        data.put("Bulri Shah Karim", "Mullakatiar");
+        data.put("Bulri Shah Karim", "Saeed Matto");
+        data.put("Bulri Shah Karim", "Saeedpur");
+
+
+        List<String> list = new ArrayList<>();
+        Collection<String> coll = data.get(tehsil);
+
+        list.add("Select");
+        for (String item : coll) {
+            list.add(item);
+        }
+
+
+        return list;
+    /*    // Creating adapter for spinner
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(getActivity(),
+         android.R.layout.simple_spinner_item, list_UC);
+
+        // Drop down layout style - list view with radio button
+        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        sp_UC.setAdapter(dataAdapter);
+        sp_UC.setSelection(coll_district.size());*/
+
+    }
+
+}

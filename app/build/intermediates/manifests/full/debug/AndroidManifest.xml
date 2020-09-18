@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.irfansyed.umeedenau.hfa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.HomeActivity"
+            android:label="@string/title_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.SurveyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.irfansyed.umeedenau.hfa.SurveyPendingActivity" />
+        <activity android:name="com.irfansyed.umeedenau.hfa.SurveyCompletedActivity" />
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.SplashScreenActivity"
+            android:theme="@style/AppThemeNACB" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.SurveyPreActivity"
+            android:label="@string/title_new_survey"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.SurveyRejectedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.irfansyed.umeedenau.hfa.SurveyUploadedActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

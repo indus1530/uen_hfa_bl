@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/uncolor" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="8dp"
+            android:text="Address and Identification Information"
+            android:textColor="@color/text_hard"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/hitnscolor" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="8dp"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:scrollbarSize="50dip">
+        <!-- Parent layout starts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1F1F1"
+            android:orientation="vertical">
+
+
+            <!-- A4 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_a4"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A4"
+                        style="@style/TextView"
+                        android:text="@string/L_A4"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A4_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A4_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A4_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A4_2" />
+
+
+                    </RadioGroup>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!-- A4  End RB -->
+
+            <!-- A5 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_A5"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A5"
+                        style="@style/TextView"
+                        android:text="@string/L_A5"
+
+                        />
+
+
+                    <AutoCompleteTextView
+                        android:id="@+id/A_A5"
+                        style="@style/EditText_number"
+                        android:layout_weight="1"
+
+
+                        android:maxLength="6"
+
+
+                        />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!-- A5  End RB -->
+
+
+            <!-- A6 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_A6"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A6"
+                        style="@style/TextView"
+                        android:text="@string/L_A6"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A6_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A6_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A6_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A6_2" />
+
+                        <RadioButton
+                            android:id="@+id/R_A6_3"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A6_3" />
+
+
+                    </RadioGroup>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!-- A6  End RB -->
+
+            <!-- A7 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_A7"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A7"
+                        style="@style/TextView"
+                        android:text="@string/L_A7"
+
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/Sp_A7"
+                        style="@style/Combox"
+                        android:layout_weight="1"
+                        android:spinnerMode="dropdown"
+
+
+                        />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <!-- A7  End RB -->
+
+            <!-- A8 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_A8"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A8"
+                        style="@style/TextView"
+                        android:text="@string/L_A8"
+
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/Sp_A8"
+                        style="@style/Combox"
+                        android:layout_weight="1"
+                        android:spinnerMode="dropdown"
+
+
+                        />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <!-- A8  End RB -->
+
+            <!-- A9 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+
+                    android:id="@+id/Ly_A9"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A9"
+                        style="@style/TextView"
+                        android:text="@string/L_A9"
+
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/Sp_A9"
+                        style="@style/Combox"
+                        android:layout_weight="1"
+                        android:spinnerMode="dropdown"
+
+
+                        />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <!-- A9  End RB -->
+
+
+            <!--  A10 Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+
+                    android:id="@+id/lv_A10"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_A10"
+                        style="@style/TextView"
+                        android:text="@string/L_A10"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/E_A10"
+                        style="@style/EditText_varchar"
+                        android:hint="Address"
+
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- A10 Ends ED-->
+
+            <!--  A11 Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+
+                    android:id="@+id/lv_A11"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_A11"
+                        style="@style/TextView"
+                        android:text="@string/L_A11"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/E_A11"
+                        style="@style/EditText_varchar"
+                        android:hint="Name"
+
+                        />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- A11 Ends ED-->
+
+
+            <!--A12 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+                    android:id="@+id/lv_A12"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A12"
+                        style="@style/TextView"
+                        android:text="@string/L_A12"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A12_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_2" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_3"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_3" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_4"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_4" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_5"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_5" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_6"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_6" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_7"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_7" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_8"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_8" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_9"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_9" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_10"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_10" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_11"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_11" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_12"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_12" />
+
+                        <RadioButton
+                            android:id="@+id/R_A12_13"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A12_13" />
+
+                        <EditText
+                            android:id="@+id/ed_A12_13"
+                            style="@style/EditText_varchar"
+                            android:hint="Specify"
+                            android:maxLength="50"
+                            android:visibility="gone" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- A12 End RB -->
+
+
+            <!-- A13 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+                    android:id="@+id/lv_A13"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A13"
+                        style="@style/TextView"
+                        android:text="@string/L_A13"
+
+                        />
+
+
+                    <CheckBox
+                        android:id="@+id/C_A13_1"
+                        style="@style/CheckBox"
+                        android:text="@string/R_A13_1" />
+
+
+                    <CheckBox
+                        android:id="@+id/C_A13_2"
+                        style="@style/CheckBox"
+                        android:text="@string/R_A13_2" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <!-- A13 End RB -->
+
+
+            <!-- A14 Starts ED-->
+
+            <!--  Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <LinearLayout
+
+                    android:id="@+id/lv_A14"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/txt_"
+                        style="@style/TextView"
+                        android:text="@string/L_A14"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--  Ends ED-->
+
+            <!--  A14 Ends ED-->
+
+
+            <!--A14.1 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <LinearLayout
+                    android:id="@+id/lv_A14_1"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A14_1"
+                        style="@style/TextView"
+                        android:text="@string/L_A14_1"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A14_1_yes"
+                            style="@style/RadioButton"
+                            android:text="@string/R_yes" />
+
+                        <RadioButton
+                            android:id="@+id/R_A14_1_No"
+                            style="@style/RadioButton"
+                            android:text="@string/R_No" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A14.1  End RB -->
+
+            <!--A14.2 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <LinearLayout
+                    android:id="@+id/lv_A14_2"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A14_2"
+                        style="@style/TextView"
+                        android:text="@string/L_A14_2"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A14_2_yes"
+                            style="@style/RadioButton"
+                            android:text="@string/R_yes" />
+
+                        <RadioButton
+                            android:id="@+id/R_A14_2_No"
+                            style="@style/RadioButton"
+                            android:text="@string/R_No" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A14.2  End RB -->
+
+
+            <!-- A14.3    Starts CB -->
+
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+                <LinearLayout
+                    android:id="@+id/lv_A14_3"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_A14_3"
+                        style="@style/TextView"
+                        android:text="@string/L_A14_3" />
+
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_1"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_1"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_1"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_2"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_2"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_2"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_3"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_3"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_3"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_4"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_4"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_4"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_5"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_5"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_5"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_6"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_6"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_6"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_7"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_7"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_7"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_8"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_8"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_8"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_9"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_9"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_9"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_10"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_10"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_10"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_11"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_11"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_11"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_12"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_12"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_12"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_13"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_13"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_13"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_14"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_14"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_14"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_15"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_15"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_15"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_16"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_16"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_16"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+                    <CheckBox
+                        android:id="@+id/C_A14_3_17"
+                        style="@style/CheckBox"
+                        android:text="@string/C_A14_3_17"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/ed_A14_3_17"
+                        style="@style/EditText_number"
+                        android:hint="Number"
+                        android:maxLength="3"
+                        android:visibility="gone" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--  ends CB-->
+
+
+            <!-- A15 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+                    android:id="@+id/lv_A15"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A15"
+                        style="@style/TextView"
+                        android:text="@string/L_A15"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A15_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_2" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_3"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_3" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_4"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_4" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_5"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_5" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_6"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_6" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_7"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_7" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_8"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_8" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_9"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_9" />
+
+                        <EditText
+                            android:id="@+id/ed_A15_9"
+                            style="@style/EditText_varchar"
+                            android:hint="Name of NGO"
+                            android:maxLength="50"
+                            android:visibility="gone" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_10"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_10" />
+
+                        <RadioButton
+                            android:id="@+id/R_A15_11"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A15_11" />
+
+                        <EditText
+                            android:id="@+id/ed_A15_11"
+                            style="@style/EditText_varchar"
+                            android:hint="Specify"
+                            android:maxLength="50"
+                            android:visibility="gone" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A15  End RB -->
+
+
+            <!-- A16 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+                    android:id="@+id/lv_A16"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A16"
+                        style="@style/TextView"
+                        android:text="@string/L_A16"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A16_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_2" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_3"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_3" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_4"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_4" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_5"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_5" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_6"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_6" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_7"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_7" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_8"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_8" />
+
+
+                        <RadioButton
+                            android:id="@+id/R_A16_9"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_9" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_10"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_10" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_11"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_11" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_12"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_12" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_13"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_13" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_14"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_14" />
+
+                        <RadioButton
+                            android:id="@+id/R_A16_15"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A16_15" />
+
+                        <EditText
+                            android:id="@+id/ed_A16_14"
+                            style="@style/EditText_varchar"
+                            android:hint="Specify"
+                            android:maxLength="50"
+                            android:visibility="gone" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A16  End RB -->
+
+            <!-- A17 Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+
+                    android:id="@+id/lv_A17"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_A17"
+                        style="@style/TextView"
+                        android:text="@string/L_A17"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/ed_A17"
+                        style="@style/EditText_varchar"
+                        android:maxLength="50" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A17 Ends ED-->
+
+
+            <!-- A18 Starts RB  -->
+            <android.support.v7.widget.CardView style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+                    android:id="@+id/lv_A18"
+                    style="@style/Q_Linerlayout_v"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/L_A18"
+                        style="@style/TextView"
+                        android:text="@string/L_A18"
+
+                        />
+
+
+                    <RadioGroup style="@style/RadioGroup">
+
+                        <RadioButton
+                            android:id="@+id/R_A18_1"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_1" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_2"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_2" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_3"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_3" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_4"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_4" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_5"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_5" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_6"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_6" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_7"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_7" />
+
+                        <RadioButton
+                            android:id="@+id/R_A18_8"
+                            style="@style/RadioButton"
+                            android:text="@string/R_A18_8" />
+
+                        <EditText
+                            android:id="@+id/ed_A18_8"
+                            style="@style/EditText_varchar"
+
+                            android:hint="Specify"
+                            android:maxLength="50"
+                            android:visibility="gone" />
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- A18 End RB -->
+
+
+            <!-- A19 Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+
+                    android:id="@+id/lv_A19"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+                        android:id="@+id/L_A19"
+                        style="@style/TextView"
+                        android:text="@string/L_A19"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/ed_A19_year"
+                        style="@style/EditText_number"
+                        android:hint="Year"
+                        android:maxLength="2" />
+
+                    <EditText
+                        android:id="@+id/ed_A19_month"
+                        style="@style/EditText_number"
+                        android:hint="Month"
+                        android:maxLength="2" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A19  Ends ED-->
+
+            <!-- A20 Starts ED-->
+
+            <android.support.v7.widget.CardView
+
+                style="@style/Q_CardView">
+
+
+                <!-- province layout starts -->
+                <LinearLayout
+
+                    android:id="@+id/lv_A20"
+                    style="@style/Q_Linerlayout_v">
+
+                    <TextView
+
+                        style="@style/TextView"
+                        android:layout_marginBottom="10dp"
+                        android:text="Contact"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <EditText
+                        android:id="@+id/ed_A20"
+                        style="@style/EditText_number"
+                        android:hint="@string/L_A20"
+                        android:maxLength="11" />
+
+                    <EditText
+                        android:id="@+id/ed_A21"
+                        style="@style/EditText_number"
+                        android:hint="@string/L_A21"
+                        android:maxLength="11" />
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--A21  Ends ED-->
+
+
+            <Button
+                android:id="@+id/btn_A_next"
+                style="@style/Button_collder"
+                android:layout_margin="10dp"
+                android:text="Next" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
