@@ -16,7 +16,7 @@ public class Districts {
 
     public static List<String> get(String province) {
 
-        data.put("Balochistan", "Jafferabad");
+       /* data.put("Balochistan", "Jafferabad");
         data.put("Balochistan", "Lasbella");
         data.put("Balochistan", "Nasirabad");
         data.put("Punjab", "Muzaffargarh");
@@ -24,7 +24,7 @@ public class Districts {
         data.put("Sindh", "Badin");
         data.put("Sindh", "Qambar Shahdadkot");
         data.put("Sindh", "Sanghar");
-        data.put("Sindh", "Tando Muhammad Khan");
+        data.put("Sindh", "Tando Muhammad Khan");*/
 
 
         List<String> list = new ArrayList<>();
