@@ -117,7 +117,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J1 Ends  Radio Button-->
                 <!-- J2 Starts  Button-->
                 <androidx.cardview.widget.CardView style="@style/Q_CardView">
@@ -146,7 +147,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J2 End  Button -->
 
 
@@ -180,7 +182,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J3 End  Button -->
 
                 <!-- J4 Starts  Button-->
@@ -213,7 +216,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J4 End  Button -->
 
                 <!-- J5 Starts  Button-->
@@ -246,7 +250,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J5 End  Button -->
 
                 <!-- J6 Starts  Button-->
@@ -279,7 +284,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J6 End  Button -->
 
                 <!-- J6 Starts  Button-->
@@ -309,7 +315,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J6 End  Button -->
 
                 <!-- J8 Starts  Button-->
@@ -342,7 +349,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J8 End  Button -->
 
                 <!-- J9 Starts  Button-->
@@ -375,7 +383,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J9 End  Button -->
 
                 <!-- J10 Starts  Button-->
@@ -408,7 +417,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J10 End  Button -->
 
                 <!-- J11 Starts  Button-->
@@ -441,7 +451,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J11 End  Button -->
 
                 <!-- J12 Starts  Button-->
@@ -474,7 +485,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J12 End  Button -->
 
                 <!-- J13 Starts  Button-->
@@ -507,7 +519,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J13 End  Button -->
 
                 <!-- J14 Starts  Button-->
@@ -540,7 +553,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J14 End  Button -->
 
                 <!-- J15 Starts  Button-->
@@ -573,7 +587,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J15 End  Button -->
 
                 <!-- J16 Starts  Button-->
@@ -606,7 +621,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J16 End  Button -->
 
                 <!-- J17 Starts  Button-->
@@ -639,7 +655,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J17 End  Button -->
 
                 <!-- J18 Starts  Button-->
@@ -669,7 +686,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J18 End  Button -->
 
                 <!-- J19 Starts  Button-->
@@ -702,7 +720,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J19 End  Button -->
 
 
@@ -746,7 +765,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J20 Ends  Radio Button-->
 
                 <!-- J21 starts  Radio b-->
@@ -789,7 +809,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J21 Ends  Radio Button-->
 
                 <!-- J22 starts  Radio b-->
@@ -832,7 +853,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J22 Ends  Radio Button-->
 
                 <!-- J23 starts  Radio b-->
@@ -875,7 +897,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J23 Ends  Radio Button-->
 
                 <!-- J24 starts  Radio b-->
@@ -913,7 +936,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J24 Ends  Radio Button-->
 
 
@@ -942,7 +966,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J25 End  EditeTExt -->
 
                 <!-- J26 starts  Radio b-->
@@ -985,7 +1010,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J26 Ends  Radio Button-->
 
                 <!--J27 Starts  EditeTExt-->
@@ -1013,7 +1039,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J27 End  EditeTExt -->
 
                 <!-- J28 starts  Radio b-->
@@ -1056,7 +1083,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J28 Ends  Radio Button-->
 
                 <!-- J29 starts  Radio b-->
@@ -1099,7 +1127,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J29 Ends  Radio Button-->
 
                 <!-- J30 Starts  Button-->
@@ -1130,7 +1159,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J30 End  Button -->
 
                 <!-- J31 Starts  Button-->
@@ -1163,7 +1193,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J31 End  Button -->
 
                 <!-- J32 Starts  Button-->
@@ -1192,7 +1223,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- J32 End  Button -->
 
                 <Button

@@ -69,6 +69,7 @@
 
                     />
             </RadioGroup>
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 </LinearLayout>

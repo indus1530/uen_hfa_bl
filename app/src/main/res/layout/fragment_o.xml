@@ -81,7 +81,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O1 End RB -->
 
 
@@ -210,7 +211,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O2 End RB -->
 
 
@@ -249,7 +251,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O3 End RB -->
 
                 <!-- O4 Starts RB  -->
@@ -285,7 +288,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O4 End RB -->
 
 
@@ -409,7 +413,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O5 ends CB-->
 
 
@@ -445,7 +450,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O6 End RB -->
 
 
@@ -514,7 +520,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- O7 ends CB-->
             </LinearLayout>
 

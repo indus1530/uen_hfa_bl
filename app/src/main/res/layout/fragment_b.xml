@@ -96,8 +96,9 @@
                     </RadioGroup>
 
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
             <!--B1  Ends ED-->
 
@@ -129,7 +130,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--B2  Ends ED-->
 
@@ -170,7 +172,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--B3  Ends ED-->
 
@@ -203,7 +206,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--B4  Ends ED-->
 
@@ -235,7 +239,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--B5  Ends ED-->
 
@@ -275,7 +280,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--B6  ends CB-->
 
@@ -572,7 +578,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--  ends CB-->
 

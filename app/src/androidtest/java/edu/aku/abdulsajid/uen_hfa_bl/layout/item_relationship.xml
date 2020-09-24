@@ -27,13 +27,14 @@
                 android:text="Person" />
 
 
-            <Spinner
-                android:id="@+id/spin_item_rel"
-                style="@style/Spiner"
-                android:layout_margin="5dp"
+                        <Spinner
+                            android:id="@+id/spin_item_rel"
+                            style="@style/Spiner"
+                            android:layout_margin="5dp"
 
-                android:layout_weight="1" />
+                            android:layout_weight="1" />
 
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 </LinearLayout>

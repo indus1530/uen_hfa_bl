@@ -170,14 +170,15 @@
                         style="@style/CheckBox"
                         android:text="@string/C_F1_24" />
 
-                    <CheckBox
-                        android:id="@+id/C_F1_25"
-                        style="@style/CheckBox"
-                        android:text="@string/C_F1_25" />
+                        <CheckBox
+                            android:id="@+id/C_F1_25"
+                            style="@style/CheckBox"
+                            android:text="@string/C_F1_25" />
 
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
             <!-- F1 ends CB-->
 
@@ -272,7 +273,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!-- F2 ends CB-->
 
@@ -360,7 +362,8 @@
                         android:text="@string/C_F3_14" />
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!-- F3 ends CB-->
 

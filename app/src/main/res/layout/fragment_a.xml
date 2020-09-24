@@ -136,31 +136,32 @@
 
 
                 <!-- A6 Starts RB  -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cva6"
+                    style="@style/Q_CardView">
 
-                    <LinearLayout
-                        android:id="@+id/Ly_A6"
-                        style="@style/Q_Linerlayout_v">
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A6"
                             style="@style/TextView"
                             android:text="@string/L_A6" />
 
-                        <RadioGroup style="@style/RadioGroup">
+                        <RadioGroup
+                            android:id="@+id/a6"
+                            style="@style/RadioGroup">
 
                             <RadioButton
-                                android:id="@+id/R_A6_1"
+                                android:id="@+id/a6a"
                                 style="@style/RadioButton"
                                 android:text="@string/R_A6_1" />
 
                             <RadioButton
-                                android:id="@+id/R_A6_2"
+                                android:id="@+id/a6b"
                                 style="@style/RadioButton"
                                 android:text="@string/R_A6_2" />
 
                             <RadioButton
-                                android:id="@+id/R_A6_3"
+                                android:id="@+id/a6c"
                                 style="@style/RadioButton"
                                 android:text="@string/R_A6_3" />
 
@@ -169,97 +170,72 @@
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
-
                 <!-- A6  End RB -->
 
+
                 <!-- A7 Starts RB  -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cva7"
+                    style="@style/Q_CardView">
 
-                    <LinearLayout
-
-                        android:id="@+id/Ly_A7"
-                        style="@style/Q_Linerlayout_v"
-
-                        >
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A7"
                             style="@style/TextView"
-                            android:text="@string/L_A7"
-
-                            />
-
+                            android:text="@string/L_A7" />
 
                         <Spinner
-                            android:id="@+id/Sp_A7"
+                            android:id="@+id/a7"
                             style="@style/Combox"
                             android:layout_weight="1"
-                            android:spinnerMode="dropdown"
+                            android:spinnerMode="dropdown" />
 
-
-                            />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
                 <!-- A7  End RB -->
 
+
                 <!-- A8 Starts RB  -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cva8"
+                    style="@style/Q_CardView">
 
-                    <LinearLayout
-
-                        android:id="@+id/Ly_A8"
-                        style="@style/Q_Linerlayout_v"
-
-                        >
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A8"
                             style="@style/TextView"
-                            android:text="@string/L_A8"
-
-                            />
-
+                            android:text="@string/L_A8" />
 
                         <Spinner
-                            android:id="@+id/Sp_A8"
+                            android:id="@+id/a8"
                             style="@style/Combox"
                             android:layout_weight="1"
-                            android:spinnerMode="dropdown"
+                            android:spinnerMode="dropdown" />
 
-
-                            />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
                 <!-- A8  End RB -->
 
+
                 <!-- A9 Starts RB  -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cva9"
+                    style="@style/Q_CardView">
 
-                    <LinearLayout
-
-                        android:id="@+id/Ly_A9"
-                        style="@style/Q_Linerlayout_v"
-
-                        >
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A9"
                             style="@style/TextView"
-                            android:text="@string/L_A9"
-
-                            />
-
+                            android:text="@string/L_A9" />
 
                         <Spinner
-                            android:id="@+id/Sp_A9"
+                            android:id="@+id/a9"
                             style="@style/Combox"
                             android:layout_weight="1"
-                            android:spinnerMode="dropdown"
+                            android:spinnerMode="dropdown" />
 
-
-                            />
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -268,94 +244,67 @@
 
                 <!--  A10 Starts ED-->
                 <androidx.cardview.widget.CardView
-
+                    android:id="@+id/cva10"
                     style="@style/Q_CardView">
 
-
-                    <!-- province layout starts -->
                     <LinearLayout
-
-                        android:id="@+id/lv_A10"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A10"
                             style="@style/TextView"
-                            android:text="@string/L_A10"
-
-                            />
-
+                            android:text="@string/L_A10" />
 
                         <EditText
-                            android:id="@+id/E_A10"
+                            android:id="@+id/a10"
                             style="@style/EditText_varchar"
-                            android:hint="Address"
-
-                            />
-
+                            android:hint="Address" />
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <!-- A10 Ends ED-->
+
 
                 <!--  A11 Starts ED-->
                 <androidx.cardview.widget.CardView
-
+                    android:id="@+id/cva11"
                     style="@style/Q_CardView">
 
-
-                    <!-- province layout starts -->
                     <LinearLayout
-
-                        android:id="@+id/lv_A11"
                         style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A11"
                             style="@style/TextView"
-                            android:text="@string/L_A11"
-
-                            />
-
+                            android:text="@string/L_A11" />
 
                         <EditText
-                            android:id="@+id/E_A11"
+                            android:id="@+id/a11"
                             style="@style/EditText_varchar"
-                            android:hint="Name"
-
-                            />
-
+                            android:hint="Name" />
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
 
+                </androidx.cardview.widget.CardView>
                 <!-- A11 Ends ED-->
 
 
                 <!--A12 Starts RB  -->
-                <androidx.cardview.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cva12"
+                    style="@style/Q_CardView">
 
-
-                    <!-- province layout starts -->
-                    <LinearLayout
-                        android:id="@+id/lv_A12"
-                        style="@style/Q_Linerlayout_v"
-
-                        >
+                    <LinearLayout style="@style/Q_Linerlayout_v">
 
                         <TextView
-                            android:id="@+id/L_A12"
                             style="@style/TextView"
-                            android:text="@string/L_A12"
+                            android:text="@string/L_A12" />
 
-                            />
-
-
-                        <RadioGroup style="@style/RadioGroup">
+                        <RadioGroup
+                            android:id="@+id/a12"
+                            style="@style/RadioGroup">
 
                             <RadioButton
-                                android:id="@+id/R_A12_1"
+                                android:id="@+id/a12a"
                                 style="@style/RadioButton"
                                 android:text="@string/R_A12_1" />
 
@@ -431,7 +380,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!-- A12 End RB -->
 
@@ -468,7 +418,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- A13 End RB -->
 
 
@@ -501,7 +452,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--  Ends ED-->
 
@@ -543,7 +495,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A14.1  End RB -->
 
@@ -582,7 +535,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A14.2  End RB -->
 
@@ -840,7 +794,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--  ends CB-->
 
@@ -940,7 +895,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A15  End RB -->
 
@@ -1054,7 +1010,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A16  End RB -->
 
@@ -1085,7 +1042,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A17 Ends ED-->
 
@@ -1164,7 +1122,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!-- A18 End RB -->
 
@@ -1203,7 +1162,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A19  Ends ED-->
 
@@ -1243,7 +1203,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
 
                 <!--A21  Ends ED-->
 

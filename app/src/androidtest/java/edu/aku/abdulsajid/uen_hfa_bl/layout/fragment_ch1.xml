@@ -114,7 +114,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I3 End  EditeTExt -->
 
 
@@ -158,7 +159,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I4 Ends  Radio Button-->
 
                 <!-- I5 starts  Radio b-->
@@ -201,7 +203,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I5 Ends  Radio Button-->
 
                 <!-- I6 starts  Radio b-->
@@ -259,7 +262,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I6 Ends  Radio Button-->
 
 
@@ -308,7 +312,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I7 Ends  Radio Button-->
 
                 <!-- I8 starts  Radio b-->
@@ -381,7 +386,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I8 Ends  Radio Button-->
 
 
@@ -420,7 +426,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I9 End  Range-->
 
                 <!-- I10 Starts  Range-->
@@ -448,7 +455,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I10 End  Range-->
 
                 <!-- I11 starts  Radio b-->
@@ -516,7 +524,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I11 Ends  Radio Button-->
 
                 <!-- I12 starts  Radio b-->
@@ -599,7 +608,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I12 Ends  Radio Button-->
 
                 <!-- I13 starts  Radio b-->
@@ -637,7 +647,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I13 Ends  Radio Button-->
 
                 <!-- I14 starts  Radio b-->
@@ -680,7 +691,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I14 Ends  Radio Button-->
 
                 <!-- I15 Starts  Range-->
@@ -718,7 +730,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I15 End  Range-->
 
 
@@ -779,7 +792,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I16 ends Checkbox-->
 
                 <!-- I17 starts  Radio b-->
@@ -820,7 +834,8 @@
                         </RadioGroup>
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I17 Ends  Radio Button-->
 
                 <!-- I18 starts  Radio b-->
@@ -892,7 +907,8 @@
                         </RadioGroup>
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I18 Ends  Radio Button-->
 
 
@@ -921,7 +937,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I19 End  EditeTExt -->
 
                 <!--I20 Starts  EditeTExt-->
@@ -949,7 +966,8 @@
 
 
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
                 <!-- I20 End  EditeTExt -->
 
                 <Button

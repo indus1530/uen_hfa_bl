@@ -40,16 +40,17 @@
                         android:textAppearance="@style/MyTextAppearance" />
                 </android.support.design.widget.TextInputLayout>
 
-                <Button
-                    android:id="@+id/btn_frag_d2_add"
-                    style="@style/Button_colord"
-                    android:text="Add Household"
+                        <Button
+                            android:id="@+id/btn_frag_d2_add"
+                            style="@style/Button_colord"
+                            android:text="Add Household"
 
-                    />
+                            />
 
 
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/list_frag_d2_members"

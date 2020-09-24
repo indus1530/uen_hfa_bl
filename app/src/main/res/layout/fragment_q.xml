@@ -56,16 +56,17 @@
                             style="@style/RadioButton"
                             android:text="@string/R_yes" />
 
-                        <RadioButton
-                            android:id="@+id/R_Q1_No"
-                            style="@style/RadioButton"
-                            android:text="@string/R_No" />
+                            <RadioButton
+                                android:id="@+id/R_Q1_No"
+                                style="@style/RadioButton"
+                                android:text="@string/R_No" />
 
-                    </RadioGroup>
+                        </RadioGroup>
 
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
             <!-- Q1 End RB -->
 
             <!-- Q2 Starts RB  -->
@@ -97,7 +98,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q2 End RB -->
 
             <!-- Q3 Starts RB  -->
@@ -135,7 +137,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q3 End RB -->
 
             <!-- Q4 Starts CB -->
@@ -272,7 +275,8 @@
                         android:text="@string/C_Q4_24" />
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q4 ends CB-->
 
             <!-- Q5 Starts RB  -->
@@ -305,7 +309,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q5 End RB -->
 
             <!-- Q6 Starts RB  -->
@@ -338,7 +343,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q6 End RB -->
 
             <!-- Q7 Starts CB -->
@@ -401,7 +407,8 @@
                         android:maxLength="100" />
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q7 ends CB-->
 
 
@@ -806,7 +813,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q8 End RB -->
 
 
@@ -840,7 +848,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q9 End RB -->
 
 
@@ -874,7 +883,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q10 End RB -->
 
 
@@ -908,7 +918,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- Q11 End RB -->
 
 

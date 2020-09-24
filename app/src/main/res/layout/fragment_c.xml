@@ -1789,7 +1789,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!-- C2A ends CB-->
 
@@ -5428,7 +5429,8 @@
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--C2 Ends Complex  -->
 
@@ -5543,7 +5545,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!--C4  End RB -->
 
 
@@ -5570,7 +5573,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!-- C4.1 ends CB-->
 
@@ -5614,7 +5618,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--C5  Ends ED-->
 
@@ -5654,7 +5659,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--C6 End RB -->
 
@@ -5707,7 +5713,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
 
             <!--C8 Starts RB Ends -->
 

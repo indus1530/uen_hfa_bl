@@ -71,8 +71,9 @@
                     </RadioGroup>
 
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
             <!-- K1 End RB -->
 
             <!-- K2 Starts RB  -->
@@ -120,7 +121,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- K2 End RB -->
 
             <!-- K3 Starts RB  -->
@@ -158,7 +160,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- K3 End RB -->
 
 

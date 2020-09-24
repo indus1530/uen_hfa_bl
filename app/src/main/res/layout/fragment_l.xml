@@ -81,8 +81,9 @@
                     </RadioGroup>
 
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
             <!-- L1 End RB -->
 
             <!-- L2 Starts RB  -->
@@ -130,7 +131,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L2 End RB -->
 
             <!-- L3 Starts RB  -->
@@ -168,7 +170,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L3 End RB -->
 
             <!-- L4 Starts RB  -->
@@ -206,7 +209,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L4 End RB -->
 
             <!-- L5 Starts CB -->
@@ -260,7 +264,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L5 ends CB-->
 
             <!-- L6 Starts CB -->
@@ -314,7 +319,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L6 ends CB-->
 
             <!-- L7 Starts CB -->
@@ -368,7 +374,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L7 ends CB-->
 
             <!-- L8 Starts CB -->
@@ -422,7 +429,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L8 ends CB-->
 
             <!-- L9 Starts CB -->
@@ -476,7 +484,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L9 ends CB-->
 
             <!-- L10 Starts RB  -->
@@ -510,7 +519,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L10 End RB -->
 
             <!-- L11 Starts CB -->
@@ -560,7 +570,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L11 ends CB-->
 
             <!-- L12 Starts RB  -->
@@ -594,7 +605,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!-- L12 End RB -->
 
             <!-- L13 Starts CB -->
@@ -648,7 +660,8 @@
 
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
             <!--  L13 ends CB-->
 
 
