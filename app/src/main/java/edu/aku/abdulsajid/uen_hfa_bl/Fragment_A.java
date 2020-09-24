@@ -14,14 +14,16 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import androidx.databinding.DataBindingUtil;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -33,6 +35,7 @@ import java.util.List;
 import data.LocalDataManager;
 import data.LogtableUpdates;
 import data.col_A;
+import edu.aku.abdulsajid.uen_hfa_bl.databinding.FragmentABinding;
 import utils.ClearAllcontrol;
 import utils.Districts;
 import utils.Gothrough;
@@ -46,8 +49,9 @@ import utils.Validation;
 import static data.LocalDataManager.database;
 
 
-public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeListener, AdapterView.OnItemSelectedListener {
+public class Fragment_A extends Fragment {
 
+    FragmentABinding bi;
 
     //Declare Radio Buttion
 //region Radiob Button
@@ -209,18 +213,19 @@ public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeL
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        bi = DataBindingUtil.inflate(inflater, R.layout.fragment_a, container, false);
+        View view = bi.getRoot();
+        bi.setCallback(this);
+        return view;
+        setupSkips();
 
 
-        View v = inflater.inflate(R.layout.fragment_a, container, false);
-
-
-        initializeRadioButtion(v);
-        initializeLinerlayout(v);
-        initiizeSpiner(v);
-        initiizeAutocomplt(v);
-        initalizeTextbox(v);
+        initializeRadioButtion(view);
+        initializeLinerlayout(view);
+        initiizeSpiner(view);
+        initiizeAutocomplt(view);
+        initalizeTextbox(view);
 
 
         ed_A19_month.setFilters(new InputFilter[]{new InputFilterMinMax("0", "11")});
@@ -321,8 +326,7 @@ public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeL
         //endregion
 
 
-        Button btnNext = (Button) v.findViewById(R.id.btn_A_next);
-        btnNext.setOnClickListener(new View.OnClickListener() {
+        bi.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -336,20 +340,13 @@ public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeL
                 fun_put_99in_A14();
 
                 if (Validationiamgood() == false) {
-
-
                     Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", Toast.LENGTH_LONG).show();
                     return;
-
                 }
 
-
                 if (asigningvalues() == false) {
-
-
                     Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", Toast.LENGTH_LONG).show();
                     return;
-
                 }
 
 
@@ -376,6 +373,35 @@ public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeL
         return v;
     }
 
+
+    private void setupSkips() {
+
+        bi.a4.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+
+                ClearAllcontrol.ClearAll(bi.cva5);
+                ClearAllcontrol.ClearAll(bi.cva16);
+                bi.cva16.setVisibility(View.GONE);
+                bi.cva5.setVisibility(View.GONE);
+
+                if (i == bi.a4a.getId()) {
+                    bi.cva16.setVisibility(View.VISIBLE);
+                } else if (i == bi.a4b.getId()) {
+                    bi.cva5.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        bi.a6.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                GetDistrict();
+            }
+        });
+
+    }
+
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
@@ -400,34 +426,9 @@ public class Fragment_A extends Fragment implements RadioButton.OnCheckedChangeL
         mListener = null;
     }
 
+
     @Override
     public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-
-
-        if (compoundButton.getId() == R.id.R_A4_1 || compoundButton.getId() == R.id.R_A4_2) {
-
-            if (R_A4_1.isChecked()) {
-                Ly_A5.setVisibility(View.VISIBLE);
-                lv_A16.setVisibility(View.GONE);
-                ClearAllcontrol.ClearAll(lv_A16);
-            } else {
-                Ly_A5.setVisibility(View.GONE);
-                ClearAllcontrol.ClearAll(Ly_A5);
-
-                lv_A16.setVisibility(View.VISIBLE);
-            }
-
-
-        }
-
-        if (compoundButton.getId() == R.id.R_A6_1 || compoundButton.getId() == R.id.R_A6_2
-                || compoundButton.getId() == R.id.R_A6_3) {
-
-
-            GetDistrict();
-
-
-        }
 
         if (compoundButton.getId() == R.id.C_A13_2 || compoundButton.getId() == R.id.C_A13_1) {
 

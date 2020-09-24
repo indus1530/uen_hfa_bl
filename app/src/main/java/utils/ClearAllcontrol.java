@@ -3,8 +3,9 @@ package utils;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+
+import androidx.cardview.widget.CardView;
 
 /**
  * Created by sajidlatif on 3/28/2017.
@@ -13,14 +14,14 @@ import android.widget.RadioGroup;
 public class ClearAllcontrol {
 
 
-    public static void ClearAll(LinearLayout lv) {
+    public static void ClearAll(CardView cv) {
 
         /// Checkbox Celar*************************************
 
         try {
 
-            for (int i = 0, count = lv.getChildCount(); i < count; ++i) {
-                View view = lv.getChildAt(i);
+            for (int i = 0, count = cv.getChildCount(); i < count; ++i) {
+                View view = cv.getChildAt(i);
                 if (view instanceof CheckBox) {
                     ((CheckBox) view).setChecked(false);
                 } else if (view instanceof RadioGroup) {
