@@ -38,20 +38,19 @@
 
 
             <!--   G1  Starts CB -->
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                    <LinearLayout
+                        android:id="@+id/lv_g1"
+                        style="@style/Q_Linerlayout_v">
 
-                <LinearLayout
-                    android:id="@+id/lv_g1"
-                    style="@style/Q_Linerlayout_v">
-
-                    <TextView
-                        android:id="@+id/L_G1"
-                        style="@style/TextView"
-                        android:text="@string/L_G1" />
+                        <TextView
+                            android:id="@+id/L_G1"
+                            style="@style/TextView"
+                            android:text="@string/L_G1" />
 
 
-                    <CheckBox
+                        <CheckBox
                         android:id="@+id/C_G1_1"
                         style="@style/CheckBox"
                         android:text="@string/C_G1_1" />
@@ -89,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <!--G2 Starts RB  -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <LinearLayout
@@ -129,7 +128,7 @@
 
 
                 <!--G3 Starts RB  -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <LinearLayout
@@ -168,7 +167,7 @@
                 <!-- G3  End RB -->
 
                 <!--G4 Starts RB  -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <LinearLayout
@@ -207,8 +206,7 @@
                 <!-- G4  End RB -->
 
                 <!-- G5 Starts ED-->
-
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
 
                     style="@style/Q_CardView">
 
@@ -328,8 +326,7 @@
 
 
                 <!-- G6 Starts ED-->
-
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
 
                     style="@style/Q_CardView">
 
@@ -408,8 +405,7 @@
                 <!-- G6 Ends ED-->
 
                 <!-- G7 Starts ED-->
-
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
 
                     style="@style/Q_CardView">
 
@@ -440,7 +436,7 @@
                 <!--G7  Ends ED-->
 
                 <!--G8 Starts RB  -->
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                     <LinearLayout
@@ -481,8 +477,7 @@
 
 
                 <!-- G9 Starts ED-->
-
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
 
                     style="@style/Q_CardView">
 
@@ -549,8 +544,7 @@
                 <!-- G9 Ends ED-->
 
                 <!-- G10 Starts ED-->
-
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
 
                     style="@style/Q_CardView">
 
@@ -618,8 +612,7 @@
 
 
                 <!-- G11     Starts CB -->
-
-                <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                     <LinearLayout
                         android:id="@+id/lv_g11"

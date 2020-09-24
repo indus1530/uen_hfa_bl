@@ -38,17 +38,17 @@
 
 
             <!-- E1 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
-                <LinearLayout
-                    android:id="@+id/lv_E1"
-                    style="@style/Q_Linerlayout_v"
+                    <LinearLayout
+                        android:id="@+id/lv_E1"
+                        style="@style/Q_Linerlayout_v"
 
-                    >
+                        >
 
-                    <TextView
-                        android:id="@+id/L_E1"
+                        <TextView
+                            android:id="@+id/L_E1"
                         style="@style/TextView"
                         android:text="@string/L_E1"
 
@@ -78,7 +78,7 @@
 
 
             <!-- E2 Starts ED-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView">
 
@@ -109,7 +109,7 @@
 
 
             <!-- E3 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -168,7 +168,7 @@
 
 
             <!--  E4 Starts ED-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView">
 
@@ -199,7 +199,7 @@
 
 
             <!-- E5 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -237,7 +237,7 @@
             <!-- E5 End RB -->
 
             <!-- E6 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout

@@ -38,17 +38,17 @@
 
 
             <!--D1 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
-                <LinearLayout
-                    android:id="@+id/lv_D1"
-                    style="@style/Q_Linerlayout_v"
-                    android:visibility="gone"
+                    <LinearLayout
+                        android:id="@+id/lv_D1"
+                        style="@style/Q_Linerlayout_v"
+                        android:visibility="gone"
 
-                    >
+                        >
 
-                    <TextView
+                        <TextView
                         android:id="@+id/L_D1"
                         style="@style/TextView"
                         android:text="@string/L_D1"
@@ -78,7 +78,7 @@
             <!--D1  End RB -->
 
             <!--D2 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -117,7 +117,7 @@
             <!--  D2 Ends RB -->
 
             <!-- D3 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -172,7 +172,7 @@
 
 
             <!-- D4 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -213,7 +213,7 @@
 
 
             <!-- D5 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -253,7 +253,7 @@
 
 
             <!-- D6 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout

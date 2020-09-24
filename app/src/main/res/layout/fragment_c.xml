@@ -62,17 +62,17 @@
 
 
             <!--C1 Starts Complex  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
-                <LinearLayout
-                    android:id="@+id/lv_C1"
-                    style="@style/Q_Linerlayout_v">
+                    <LinearLayout
+                        android:id="@+id/lv_C1"
+                        style="@style/Q_Linerlayout_v">
 
 
-                    <TextView
-                        android:id="@+id/L_C1"
-                        style="@style/TextView"
-                        android:layout_marginBottom="10dp"
+                        <TextView
+                            android:id="@+id/L_C1"
+                            style="@style/TextView"
+                            android:layout_marginBottom="10dp"
                         android:text="@string/L_C1"
                         android:textStyle="bold"
 
@@ -1517,16 +1517,15 @@
                     </LinearLayout>
 
 
-                </LinearLayout>
+                    </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             <!--C1 Ends Complex  -->
 
 
             <!--  C2A   Starts CB -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/lv_C2A"
@@ -1796,7 +1795,7 @@
 
 
             <!--C2 Starts Complex  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/lv_C2"
@@ -5434,7 +5433,7 @@
             <!--C2 Ends Complex  -->
 
             <!--C3 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -5484,14 +5483,13 @@
 
                 </LinearLayout>
 
-
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <!--C3  End RB -->
 
 
             <!--C4 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -5550,8 +5548,7 @@
 
 
             <!--    C4.1 Starts Date -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
                 <LinearLayout
                     android:id="@+id/lv_C4_1"
@@ -5579,8 +5576,7 @@
 
 
             <!--C5  Starts ED-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView">
 
@@ -5624,7 +5620,7 @@
 
 
             <!--C6 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -5664,7 +5660,7 @@
 
 
             <!--C7 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout

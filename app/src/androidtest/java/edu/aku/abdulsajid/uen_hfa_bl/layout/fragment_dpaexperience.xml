@@ -36,40 +36,40 @@
                 android:textStyle="bold" />
 
             <!-- serila number layout starts -->
-            <android.support.v7.widget.CardView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:id="@+id/tableRow4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                    <TextView
+                        <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10sp"
                         android:text="Mother Name"
                         android:textAppearance="@style/MyTextAppearance" />
 
-                    <TextView
-                        android:id="@+id/text_frag_dpae_ycm"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10sp"
-                        android:text="Mother Name"
-                        android:textAppearance="@style/MyTextAppearance"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/text_frag_dpae_ycm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Mother Name"
+                            android:textAppearance="@style/MyTextAppearance"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             <!-- serila number  layout ends -->
 
 
             <!-- G1 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -108,7 +108,7 @@
 
 
             <!-- G2 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -154,7 +154,7 @@
             </android.support.v7.widget.CardView>
             <!-- G2 Ends -->
             <!-- G3 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -198,8 +198,7 @@
 
 
             <!-- G4 Starts  Checkbox-->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -265,7 +264,7 @@
             <!-- G4 ends Checkbox-->
 
             <!-- G5 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -315,7 +314,7 @@
 
 
             <!-- G6 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -359,7 +358,7 @@
 
 
             <!-- G7 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -402,7 +401,7 @@
             <!-- G7 Ends  Radio Button-->
 
             <!-- G8 Starts  EditeTExt-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -427,12 +426,12 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- G8 End  EditeTExt-->
 
 
             <!-- G9 Starts  EditeTExt-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -457,11 +456,11 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- G9 End  EditeTExt-->
 
             <!-- G10 Starts  EditeTExt-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -486,12 +485,12 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- G10 End  EditeTExt-->
 
 
             <!-- G11 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -544,7 +543,7 @@
             <!-- G11 Ends  Radio Button-->
 
             <!-- G12 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -588,8 +587,7 @@
 
 
             <!-- G13 Starts  Checkbox-->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -655,7 +653,7 @@
             <!-- G13 ends Checkbox-->
 
             <!-- G14 starts  Radio b-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -698,8 +696,7 @@
 
 
             <!-- G15 Starts  Checkbox-->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -746,8 +743,7 @@
 
 
             <!-- G16  Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView">
 
@@ -834,7 +830,7 @@
 
 
             <!-- G17 Starts  EditeTExt-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -860,8 +856,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <!-- G End  EditeTExt-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

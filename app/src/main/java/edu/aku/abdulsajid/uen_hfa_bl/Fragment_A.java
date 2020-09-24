@@ -1,10 +1,10 @@
 package edu.aku.abdulsajid.uen_hfa_bl;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.text.InputFilter;

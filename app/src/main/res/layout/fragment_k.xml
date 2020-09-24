@@ -38,17 +38,17 @@
 
 
             <!-- K1 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+                <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
-                <LinearLayout
-                    android:id="@+id/lv_K1"
-                    style="@style/Q_Linerlayout_v"
+                    <LinearLayout
+                        android:id="@+id/lv_K1"
+                        style="@style/Q_Linerlayout_v"
 
-                    >
+                        >
 
-                    <TextView
-                        android:id="@+id/L_K1"
+                        <TextView
+                            android:id="@+id/L_K1"
                         style="@style/TextView"
                         android:text="@string/L_K1"
 
@@ -76,7 +76,7 @@
             <!-- K1 End RB -->
 
             <!-- K2 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout
@@ -124,7 +124,7 @@
             <!-- K2 End RB -->
 
             <!-- K3 Starts RB  -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout

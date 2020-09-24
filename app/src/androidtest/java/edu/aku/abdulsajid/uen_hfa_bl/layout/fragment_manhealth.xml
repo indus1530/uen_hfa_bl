@@ -34,18 +34,18 @@
             android:orientation="vertical">
 
             <!-- serila number layout starts -->
-            <android.support.v7.widget.CardView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
 
-                <LinearLayout
+                    <LinearLayout
 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                    <TextView
+                        <TextView
                         android:id="@+id/txt_serial_number"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -53,21 +53,21 @@
                         android:text="Mother Name"
                         android:textAppearance="@style/MyTextAppearance" />
 
-                    <TextView
+                        <TextView
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10sp"
-                        android:text="Mother Name"
-                        android:textAppearance="@style/MyTextAppearance"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Mother Name"
+                            android:textAppearance="@style/MyTextAppearance"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
 
             <!-- F1 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <!-- province layout starts -->
@@ -106,7 +106,7 @@
 
 
             <!-- F2 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <!-- province layout starts -->
@@ -147,7 +147,7 @@
             <!-- F2 Ends -->
 
             <!-- F3 Ends -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -186,8 +186,7 @@
             <!--  F3 Ends-->
 
             <!--  F4 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView"
 
@@ -263,7 +262,7 @@
             <!--  F4 Ends-->
 
             <!--  F5 Starts-->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -307,10 +306,10 @@
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
             <!-- F5 Ends -->
             <!-- F6 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <!-- province layout starts -->
@@ -348,8 +347,7 @@
             <!-- F6 ends -->
 
             <!-- F7 Start -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <!-- province layout starts -->
@@ -390,7 +388,7 @@
             </android.support.v7.widget.CardView>
 
             <!-- F8 End -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <!-- province layout starts -->
@@ -429,8 +427,7 @@
             <!-- F8 End -->
 
             <!-- F9 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -477,7 +474,7 @@
             <!-- F9 Ends -->
 
             <!-- F10 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -522,7 +519,7 @@
             <!-- F10 ends-->
 
             <!-- F11 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -567,8 +564,7 @@
 
 
             <!-- F12 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -641,7 +637,7 @@
 
 
             <!-- F13 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -680,8 +676,7 @@
             <!-- F13 Ends -->
 
             <!-- F14 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -716,7 +711,7 @@
             </android.support.v7.widget.CardView>
             <!-- F14 ends -->
             <!-- F15 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -760,8 +755,7 @@
             <!-- F15 ends -->
 
             <!-- F16 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -833,7 +827,7 @@
 
 
             <!-- F17 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -877,8 +871,7 @@
 
 
             <!-- F18 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -930,8 +923,7 @@
 
 
             <!-- F19 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -968,8 +960,7 @@
 
 
             <!-- F20 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1035,7 +1026,7 @@
             <!-- F20 ends -->
 
             <!-- F21 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1079,8 +1070,7 @@
 
 
             <!-- F22 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1147,7 +1137,7 @@
 
 
             <!-- F23 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1191,7 +1181,7 @@
 
 
             <!-- F24 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -1229,7 +1219,7 @@
             <!-- F24 End -->
 
             <!-- F25 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1271,8 +1261,7 @@
             </android.support.v7.widget.CardView>
             <!-- F25 Ends -->
             <!-- F26 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1318,8 +1307,7 @@
             <!-- F26 ends -->
 
             <!-- F27  Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
 
                 style="@style/Q_CardView">
 
@@ -1405,8 +1393,7 @@
             <!-- F27  Ends-->
 
             <!-- F28 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1483,7 +1470,7 @@
 
 
             <!-- F29 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1527,7 +1514,7 @@
 
 
             <!-- F30 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView">
+            <androidx.cardview.widget.CardView style="@style/Q_CardView">
 
 
                 <LinearLayout style="@style/Q_Linerlayout_v">
@@ -1554,7 +1541,7 @@
             <!-- F30 End -->
 
             <!-- F31 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1597,7 +1584,7 @@
             <!-- F31 Ends -->
 
             <!-- F32 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1636,7 +1623,7 @@
             <!-- F32 Ends -->
 
             <!-- F33 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1679,7 +1666,7 @@
             <!-- F33 Ends -->
 
             <!-- F34 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1719,7 +1706,7 @@
 
 
             <!-- F35 Starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1758,8 +1745,7 @@
 
 
             <!-- F36 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1806,7 +1792,7 @@
 
 
             <!-- F37 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1845,8 +1831,7 @@
 
 
             <!-- F38 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1893,7 +1878,7 @@
 
 
             <!-- F39 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1937,7 +1922,7 @@
 
 
             <!-- F40 starts -->
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -1992,8 +1977,7 @@
 
 
             <!-- F41 Starts -->
-
-            <android.support.v7.widget.CardView style="@style/Q_CardView"
+            <androidx.cardview.widget.CardView style="@style/Q_CardView"
 
                 >
 
@@ -2047,8 +2031,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <!-- F ends -->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

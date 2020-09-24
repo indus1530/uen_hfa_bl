@@ -40,18 +40,18 @@
             android:orientation="vertical">
 
             <!-- serila number layout starts -->
-            <android.support.v7.widget.CardView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:id="@+id/tableRow4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                    <TextView
+                        <TextView
                         android:id="@+id/txt_serial_number"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -59,20 +59,20 @@
                         android:text="Mother Name"
                         android:textAppearance="@style/MyTextAppearance" />
 
-                    <TextView
+                        <TextView
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10sp"
-                        android:text="Mother Name"
-                        android:textAppearance="@style/MyTextAppearance" />
-                </LinearLayout>
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10sp"
+                            android:text="Mother Name"
+                            android:textAppearance="@style/MyTextAppearance" />
+                    </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             <!-- serila number  layout ends -->
 
             <!-- Location layout starts -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -126,7 +126,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -183,7 +183,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -247,8 +247,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <!-- privince layout Ends -->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -346,8 +345,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -402,7 +400,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <!-- District layout starts -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -457,8 +455,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -546,8 +543,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -602,8 +598,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -683,8 +678,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -751,8 +745,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -872,8 +865,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -927,8 +919,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -992,8 +983,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1047,8 +1037,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1175,8 +1164,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1237,7 +1225,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1322,7 +1310,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1378,7 +1366,7 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
             <!-- F19 Starts -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1484,7 +1472,7 @@
             <!-- F19 Ends -->
 
             <!-- F20 Statts  -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1549,7 +1537,7 @@
 
 
             <!-- F21 Statts  -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1649,7 +1637,7 @@
 
             <!-- F21 Ends  -->
             <!-- F22 Starts-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1712,7 +1700,7 @@
             <!-- F22 Starts-->
 
             <!-- F23 Starts-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1782,8 +1770,7 @@
             <!-- F23 Ends-->
 
             <!--F24 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1842,7 +1829,7 @@
             <!--F24 Ends-->
 
             <!-- F25 Starts -->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -1906,8 +1893,7 @@
             <!-- F25 Ends -->
 
             <!-- F26  Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2002,8 +1988,7 @@
 
 
             <!-- F27  Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2119,8 +2104,7 @@
 
 
             <!-- F28 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2214,8 +2198,7 @@
 
 
             <!-- F29 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2278,9 +2261,7 @@
             <!-- F29 Ends-->
 
             <!-- F30 Starts-->
-
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2324,9 +2305,7 @@
 
 
             <!-- F31 Starts-->
-
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2390,9 +2369,7 @@
 
 
             <!-- F32 Starts-->
-
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2450,8 +2427,7 @@
 
 
             <!-- F33 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2516,8 +2492,7 @@
 
 
             <!-- F34 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2576,9 +2551,7 @@
 
 
             <!-- F35 Starts-->
-
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2636,8 +2609,7 @@
             <!-- F35 Ends-->
 
             <!-- F36 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2713,8 +2685,7 @@
 
 
             <!-- F37 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2777,8 +2748,7 @@
             <!-- F37 Ends-->
 
             <!-- F38 Starts-->
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2858,7 +2828,7 @@
 
 
             <!-- F39 Starts-->
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
@@ -2948,9 +2918,7 @@
             <!-- F39 ENds-->
 
             <!-- F40 Starts-->
-
-
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp">
