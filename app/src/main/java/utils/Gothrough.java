@@ -3,8 +3,9 @@ package utils;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+
+import androidx.cardview.widget.CardView;
 
 /**
  * Created by sajidlatif on 3/28/2017.
@@ -13,7 +14,7 @@ import android.widget.RadioGroup;
 public class Gothrough {
 
 
-    public static boolean IamHiden(LinearLayout lv) {
+    public static boolean IamHiden(CardView cv) {
 
 
         /// Checkbox Celar*************************************
@@ -21,14 +22,14 @@ public class Gothrough {
         try {
 
 
-            if (lv.getVisibility() != View.VISIBLE) {
+            if (cv.getVisibility() != View.VISIBLE) {
                 return true;
 
 
             }
 
-            for (int i = 0, count = lv.getChildCount(); i < count; ++i) {
-                View view = lv.getChildAt(i);
+            for (int i = 0, count = cv.getChildCount(); i < count; ++i) {
+                View view = cv.getChildAt(i);
                 if (view instanceof CheckBox) {
                     if (((CheckBox) view).isChecked()) {
                         return true;
@@ -68,7 +69,7 @@ public class Gothrough {
         }
 
 
-        lv.requestFocus();
+        cv.requestFocus();
 
 
         return false;

@@ -495,7 +495,7 @@
 
                 <!-- A14.3-->
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cv143"
+                    android:id="@+id/cva143"
                     style="@style/Q_CardView">
 
                     <LinearLayout style="@style/Q_Linerlayout_v">
@@ -515,7 +515,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143a.checked ? a143ax.getText().toString() : "" }'
+                            android:visibility='@{a143a.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143b"
@@ -528,7 +529,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143b.checked ? a143bx.getText().toString() : "" }'
+                            android:visibility='@{a143b.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143c"
@@ -541,7 +543,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143c.checked ? a143cx.getText().toString() : "" }'
+                            android:visibility='@{a143c.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143d"
@@ -554,7 +557,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143d.checked ? a143dx.getText().toString() : "" }'
+                            android:visibility='@{a143d.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143e"
@@ -567,7 +571,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143e.checked ? a143ex.getText().toString() : "" }'
+                            android:visibility='@{a143e.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143f"
@@ -580,7 +585,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143f.checked ? a143fx.getText().toString() : "" }'
+                            android:visibility='@{a143f.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143g"
@@ -594,7 +600,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143g.checked ? a143gx.getText().toString() : "" }'
+                            android:visibility='@{a143g.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143h"
@@ -607,7 +614,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143h.checked ? a143hx.getText().toString() : "" }'
+                            android:visibility='@{a143h.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143i"
@@ -620,7 +628,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143i.checked ? a143ix.getText().toString() : "" }'
+                            android:visibility='@{a143i.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143j"
@@ -633,7 +642,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143j.checked ? a143jx.getText().toString() : "" }'
+                            android:visibility='@{a143j.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143k"
@@ -646,7 +656,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143k.checked ? a143kx.getText().toString() : "" }'
+                            android:visibility='@{a143k.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143l"
@@ -659,7 +670,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143l.checked ? a143lx.getText().toString() : "" }'
+                            android:visibility='@{a143l.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143m"
@@ -672,7 +684,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143m.checked ? a143mx.getText().toString() : "" }'
+                            android:visibility='@{a143m.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143n"
@@ -685,7 +698,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143n.checked ? a143nx.getText().toString() : "" }'
+                            android:visibility='@{a143n.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143o"
@@ -698,7 +712,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143o.checked ? a143ox.getText().toString() : "" }'
+                            android:visibility='@{a143o.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143p"
@@ -711,7 +726,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143p.checked ? a143px.getText().toString() : "" }'
+                            android:visibility='@{a143p.checked ? View.VISIBLE : View.GONE}' />
 
                         <CheckBox
                             android:id="@+id/a143q"
@@ -724,7 +740,8 @@
                             style="@style/EditText_number"
                             android:hint="Number"
                             android:maxLength="3"
-                            android:visibility="gone" />
+                            android:text='@{a143q.checked ? a143qx.getText().toString() : "" }'
+                            android:visibility='@{a143q.checked ? View.VISIBLE : View.GONE}' />
 
                     </LinearLayout>
 
