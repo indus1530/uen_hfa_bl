@@ -2,7 +2,8 @@ package utils;
 
 import android.view.View;
 import android.widget.EditText;
-import android.widget.LinearLayout;
+
+import androidx.cardview.widget.CardView;
 
 /**
  * Created by sajidlatif on 3/28/2017.
@@ -11,7 +12,7 @@ import android.widget.LinearLayout;
 public class GothroughTextboxss {
 
 
-    public static boolean IamHiden(LinearLayout lv) {
+    public static boolean IamHiden(CardView cv) {
 
 
         Boolean iamnotgood = true;
@@ -22,14 +23,14 @@ public class GothroughTextboxss {
         try {
 
 
-            if (lv.getVisibility() != View.VISIBLE) {
+            if (cv.getVisibility() != View.VISIBLE) {
                 return true;
 
 
             }
 
-            for (int i = 0, count = lv.getChildCount(); i < count; ++i) {
-                View view = lv.getChildAt(i);
+            for (int i = 0, count = cv.getChildCount(); i < count; ++i) {
+                View view = cv.getChildAt(i);
 
 
                 if (view instanceof EditText) {

@@ -40,6 +40,7 @@ import utils.Tehsils;
 import utils.Ucs;
 import utils.Validation;
 
+import static android.widget.Toast.LENGTH_LONG;
 import static data.LocalDataManager.database;
 
 
@@ -59,12 +60,12 @@ public class Fragment_A extends Fragment {
             A11,
             A12,
             A1296x,
-            A13_1,
-            A13_2,
+            A131,
+            A132,
             A14,
-            A14_1,
-            A14_2,
-            A14_3_1,
+            A141,
+            A142,
+            A1431,
             A14_3_2,
             A14_3_3,
             A14_3_4,
@@ -96,8 +97,6 @@ public class Fragment_A extends Fragment {
 
     public static Fragment_A newInstance(String param1, String param2) {
         Fragment_A fragment = new Fragment_A();
-
-
         return fragment;
     }
 
@@ -139,12 +138,12 @@ public class Fragment_A extends Fragment {
                 fun_put_99in_A14();
 
                 if (Validationiamgood() == false) {
-                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
                     return;
                 }
 
                 if (asigningvalues() == false) {
-                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
                     return;
                 }
 
@@ -279,57 +278,57 @@ public class Fragment_A extends Fragment {
         if (!Gothrough.IamHiden(bi.cva5)) {
             return false;
         }
-        if (Gothrough.IamHiden(Ly_A6) == false) {
+        if (Gothrough.IamHiden(bi.cva6) == false) {
             return false;
         }
-        if (Sp_A7.getSelectedItem().toString().trim().equals("Select")) {
+        if (bi.a7.getSelectedItem().toString().trim().equals("Select")) {
 
-            Toast.makeText(getActivity(), "ERROR Select District", Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), "ERROR Select District", LENGTH_LONG).show();
             return false;
         }
-        if (Sp_A8.getSelectedItem().toString().trim().equals("Select")) {
+        if (bi.a8.getSelectedItem().toString().trim().equals("Select")) {
 
-            Toast.makeText(getActivity(), "ERROR Select Tehsil", Toast.LENGTH_LONG).show();
+            Toast.makeText(getActivity(), "ERROR Select Tehsil", LENGTH_LONG).show();
 
             return false;
         }
-        if (Sp_A9.getSelectedItem().toString().trim().equals("Select")) {
+        if (bi.a9.getSelectedItem().toString().trim().equals("Select")) {
 
-            Toast.makeText(getActivity(), "ERROR Select UC", Toast.LENGTH_LONG).show();
-            return false;
-        }
-
-        if (Gothrough.IamHiden(lv_A10) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(lv_A11) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(lv_A12) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(lv_A13) == false) {
-            return false;
-        }
-        if (Gothrough.IamHiden(lv_A14) == false) {
+            Toast.makeText(getActivity(), "ERROR Select UC", LENGTH_LONG).show();
             return false;
         }
 
-        if (C_A13_2.isChecked() == true) {
+        if (Gothrough.IamHiden(bi.cva10) == false) {
+            return false;
+        }
+        if (Gothrough.IamHiden(bi.cva11) == false) {
+            return false;
+        }
+        if (Gothrough.IamHiden(bi.cva12) == false) {
+            return false;
+        }
+        if (Gothrough.IamHiden(bi.cva13) == false) {
+            return false;
+        }
+        if (Gothrough.IamHiden(bi.cva14) == false) {
+            return false;
+        }
 
-            if (GothroughTextboxss.IamHiden(lv_A14) == false) {
+        if (bi.a13b.isChecked() == true) {
+
+            if (GothroughTextboxss.IamHiden(bi.cva14) == false) {
                 return false;
             }
 
 
         }
-        if (Gothrough.IamHiden(lv_A14) == false) {
+        if (Gothrough.IamHiden(bi.cva14) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A14_1) == false) {
+        if (Gothrough.IamHiden(bi.cva141) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A14_2) == false) {
+        if (Gothrough.IamHiden(bi.cva142) == false) {
             return false;
         }
 
@@ -338,116 +337,116 @@ public class Fragment_A extends Fragment {
         }
 
         if (bi.cva143.getVisibility() == View.VISIBLE) {
-            ed_A14_3_1.setError(null);
-            if (ed_A14_3_1.getText().toString().trim().length() == 0) {
-                ed_A14_3_1.setError("Enter Number");
+            bi.a143ax.setError(null);
+            if (bi.a143ax.getText().toString().trim().length() == 0) {
+                bi.a143ax.setError("Enter Number");
 
                 return false;
             }
-            ed_A14_3_2.setError(null);
-            if (ed_A14_3_2.getText().toString().trim().length() == 0) {
-                ed_A14_3_2.setError("Enter Number");
-
-                return false;
-            }
-
-            ed_A14_3_3.setError(null);
-            if (ed_A14_3_3.getText().toString().trim().length() == 0) {
-                ed_A14_3_3.setError("Enter Number");
+            bi.a143bx.setError(null);
+            if (bi.a143bx.getText().toString().trim().length() == 0) {
+                bi.a143bx.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_4.setError(null);
-            if (ed_A14_3_4.getText().toString().trim().length() == 0) {
-                ed_A14_3_4.setError("Enter Number");
+            bi.a14_3_3.setError(null);
+            if (bi.a14_3_3.getText().toString().trim().length() == 0) {
+                bi.a14_3_3.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_5.setError(null);
-            if (ed_A14_3_5.getText().toString().trim().length() == 0) {
-                ed_A14_3_5.setError("Enter Number");
+            bi.a14_3_4.setError(null);
+            if (bi.a14_3_4.getText().toString().trim().length() == 0) {
+                bi.a14_3_4.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_6.setError(null);
-            if (ed_A14_3_6.getText().toString().trim().length() == 0) {
-                ed_A14_3_6.setError("Enter Number");
+            bi.a14_3_5.setError(null);
+            if (bi.a14_3_5.getText().toString().trim().length() == 0) {
+                bi.a14_3_5.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_7.setError(null);
-            if (ed_A14_3_7.getText().toString().trim().length() == 0) {
-                ed_A14_3_7.setError("Enter Number");
+            bi.a14_3_6.setError(null);
+            if (bi.a14_3_6.getText().toString().trim().length() == 0) {
+                bi.a14_3_6.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_8.setError(null);
-            if (ed_A14_3_8.getText().toString().trim().length() == 0) {
-                ed_A14_3_8.setError("Enter Number");
+            bi.a14_3_7.setError(null);
+            if (bi.a14_3_7.getText().toString().trim().length() == 0) {
+                bi.a14_3_7.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_9.setError(null);
-            if (ed_A14_3_9.getText().toString().trim().length() == 0) {
-                ed_A14_3_9.setError("Enter Number");
+            bi.a14_3_8.setError(null);
+            if (bi.a14_3_8.getText().toString().trim().length() == 0) {
+                bi.a14_3_8.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_10.setError(null);
-            if (ed_A14_3_10.getText().toString().trim().length() == 0) {
-                ed_A14_3_10.setError("Enter Number");
-
-                return false;
-            }
-            ed_A14_3_11.setError(null);
-            if (ed_A14_3_11.getText().toString().trim().length() == 0) {
-                ed_A14_3_11.setError("Enter Number");
-
-                return false;
-            }
-            ed_A14_3_12.setError(null);
-            if (ed_A14_3_12.getText().toString().trim().length() == 0) {
-                ed_A14_3_12.setError("Enter Number");
+            bi.a14_3_9.setError(null);
+            if (bi.a14_3_9.getText().toString().trim().length() == 0) {
+                bi.a14_3_9.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_13.setError(null);
-            if (ed_A14_3_13.getText().toString().trim().length() == 0) {
-                ed_A14_3_13.setError("Enter Number");
+            bi.a14_3_10.setError(null);
+            if (bi.a14_3_10.getText().toString().trim().length() == 0) {
+                bi.a14_3_10.setError("Enter Number");
+
+                return false;
+            }
+            bi.a14_3_11.setError(null);
+            if (bi.a14_3_11.getText().toString().trim().length() == 0) {
+                bi.a14_3_11.setError("Enter Number");
+
+                return false;
+            }
+            bi.a14_3_12.setError(null);
+            if (bi.a14_3_12.getText().toString().trim().length() == 0) {
+                bi.a14_3_12.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_14.setError(null);
-            if (ed_A14_3_14.getText().toString().trim().length() == 0) {
-                ed_A14_3_14.setError("Enter Number");
-
-                return false;
-            }
-            ed_A14_3_15.setError(null);
-            if (ed_A14_3_15.getText().toString().trim().length() == 0) {
-                ed_A14_3_15.setError("Enter Number");
-
-                return false;
-            }
-            ed_A14_3_16.setError(null);
-            if (ed_A14_3_16.getText().toString().trim().length() == 0) {
-                ed_A14_3_16.setError("Enter Number");
+            bi.a14_3_13.setError(null);
+            if (bi.a14_3_13.getText().toString().trim().length() == 0) {
+                bi.a14_3_13.setError("Enter Number");
 
                 return false;
             }
 
-            ed_A14_3_17.setError(null);
-            if (ed_A14_3_17.getText().toString().trim().length() == 0) {
-                ed_A14_3_17.setError("Enter Number");
+            bi.a14_3_14.setError(null);
+            if (bi.a14_3_14.getText().toString().trim().length() == 0) {
+                bi.a14_3_14.setError("Enter Number");
+
+                return false;
+            }
+            bi.a14_3_15.setError(null);
+            if (bi.a14_3_15.getText().toString().trim().length() == 0) {
+                bi.a14_3_15.setError("Enter Number");
+
+                return false;
+            }
+            bi.a14_3_16.setError(null);
+            if (bi.a14_3_16.getText().toString().trim().length() == 0) {
+                bi.a14_3_16.setError("Enter Number");
+
+                return false;
+            }
+
+            bi.a14_3_17.setError(null);
+            if (bi.a14_3_17.getText().toString().trim().length() == 0) {
+                bi.a14_3_17.setError("Enter Number");
 
                 return false;
             }
@@ -456,22 +455,22 @@ public class Fragment_A extends Fragment {
         }
 
 
-        if (Gothrough.IamHiden(lv_A15) == false) {
+        if (Gothrough.IamHiden(bi.cva15) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A16) == false) {
+        if (Gothrough.IamHiden(bi.cva16) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A17) == false) {
+        if (Gothrough.IamHiden(bi.cva17) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A18) == false) {
+        if (Gothrough.IamHiden(bi.cva18) == false) {
             return false;
         }
-        if (Gothrough.IamHiden(lv_A19) == false) {
+        if (Gothrough.IamHiden(bi.cva19) == false) {
             return false;
         }
-        return Gothrough.IamHiden(lv_A20) != false;
+        return Gothrough.IamHiden(bi.cva20) != false;
     }
 
     boolean insertdata() {
@@ -531,12 +530,12 @@ public class Fragment_A extends Fragment {
                 A10 + "','" +
                 A11 + "','" +
                 A12 + "','" +
-                A13_1 + "','" +
-                A13_2 + "','" +
+                A131 + "','" +
+                A132 + "','" +
                 A14 + "','" +
-                A14_1 + "','" +
-                A14_2 + "','" +
-                A14_3_1 + "','" +
+                A141 + "','" +
+                A142 + "','" +
+                A1431 + "','" +
                 A14_3_2 + "','" +
                 A14_3_3 + "','" +
                 A14_3_4 + "','" +
@@ -611,125 +610,125 @@ public class Fragment_A extends Fragment {
         A1296x = bi.a1296x.getText().toString().trim().isEmpty() ? "-1" : bi.a1296x.getText().toString();
 
 
-        if (C_A13_1.isChecked()) {
-            A13_1 = "1";
+        if (bi.a13a.isChecked()) {
+            A13 = "1";
         } else {
-            A13_1 = "999";
+            A131 = "999";
         }
 
-        if (C_A13_2.isChecked()) {
-            A13_2 = "1";
+        if (bi.a13_2.isChecked()) {
+            A132 = "1";
         } else {
-            A13_2 = "999";
+            A132 = "999";
         }
 
-        if (ed_A14.getText().toString().trim().length() > 0) {
-            A14 = ed_A14.getText().toString().trim();
+        if (bi.a14.getText().toString().trim().length() > 0) {
+            A14 = bi.a14.getText().toString().trim();
         } else {
             A14 = "999";
         }
 
 
         if (R_A14_1_yes.isChecked()) {
-            A14_1 = "1";
+            A141 = "1";
         } else if (R_A14_1_No.isChecked()) {
-            A14_1 = "2";
+            A141 = "2";
         } else {
-            A14_1 = "999";
+            A141 = "999";
         }
 
         if (R_A14_2_yes.isChecked()) {
-            A14_2 = "1";
+            A142 = "1";
         } else if (R_A14_2_No.isChecked()) {
-            A14_2 = "2";
+            A142 = "2";
         } else {
-            A14_2 = "999";
+            A142 = "999";
         }
 
 
-        if (ed_A14_3_1.getText().toString().trim().length() > 0) {
-            A14_3_1 = ed_A14_3_1.getText().toString().trim();
+        if (bi.a14_3_1.getText().toString().trim().length() > 0) {
+            A1431 = bi.a14_3_1.getText().toString().trim();
         } else {
-            A14_3_1 = "999";
+            A1431 = "999";
         }
-        if (ed_A14_3_2.getText().toString().trim().length() > 0) {
-            A14_3_2 = ed_A14_3_2.getText().toString().trim();
+        if (bi.a14_3_2.getText().toString().trim().length() > 0) {
+            A14_3_2 = bi.a14_3_2.getText().toString().trim();
         } else {
             A14_3_2 = "999";
         }
 
-        if (ed_A14_3_3.getText().toString().trim().length() > 0) {
-            A14_3_3 = ed_A14_3_3.getText().toString().trim();
+        if (bi.a14_3_3.getText().toString().trim().length() > 0) {
+            A14_3_3 = bi.a14_3_3.getText().toString().trim();
         } else {
             A14_3_3 = "999";
         }
-        if (ed_A14_3_4.getText().toString().trim().length() > 0) {
-            A14_3_4 = ed_A14_3_4.getText().toString().trim();
+        if (bi.a14_3_4.getText().toString().trim().length() > 0) {
+            A14_3_4 = bi.a14_3_4.getText().toString().trim();
         } else {
             A14_3_4 = "999";
         }
-        if (ed_A14_3_5.getText().toString().trim().length() > 0) {
-            A14_3_5 = ed_A14_3_5.getText().toString().trim();
+        if (bi.a14_3_5.getText().toString().trim().length() > 0) {
+            A14_3_5 = bi.a14_3_5.getText().toString().trim();
         } else {
             A14_3_5 = "999";
         }
-        if (ed_A14_3_6.getText().toString().trim().length() > 0) {
-            A14_3_6 = ed_A14_3_6.getText().toString().trim();
+        if (bi.a14_3_6.getText().toString().trim().length() > 0) {
+            A14_3_6 = bi.a14_3_6.getText().toString().trim();
         } else {
             A14_3_6 = "999";
         }
-        if (ed_A14_3_7.getText().toString().trim().length() > 0) {
-            A14_3_7 = ed_A14_3_7.getText().toString().trim();
+        if (bi.a14_3_7.getText().toString().trim().length() > 0) {
+            A14_3_7 = bi.a14_3_7.getText().toString().trim();
         } else {
             A14_3_7 = "999";
         }
-        if (ed_A14_3_8.getText().toString().trim().length() > 0) {
-            A14_3_8 = ed_A14_3_8.getText().toString().trim();
+        if (bi.a14_3_8.getText().toString().trim().length() > 0) {
+            A14_3_8 = bi.a14_3_8.getText().toString().trim();
         } else {
             A14_3_8 = "999";
         }
-        if (ed_A14_3_9.getText().toString().trim().length() > 0) {
-            A14_3_9 = ed_A14_3_9.getText().toString().trim();
+        if (bi.a14_3_9.getText().toString().trim().length() > 0) {
+            A14_3_9 = bi.a14_3_9.getText().toString().trim();
         } else {
             A14_3_9 = "999";
         }
-        if (ed_A14_3_10.getText().toString().trim().length() > 0) {
-            A14_3_10 = ed_A14_3_10.getText().toString().trim();
+        if (bi.a14_3_10.getText().toString().trim().length() > 0) {
+            A14_3_10 = bi.a14_3_10.getText().toString().trim();
         } else {
             A14_3_10 = "999";
         }
-        if (ed_A14_3_11.getText().toString().trim().length() > 0) {
-            A14_3_11 = ed_A14_3_11.getText().toString().trim();
+        if (bi.a14_3_11.getText().toString().trim().length() > 0) {
+            A14_3_11 = bi.a14_3_11.getText().toString().trim();
         } else {
             A14_3_11 = "999";
         }
-        if (ed_A14_3_12.getText().toString().trim().length() > 0) {
-            A14_3_12 = ed_A14_3_12.getText().toString().trim();
+        if (bi.a14_3_12.getText().toString().trim().length() > 0) {
+            A14_3_12 = bi.a14_3_12.getText().toString().trim();
         } else {
             A14_3_12 = "999";
         }
-        if (ed_A14_3_13.getText().toString().trim().length() > 0) {
-            A14_3_13 = ed_A14_3_13.getText().toString().trim();
+        if (bi.a14_3_13.getText().toString().trim().length() > 0) {
+            A14_3_13 = bi.a14_3_13.getText().toString().trim();
         } else {
             A14_3_13 = "999";
         }
-        if (ed_A14_3_14.getText().toString().trim().length() > 0) {
-            A14_3_14 = ed_A14_3_14.getText().toString().trim();
+        if (bi.a14_3_14.getText().toString().trim().length() > 0) {
+            A14_3_14 = bi.a14_3_14.getText().toString().trim();
         } else {
             A14_3_14 = "999";
         }
-        if (ed_A14_3_15.getText().toString().trim().length() > 0) {
-            A14_3_15 = ed_A14_3_15.getText().toString().trim();
+        if (bi.a14_3_15.getText().toString().trim().length() > 0) {
+            A14_3_15 = bi.a14_3_15.getText().toString().trim();
         } else {
             A14_3_15 = "999";
         }
-        if (ed_A14_3_16.getText().toString().trim().length() > 0) {
-            A14_3_16 = ed_A14_3_16.getText().toString().trim();
+        if (bi.a14_3_16.getText().toString().trim().length() > 0) {
+            A14_3_16 = bi.a14_3_16.getText().toString().trim();
         } else {
             A14_3_16 = "999";
         }
-        if (ed_A14_3_17.getText().toString().trim().length() > 0) {
-            A14_3_17 = ed_A14_3_17.getText().toString().trim();
+        if (bi.a14_3_17.getText().toString().trim().length() > 0) {
+            A14_3_17 = bi.a14_3_17.getText().toString().trim();
         } else {
             A14_3_17 = "999";
         }
@@ -752,26 +751,26 @@ public class Fragment_A extends Fragment {
         } else if (R_A15_8.isChecked()) {
             A15 = "8";
         } else if (R_A15_9.isChecked()) {
-            if (ed_A15_9.getText().toString().trim().length() > 0) {
-                A15 = "NGO " + ed_A15_9.getText().toString().trim();
-                ed_A15_9.setError(null);
+            if (bi.a15_9.getText().toString().trim().length() > 0) {
+                A15 = "NGO " + bi.a15_9.getText().toString().trim();
+                bi.a15_9.setError(null);
             } else {
                 A15 = "999";
 
-                ed_A15_9.setError("Enter");
+                bi.a15_9.setError("Enter");
                 return false;
             }
         } else if (R_A15_10.isChecked()) {
             A15 = "10";
         } else if (R_A15_11.isChecked()) {
-            if (ed_A15_11.getText().toString().trim().length() > 0) {
+            if (bi.a15_11.getText().toString().trim().length() > 0) {
 
-                A15 = ed_A15_11.getText().toString().trim();
-                ed_A15_11.setError(null);
+                A15 = bi.a15_11.getText().toString().trim();
+                bi.a15_11.setError(null);
             } else {
                 A15 = "999";
 
-                ed_A15_11.setError("Enter");
+                bi.a15_11.setError("Enter");
 
                 return false;
             }
@@ -809,22 +808,22 @@ public class Fragment_A extends Fragment {
         } else if (R_A16_14.isChecked()) {
             A16 = "14";
         } else if (R_A16_15.isChecked()) {
-            if (ed_A16_14.getText().toString().trim().length() > 0) {
-                A16 = ed_A16_14.getText().toString().trim();
-                ed_A16_14.setError(null);
+            if (bi.a16_14.getText().toString().trim().length() > 0) {
+                A16 = bi.a16_14.getText().toString().trim();
+                bi.a16_14.setError(null);
 
             } else {
                 A16 = "999";
 
-                ed_A16_14.setError("Enter");
+                bi.a16_14.setError("Enter");
                 return false;
             }
         } else {
             A16 = "999";
         }
 
-        if (ed_A17.getText().toString().trim().length() > 0) {
-            A17 = ed_A17.getText().toString().trim();
+        if (bi.a17.getText().toString().trim().length() > 0) {
+            A17 = bi.a17.getText().toString().trim();
         } else {
             A17 = "999";
         }
@@ -846,14 +845,14 @@ public class Fragment_A extends Fragment {
             A18 = "7";
         } else if (R_A18_8.isChecked()) {
 
-            if (ed_A18_8.getText().toString().trim().length() > 0) {
-                A18 = ed_A18_8.getText().toString().trim();
+            if (bi.a18_8.getText().toString().trim().length() > 0) {
+                A18 = bi.a18_8.getText().toString().trim();
 
-                ed_A18_8.setError(null);
+                bi.a18_8.setError(null);
             } else {
                 A18 = "999";
 
-                ed_A18_8.setError("Enter");
+                bi.a18_8.setError("Enter");
                 return false;
             }
         } else {
@@ -862,13 +861,13 @@ public class Fragment_A extends Fragment {
 
         int A19_months = 0;
 
-        if (ed_A19_year.getText().toString().trim().length() > 0 || ed_A19_month.getText().toString().trim().length() > 0) {
-            if (ed_A19_year.getText().toString().trim().length() > 0) {
-                int a19year = Integer.parseInt(ed_A19_year.getText().toString().trim());
+        if (bi.a19_year.getText().toString().trim().length() > 0 || bi.a19_month.getText().toString().trim().length() > 0) {
+            if (bi.a19_year.getText().toString().trim().length() > 0) {
+                int a19year = Integer.parseInt(bi.a19_year.getText().toString().trim());
                 A19_months = a19year * 12;
             }
-            if (ed_A19_month.getText().toString().trim().length() > 0) {
-                int a19month = Integer.parseInt(ed_A19_month.getText().toString().trim());
+            if (bi.a19_month.getText().toString().trim().length() > 0) {
+                int a19month = Integer.parseInt(bi.a19_month.getText().toString().trim());
                 A19_months = A19_months + a19month;
             }
         } else {
@@ -877,16 +876,16 @@ public class Fragment_A extends Fragment {
         A19 = A19_months + "";
 
 
-        if (ed_A20.getText().toString().trim().length() > 0) {
+        if (bi.a20.getText().toString().trim().length() > 0) {
 
-            A20 = ed_A20.getText().toString().trim();
+            A20 = bi.a20.getText().toString().trim();
         } else {
             A20 = "999";
         }
 
-        if (ed_A21.getText().toString().trim().length() > 0) {
+        if (bi.a21.getText().toString().trim().length() > 0) {
 
-            A21 = ed_A21.getText().toString().trim();
+            A21 = bi.a21.getText().toString().trim();
         } else {
             A21 = "999";
         }
@@ -907,9 +906,9 @@ public class Fragment_A extends Fragment {
             spA6 = "S";
         }
 
-        spA7 = Sp_A7.getSelectedItem().toString().trim();
-        spA8 = Sp_A8.getSelectedItem().toString().trim();
-        spA9 = Sp_A9.getSelectedItem().toString().trim();
+        spA7 = bi.a7.getSelectedItem().toString().trim();
+        spA8 = bi.a8.getSelectedItem().toString().trim();
+        spA9 = bi.a9.getSelectedItem().toString().trim();
 
         spA7 = spA7.substring(0, 1);
         spA8 = spA8.substring(0, 1);
@@ -941,18 +940,18 @@ public class Fragment_A extends Fragment {
 
         int id = adapterView.getId();
         switch (id) {
-            case R.id.Sp_A7:
+            case R.id.bi.a7:
 
-                if (Sp_A7.getSelectedItem().toString().equals("Select"))
+                if (bi.a7.getSelectedItem().toString().equals("Select"))
                     break;
 
-                GetTehsil(Sp_A7.getSelectedItem().toString().trim());
+                GetTehsil(bi.a7.getSelectedItem().toString().trim());
 
-            case R.id.Sp_A8:
-                if (Sp_A8.getSelectedItem().toString().equals("Select"))
+            case R.id.bi.a8:
+                if (bi.a8.getSelectedItem().toString().equals("Select"))
                     break;
 
-                GetUC(Sp_A8.getSelectedItem().toString().trim());
+                GetUC(bi.a8.getSelectedItem().toString().trim());
 
         }
 
@@ -983,10 +982,10 @@ public class Fragment_A extends Fragment {
                 android.R.layout.simple_spinner_item, list_District);
 
         dataAdapterD.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Sp_A7.setAdapter(dataAdapterD);
+        bi.a7.setAdapter(dataAdapterD);
 
 
-        Sp_A7.setSelection(0);
+        bi.a7.setSelection(0);
     }
 
     public void GetTehsil(String District) {
@@ -997,10 +996,10 @@ public class Fragment_A extends Fragment {
                 android.R.layout.simple_spinner_item, list_tehsil);
 
         dataAdapterD.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Sp_A8.setAdapter(dataAdapterD);
+        bi.a8.setAdapter(dataAdapterD);
 
 
-        Sp_A8.setSelection(0);
+        bi.a8.setSelection(0);
     }
 
     public void GetUC(String Tehsil) {
@@ -1011,10 +1010,10 @@ public class Fragment_A extends Fragment {
                 android.R.layout.simple_spinner_item, list_UC);
 
         dataAdapterD.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        Sp_A9.setAdapter(dataAdapterD);
+        bi.a9.setAdapter(dataAdapterD);
 
 
-        Sp_A9.setSelection(0);
+        bi.a9.setSelection(0);
     }
 
     public String GetHFAPK() {
