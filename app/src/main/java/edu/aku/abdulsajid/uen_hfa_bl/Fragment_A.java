@@ -156,44 +156,49 @@ public class Fragment_A extends Fragment {
         GetClusterNumber();
 
 
+        public void BtnContinue () {
+
+
+            if (bi.a13b.isChecked()) {
+                Validation.A13_2_ischekd = "true";
+            } else {
+                Validation.A13_2_ischekd = "false";
+            }
+
+
+            fun_put_99in_A14();
+
+            if (Validationiamgood() == false) {
+                Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
+                return;
+            }
+
+            if (asigningvalues() == false) {
+                Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
+                return;
+            }
+
+
+            insertdata();
+
+            Validation.HFAPK = GetHFAPK();
+            Validation.A1 = A1 + Validation.HFAPK;
+
+            Validation.A4 = A4;
+
+            insertLogtable();
+            LogtableUpdates.UpdateLogSection(getContext(), "A", Validation.A1);
+
+            FragmentManager fm = getFragmentManager();
+            FragmentTransaction ftu = fm.beginTransaction();
+            Fragment_B fragment = new Fragment_B();
+            ftu.replace(R.id.frag_container, fragment).commit();
+        }
+
+
         bi.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                if (bi.a13b.isChecked()) {
-                    Validation.A13_2_ischekd = "true";
-                } else {
-                    Validation.A13_2_ischekd = "false";
-                }
-
-
-                fun_put_99in_A14();
-
-                if (Validationiamgood() == false) {
-                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
-                    return;
-                }
-
-                if (asigningvalues() == false) {
-                    Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
-                    return;
-                }
-
-
-                insertdata();
-
-                Validation.HFAPK = GetHFAPK();
-                Validation.A1 = A1 + Validation.HFAPK;
-
-                Validation.A4 = A4;
-
-                insertLogtable();
-                LogtableUpdates.UpdateLogSection(getContext(), "A", Validation.A1);
-
-                FragmentManager fm = getFragmentManager();
-                FragmentTransaction ftu = fm.beginTransaction();
-                Fragment_B fragment = new Fragment_B();
-                ftu.replace(R.id.frag_container, fragment).commit();
 
 
             }
@@ -439,31 +444,31 @@ public class Fragment_A extends Fragment {
                 return false;
             }
 
-            bia143mx.setError(null);
-            if (bia143mx.getText().toString().trim().length() == 0) {
-                bia143mx.setError("Enter Number");
+            bi.a143mx.setError(null);
+            if (bi.a143mx.getText().toString().trim().length() == 0) {
+                bi.a143mx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_14.setError(null);
-            if (bi.a14_3_14.getText().toString().trim().length() == 0) {
-                bi.a14_3_14.setError("Enter Number");
+            bi.a143nx.setError(null);
+            if (bi.a143nx.getText().toString().trim().length() == 0) {
+                bi.a143nx.setError("Enter Number");
                 return false;
             }
-            bi.a14_3_15.setError(null);
-            if (bi.a14_3_15.getText().toString().trim().length() == 0) {
-                bi.a14_3_15.setError("Enter Number");
+            bi.a143ox.setError(null);
+            if (bi.a143ox.getText().toString().trim().length() == 0) {
+                bi.a143ox.setError("Enter Number");
                 return false;
             }
-            bi.a14_3_16.setError(null);
-            if (bi.a14_3_16.getText().toString().trim().length() == 0) {
-                bi.a14_3_16.setError("Enter Number");
+            bi.a143px.setError(null);
+            if (bi.a143px.getText().toString().trim().length() == 0) {
+                bi.a143px.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_17.setError(null);
-            if (bi.a14_3_17.getText().toString().trim().length() == 0) {
-                bi.a14_3_17.setError("Enter Number");
+            bi.a143qx.setError(null);
+            if (bi.a143qx.getText().toString().trim().length() == 0) {
+                bi.a143qx.setError("Enter Number");
                 return false;
             }
 
@@ -650,8 +655,8 @@ public class Fragment_A extends Fragment {
         A143ex = bi.a143ex.getText().toString().trim().isEmpty() ? "-1" : bi.a143ex.getText().toString();
         A143f = bi.a143f.isChecked() ? "6" : "-1";
         A143fx = bi.a143fx.getText().toString().trim().isEmpty() ? "-1" : bi.a143fx.getText().toString();
-        A143g = bi.a143b.isChecked() ? "7" : "-1";
-        A143gx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143g = bi.a143g.isChecked() ? "7" : "-1";
+        A143gx = bi.a143gx.getText().toString().trim().isEmpty() ? "-1" : bi.a143gx.getText().toString();
         A143h = bi.a143b.isChecked() ? "8" : "-1";
         A143hx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
         A143i = bi.a143b.isChecked() ? "9" : "-1";

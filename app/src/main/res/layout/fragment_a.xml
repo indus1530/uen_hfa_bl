@@ -1109,6 +1109,7 @@
                     android:id="@+id/btnNext"
                     style="@style/Button_collder"
                     android:layout_margin="10dp"
+                    android:onClick='@{()-> BtnContinue()}'
                     android:text="Next" />
 
 
