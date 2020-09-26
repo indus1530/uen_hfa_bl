@@ -65,7 +65,40 @@ public class Fragment_A extends Fragment {
             A14,
             A141,
             A142,
-            A1431,
+            A143a,
+            A143ax,
+            A143b,
+            A143bx,
+            A143c,
+            A143cx,
+            A143d,
+            A143dx,
+            A143e,
+            A143ex,
+            A143f,
+            A143fx,
+            A143g,
+            A143gx,
+            A143h,
+            A143hx,
+            A143i,
+            A143ix,
+            A143j,
+            A143jx,
+            A143k,
+            A143kx,
+            A143l,
+            A143lx,
+            A143m,
+            A143mx,
+            A143n,
+            A143nx,
+            A143o,
+            A143ox,
+            A143p,
+            A143px,
+            A143q,
+            A143qx,
             A14_3_2,
             A14_3_3,
             A14_3_4,
@@ -76,7 +109,6 @@ public class Fragment_A extends Fragment {
             A14_3_9,
             A14_3_10,
             A14_3_11,
-            A14_3_12,
             A14_3_13,
             A14_3_14,
             A14_3_15,
@@ -219,18 +251,18 @@ public class Fragment_A extends Fragment {
             }
         });
 
+
         bi.a141.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
-
                 bi.cva143.setVisibility(View.GONE);
                 ClearAllcontrol.ClearAll(bi.cva143);
-
                 if (i == bi.a141a.getId()) {
                     bi.cva143.setVisibility(View.VISIBLE);
                 }
             }
         });
+
 
         bi.a142.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -346,108 +378,92 @@ public class Fragment_A extends Fragment {
             bi.a143bx.setError(null);
             if (bi.a143bx.getText().toString().trim().length() == 0) {
                 bi.a143bx.setError("Enter Number");
-
                 return false;
             }
 
-            bi.a14_3_3.setError(null);
-            if (bi.a14_3_3.getText().toString().trim().length() == 0) {
-                bi.a14_3_3.setError("Enter Number");
-
+            bi.a143cx.setError(null);
+            if (bi.a143cx.getText().toString().trim().length() == 0) {
+                bi.a143cx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_4.setError(null);
-            if (bi.a14_3_4.getText().toString().trim().length() == 0) {
-                bi.a14_3_4.setError("Enter Number");
-
+            bi.a143dx.setError(null);
+            if (bi.a143dx.getText().toString().trim().length() == 0) {
+                bi.a143dx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_5.setError(null);
-            if (bi.a14_3_5.getText().toString().trim().length() == 0) {
-                bi.a14_3_5.setError("Enter Number");
-
+            bi.a143ex.setError(null);
+            if (bi.a143ex.getText().toString().trim().length() == 0) {
+                bi.a143ex.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_6.setError(null);
-            if (bi.a14_3_6.getText().toString().trim().length() == 0) {
-                bi.a14_3_6.setError("Enter Number");
-
+            bi.a143fx.setError(null);
+            if (bi.a143fx.getText().toString().trim().length() == 0) {
+                bi.a143fx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_7.setError(null);
-            if (bi.a14_3_7.getText().toString().trim().length() == 0) {
-                bi.a14_3_7.setError("Enter Number");
-
+            bi.a143gx.setError(null);
+            if (bi.a143gx.getText().toString().trim().length() == 0) {
+                bi.a143gx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_8.setError(null);
-            if (bi.a14_3_8.getText().toString().trim().length() == 0) {
-                bi.a14_3_8.setError("Enter Number");
-
+            bi.a143hx.setError(null);
+            if (bi.a143hx.getText().toString().trim().length() == 0) {
+                bi.a143hx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_9.setError(null);
-            if (bi.a14_3_9.getText().toString().trim().length() == 0) {
-                bi.a14_3_9.setError("Enter Number");
-
+            bi.a143ix.setError(null);
+            if (bi.a143ix.getText().toString().trim().length() == 0) {
+                bi.a143ix.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_10.setError(null);
-            if (bi.a14_3_10.getText().toString().trim().length() == 0) {
-                bi.a14_3_10.setError("Enter Number");
-
+            bi.a143jx.setError(null);
+            if (bi.a143jx.getText().toString().trim().length() == 0) {
+                bi.a143jx.setError("Enter Number");
                 return false;
             }
-            bi.a14_3_11.setError(null);
-            if (bi.a14_3_11.getText().toString().trim().length() == 0) {
-                bi.a14_3_11.setError("Enter Number");
-
+            bi.a143kx.setError(null);
+            if (bi.a143kx.getText().toString().trim().length() == 0) {
+                bi.a143kx.setError("Enter Number");
                 return false;
             }
-            bi.a14_3_12.setError(null);
-            if (bi.a14_3_12.getText().toString().trim().length() == 0) {
-                bi.a14_3_12.setError("Enter Number");
-
+            bi.a143lx.setError(null);
+            if (bi.a143lx.getText().toString().trim().length() == 0) {
+                bi.a143lx.setError("Enter Number");
                 return false;
             }
 
-            bi.a14_3_13.setError(null);
-            if (bi.a14_3_13.getText().toString().trim().length() == 0) {
-                bi.a14_3_13.setError("Enter Number");
-
+            bia143mx.setError(null);
+            if (bia143mx.getText().toString().trim().length() == 0) {
+                bia143mx.setError("Enter Number");
                 return false;
             }
 
             bi.a14_3_14.setError(null);
             if (bi.a14_3_14.getText().toString().trim().length() == 0) {
                 bi.a14_3_14.setError("Enter Number");
-
                 return false;
             }
             bi.a14_3_15.setError(null);
             if (bi.a14_3_15.getText().toString().trim().length() == 0) {
                 bi.a14_3_15.setError("Enter Number");
-
                 return false;
             }
             bi.a14_3_16.setError(null);
             if (bi.a14_3_16.getText().toString().trim().length() == 0) {
                 bi.a14_3_16.setError("Enter Number");
-
                 return false;
             }
 
             bi.a14_3_17.setError(null);
             if (bi.a14_3_17.getText().toString().trim().length() == 0) {
                 bi.a14_3_17.setError("Enter Number");
-
                 return false;
             }
 
@@ -535,7 +551,7 @@ public class Fragment_A extends Fragment {
                 A14 + "','" +
                 A141 + "','" +
                 A142 + "','" +
-                A1431 + "','" +
+                A143a + "','" +
                 A14_3_2 + "','" +
                 A14_3_3 + "','" +
                 A14_3_4 + "','" +
@@ -546,7 +562,7 @@ public class Fragment_A extends Fragment {
                 A14_3_9 + "','" +
                 A14_3_10 + "','" +
                 A14_3_11 + "','" +
-                A14_3_12 + "','" +
+                A143l + "','" +
                 A14_3_13 + "','" +
                 A14_3_14 + "','" +
                 A14_3_15 + "','" +
@@ -609,47 +625,59 @@ public class Fragment_A extends Fragment {
                 : "-1";
         A1296x = bi.a1296x.getText().toString().trim().isEmpty() ? "-1" : bi.a1296x.getText().toString();
 
+        A131 = bi.a13a.isChecked() ? "1" : "-1";
+        A132 = bi.a13b.isChecked() ? "2" : "-1";
 
-        if (bi.a13a.isChecked()) {
-            A13 = "1";
-        } else {
-            A131 = "999";
-        }
+        A14 = bi.a14.getText().toString().trim().isEmpty() ? "-1" : bi.a14.getText().toString();
 
-        if (bi.a13_2.isChecked()) {
-            A132 = "1";
-        } else {
-            A132 = "999";
-        }
+        A141 = bi.a141a.isChecked() ? "1"
+                : bi.a141b.isChecked() ? "2"
+                : "-1";
 
-        if (bi.a14.getText().toString().trim().length() > 0) {
-            A14 = bi.a14.getText().toString().trim();
-        } else {
-            A14 = "999";
-        }
+        A142 = bi.a142a.isChecked() ? "1"
+                : bi.a142b.isChecked() ? "2"
+                : "-1";
 
-
-        if (R_A14_1_yes.isChecked()) {
-            A141 = "1";
-        } else if (R_A14_1_No.isChecked()) {
-            A141 = "2";
-        } else {
-            A141 = "999";
-        }
-
-        if (R_A14_2_yes.isChecked()) {
-            A142 = "1";
-        } else if (R_A14_2_No.isChecked()) {
-            A142 = "2";
-        } else {
-            A142 = "999";
-        }
+        A143a = bi.a143a.isChecked() ? "1" : "-1";
+        A143ax = bi.a143ax.getText().toString().trim().isEmpty() ? "-1" : bi.a143ax.getText().toString();
+        A143b = bi.a143b.isChecked() ? "2" : "-1";
+        A143bx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143c = bi.a143c.isChecked() ? "3" : "-1";
+        A143cx = bi.a143cx.getText().toString().trim().isEmpty() ? "-1" : bi.a143cx.getText().toString();
+        A143d = bi.a143d.isChecked() ? "4" : "-1";
+        A143dx = bi.a143dx.getText().toString().trim().isEmpty() ? "-1" : bi.a143dx.getText().toString();
+        A143e = bi.a143e.isChecked() ? "5" : "-1";
+        A143ex = bi.a143ex.getText().toString().trim().isEmpty() ? "-1" : bi.a143ex.getText().toString();
+        A143f = bi.a143f.isChecked() ? "6" : "-1";
+        A143fx = bi.a143fx.getText().toString().trim().isEmpty() ? "-1" : bi.a143fx.getText().toString();
+        A143g = bi.a143b.isChecked() ? "7" : "-1";
+        A143gx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143h = bi.a143b.isChecked() ? "8" : "-1";
+        A143hx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143i = bi.a143b.isChecked() ? "9" : "-1";
+        A143ix = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143j = bi.a143b.isChecked() ? "10" : "-1";
+        A143jx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143k = bi.a143b.isChecked() ? "11" : "-1";
+        A143kx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143l = bi.a143b.isChecked() ? "12" : "-1";
+        A143lx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143m = bi.a143b.isChecked() ? "13" : "-1";
+        A143mx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143n = bi.a143b.isChecked() ? "14" : "-1";
+        A143nx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143o = bi.a143b.isChecked() ? "15" : "-1";
+        A143ox = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143p = bi.a143b.isChecked() ? "16" : "-1";
+        A143px = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143q = bi.a143b.isChecked() ? "17" : "-1";
+        A143qx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
 
 
         if (bi.a14_3_1.getText().toString().trim().length() > 0) {
-            A1431 = bi.a14_3_1.getText().toString().trim();
+            A143a = bi.a14_3_1.getText().toString().trim();
         } else {
-            A1431 = "999";
+            A143a = "999";
         }
         if (bi.a14_3_2.getText().toString().trim().length() > 0) {
             A14_3_2 = bi.a14_3_2.getText().toString().trim();
@@ -697,18 +725,18 @@ public class Fragment_A extends Fragment {
         } else {
             A14_3_10 = "999";
         }
-        if (bi.a14_3_11.getText().toString().trim().length() > 0) {
-            A14_3_11 = bi.a14_3_11.getText().toString().trim();
+        if (bi.a143kx.getText().toString().trim().length() > 0) {
+            A14_3_11 = bi.a143kx.getText().toString().trim();
         } else {
             A14_3_11 = "999";
         }
-        if (bi.a14_3_12.getText().toString().trim().length() > 0) {
-            A14_3_12 = bi.a14_3_12.getText().toString().trim();
+        if (bi.a143lx.getText().toString().trim().length() > 0) {
+            A143l = bi.a143lx.getText().toString().trim();
         } else {
-            A14_3_12 = "999";
+            A143l = "999";
         }
-        if (bi.a14_3_13.getText().toString().trim().length() > 0) {
-            A14_3_13 = bi.a14_3_13.getText().toString().trim();
+        if (bi.a143mx.getText().toString().trim().length() > 0) {
+            A14_3_13 = bi.a143mx.getText().toString().trim();
         } else {
             A14_3_13 = "999";
         }
