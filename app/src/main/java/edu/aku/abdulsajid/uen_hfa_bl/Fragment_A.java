@@ -1,9 +1,12 @@
 package edu.aku.abdulsajid.uen_hfa_bl;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.InputFilter;
 import android.view.LayoutInflater;
@@ -13,11 +16,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.databinding.DataBindingUtil;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -48,6 +51,11 @@ public class Fragment_A extends Fragment {
 
     FragmentABinding bi;
 
+    MyPreferences pref;
+    Spinner Sp_A7;
+    Spinner Sp_A8;
+    Spinner Sp_A9;
+    List<String> districts;
     String query;
     String A1,
             A4,
@@ -145,67 +153,42 @@ public class Fragment_A extends Fragment {
         bi = DataBindingUtil.inflate(inflater, R.layout.fragment_a, container, false);
         View view = bi.getRoot();
         bi.setCallback(this);
-        return view;
         setupSkips();
-
-
         bi.a19month.setFilters(new InputFilter[]{new InputFilterMinMax("0", "11")});
-
         pref = new MyPreferences(getActivity());
-
         GetClusterNumber();
+        return view;
+    }
 
 
-        public void BtnContinue () {
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    public void BtnContinue() {
+        Validation.A13_2_ischekd = bi.a13b.isChecked() ? "true" : "false";
+        if (!Validationiamgood()) {
+            Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", Toast.LENGTH_LONG).show();
+            return;
+        }
 
-
-            if (bi.a13b.isChecked()) {
-                Validation.A13_2_ischekd = "true";
-            } else {
-                Validation.A13_2_ischekd = "false";
-            }
-
-
-            fun_put_99in_A14();
-
-            if (Validationiamgood() == false) {
-                Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
-                return;
-            }
-
-            if (asigningvalues() == false) {
-                Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
-                return;
-            }
-
-
-            insertdata();
-
-            Validation.HFAPK = GetHFAPK();
-            Validation.A1 = A1 + Validation.HFAPK;
-
-            Validation.A4 = A4;
-
-            insertLogtable();
-            LogtableUpdates.UpdateLogSection(getContext(), "A", Validation.A1);
-
-            FragmentManager fm = getFragmentManager();
-            FragmentTransaction ftu = fm.beginTransaction();
-            Fragment_B fragment = new Fragment_B();
-            ftu.replace(R.id.frag_container, fragment).commit();
+        if (!asigningvalues()) {
+            Toast.makeText(getContext(), "There is Some Missing Question Kindly Fill that Scroll Up and Down", LENGTH_LONG).show();
+            return;
         }
 
 
-        bi.btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        insertdata();
 
+        Validation.HFAPK = GetHFAPK();
+        Validation.A1 = A1 + Validation.HFAPK;
 
-            }
-        });
+        Validation.A4 = A4;
 
+        insertLogtable();
+        LogtableUpdates.UpdateLogSection(getContext(), "A", Validation.A1);
 
-        return view;
+        FragmentManager fm = getFragmentManager();
+        FragmentTransaction ftu = fm.beginTransaction();
+        Fragment fragment = new Fragment_A();
+        ftu.replace(R.id.frag_container, fragment).commit();
     }
 
 
@@ -335,41 +318,41 @@ public class Fragment_A extends Fragment {
             return false;
         }
 
-        if (Gothrough.IamHiden(bi.cva10) == false) {
+        if (!Gothrough.IamHiden(bi.cva10)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva11) == false) {
+        if (!Gothrough.IamHiden(bi.cva11)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva12) == false) {
+        if (!Gothrough.IamHiden(bi.cva12)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva13) == false) {
+        if (!Gothrough.IamHiden(bi.cva13)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva14) == false) {
+        if (!Gothrough.IamHiden(bi.cva14)) {
             return false;
         }
 
-        if (bi.a13b.isChecked() == true) {
+        if (bi.a13b.isChecked()) {
 
-            if (GothroughTextboxss.IamHiden(bi.cva14) == false) {
+            if (!GothroughTextboxss.IamHiden(bi.cva14)) {
                 return false;
             }
 
 
         }
-        if (Gothrough.IamHiden(bi.cva14) == false) {
+        if (!Gothrough.IamHiden(bi.cva14)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva141) == false) {
+        if (!Gothrough.IamHiden(bi.cva141)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva142) == false) {
+        if (!Gothrough.IamHiden(bi.cva142)) {
             return false;
         }
 
-        if (Gothrough.IamHiden(bi.cva143) == false) {
+        if (!Gothrough.IamHiden(bi.cva143)) {
             return false;
         }
 
@@ -476,22 +459,22 @@ public class Fragment_A extends Fragment {
         }
 
 
-        if (Gothrough.IamHiden(bi.cva15) == false) {
+        if (!Gothrough.IamHiden(bi.cva15)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva16) == false) {
+        if (!Gothrough.IamHiden(bi.cva16)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva17) == false) {
+        if (!Gothrough.IamHiden(bi.cva17)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva18) == false) {
+        if (!Gothrough.IamHiden(bi.cva18)) {
             return false;
         }
-        if (Gothrough.IamHiden(bi.cva19) == false) {
+        if (!Gothrough.IamHiden(bi.cva19)) {
             return false;
         }
-        return Gothrough.IamHiden(bi.cva20) != false;
+        return Gothrough.IamHiden(bi.cva20);
     }
 
     boolean insertdata() {
@@ -557,16 +540,16 @@ public class Fragment_A extends Fragment {
                 A141 + "','" +
                 A142 + "','" +
                 A143a + "','" +
-                A14_3_2 + "','" +
-                A14_3_3 + "','" +
-                A14_3_4 + "','" +
-                A14_3_5 + "','" +
-                A14_3_6 + "','" +
-                A14_3_7 + "','" +
-                A14_3_8 + "','" +
-                A14_3_9 + "','" +
-                A14_3_10 + "','" +
-                A14_3_11 + "','" +
+                A143b + "','" +
+                A143c + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
+                A143b + "','" +
                 A143l + "','" +
                 A14_3_13 + "','" +
                 A14_3_14 + "','" +
@@ -657,250 +640,83 @@ public class Fragment_A extends Fragment {
         A143fx = bi.a143fx.getText().toString().trim().isEmpty() ? "-1" : bi.a143fx.getText().toString();
         A143g = bi.a143g.isChecked() ? "7" : "-1";
         A143gx = bi.a143gx.getText().toString().trim().isEmpty() ? "-1" : bi.a143gx.getText().toString();
-        A143h = bi.a143b.isChecked() ? "8" : "-1";
-        A143hx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143i = bi.a143b.isChecked() ? "9" : "-1";
-        A143ix = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143j = bi.a143b.isChecked() ? "10" : "-1";
-        A143jx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143k = bi.a143b.isChecked() ? "11" : "-1";
-        A143kx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143l = bi.a143b.isChecked() ? "12" : "-1";
-        A143lx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143m = bi.a143b.isChecked() ? "13" : "-1";
-        A143mx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143n = bi.a143b.isChecked() ? "14" : "-1";
-        A143nx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143o = bi.a143b.isChecked() ? "15" : "-1";
-        A143ox = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143p = bi.a143b.isChecked() ? "16" : "-1";
-        A143px = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
-        A143q = bi.a143b.isChecked() ? "17" : "-1";
-        A143qx = bi.a143bx.getText().toString().trim().isEmpty() ? "-1" : bi.a143bx.getText().toString();
+        A143h = bi.a143h.isChecked() ? "8" : "-1";
+        A143hx = bi.a143hx.getText().toString().trim().isEmpty() ? "-1" : bi.a143hx.getText().toString();
+        A143i = bi.a143i.isChecked() ? "9" : "-1";
+        A143ix = bi.a143ix.getText().toString().trim().isEmpty() ? "-1" : bi.a143ix.getText().toString();
+        A143j = bi.a143j.isChecked() ? "10" : "-1";
+        A143jx = bi.a143jx.getText().toString().trim().isEmpty() ? "-1" : bi.a143jx.getText().toString();
+        A143k = bi.a143k.isChecked() ? "11" : "-1";
+        A143kx = bi.a143kx.getText().toString().trim().isEmpty() ? "-1" : bi.a143kx.getText().toString();
+        A143l = bi.a143l.isChecked() ? "12" : "-1";
+        A143lx = bi.a143lx.getText().toString().trim().isEmpty() ? "-1" : bi.a143lx.getText().toString();
+        A143m = bi.a143m.isChecked() ? "13" : "-1";
+        A143mx = bi.a143mx.getText().toString().trim().isEmpty() ? "-1" : bi.a143mx.getText().toString();
+        A143n = bi.a143n.isChecked() ? "14" : "-1";
+        A143nx = bi.a143nx.getText().toString().trim().isEmpty() ? "-1" : bi.a143nx.getText().toString();
+        A143o = bi.a143o.isChecked() ? "15" : "-1";
+        A143ox = bi.a143ox.getText().toString().trim().isEmpty() ? "-1" : bi.a143ox.getText().toString();
+        A143p = bi.a143p.isChecked() ? "16" : "-1";
+        A143px = bi.a143px.getText().toString().trim().isEmpty() ? "-1" : bi.a143px.getText().toString();
+        A143q = bi.a143q.isChecked() ? "17" : "-1";
+        A143qx = bi.a143qx.getText().toString().trim().isEmpty() ? "-1" : bi.a143qx.getText().toString();
 
+        A15 = bi.a15a.isChecked() ? "1"
+                : bi.a15b.isChecked() ? "2"
+                : bi.a15c.isChecked() ? "3"
+                : bi.a15d.isChecked() ? "4"
+                : bi.a15e.isChecked() ? "5"
+                : bi.a15f.isChecked() ? "6"
+                : bi.a15g.isChecked() ? "7"
+                : bi.a15h.isChecked() ? "8"
+                : bi.a15i.isChecked() ? "9"
+                : bi.a15j.isChecked() ? "10"
+                : bi.a1596.isChecked() ? "96"
+                : "-1";
+        A15ix = bi.a15ix.getText().toString().trim().isEmpty() ? "-1" : bi.a15ix.getText().toString();
+        A1596x = bi.a1596x.getText().toString().trim().isEmpty() ? "-1" : bi.a1596x.getText().toString();
 
-        if (bi.a14_3_1.getText().toString().trim().length() > 0) {
-            A143a = bi.a14_3_1.getText().toString().trim();
-        } else {
-            A143a = "999";
-        }
-        if (bi.a14_3_2.getText().toString().trim().length() > 0) {
-            A14_3_2 = bi.a14_3_2.getText().toString().trim();
-        } else {
-            A14_3_2 = "999";
-        }
+        A16 = bi.a16a.isChecked() ? "1"
+                : bi.a16b.isChecked() ? "2"
+                : bi.a16c.isChecked() ? "3"
+                : bi.a16d.isChecked() ? "4"
+                : bi.a16e.isChecked() ? "5"
+                : bi.a16f.isChecked() ? "6"
+                : bi.a16g.isChecked() ? "7"
+                : bi.a16h.isChecked() ? "8"
+                : bi.a16i.isChecked() ? "9"
+                : bi.a16j.isChecked() ? "10"
+                : bi.a16k.isChecked() ? "11"
+                : bi.a16l.isChecked() ? "12"
+                : bi.a16m.isChecked() ? "13"
+                : bi.a16n.isChecked() ? "14"
+                : bi.a1696.isChecked() ? "96"
+                : "-1";
+        A16 = bi.a1696x.getText().toString().trim().isEmpty() ? "-1" : bi.a1696x.getText().toString();
 
-        if (bi.a14_3_3.getText().toString().trim().length() > 0) {
-            A14_3_3 = bi.a14_3_3.getText().toString().trim();
-        } else {
-            A14_3_3 = "999";
-        }
-        if (bi.a14_3_4.getText().toString().trim().length() > 0) {
-            A14_3_4 = bi.a14_3_4.getText().toString().trim();
-        } else {
-            A14_3_4 = "999";
-        }
-        if (bi.a14_3_5.getText().toString().trim().length() > 0) {
-            A14_3_5 = bi.a14_3_5.getText().toString().trim();
-        } else {
-            A14_3_5 = "999";
-        }
-        if (bi.a14_3_6.getText().toString().trim().length() > 0) {
-            A14_3_6 = bi.a14_3_6.getText().toString().trim();
-        } else {
-            A14_3_6 = "999";
-        }
-        if (bi.a14_3_7.getText().toString().trim().length() > 0) {
-            A14_3_7 = bi.a14_3_7.getText().toString().trim();
-        } else {
-            A14_3_7 = "999";
-        }
-        if (bi.a14_3_8.getText().toString().trim().length() > 0) {
-            A14_3_8 = bi.a14_3_8.getText().toString().trim();
-        } else {
-            A14_3_8 = "999";
-        }
-        if (bi.a14_3_9.getText().toString().trim().length() > 0) {
-            A14_3_9 = bi.a14_3_9.getText().toString().trim();
-        } else {
-            A14_3_9 = "999";
-        }
-        if (bi.a14_3_10.getText().toString().trim().length() > 0) {
-            A14_3_10 = bi.a14_3_10.getText().toString().trim();
-        } else {
-            A14_3_10 = "999";
-        }
-        if (bi.a143kx.getText().toString().trim().length() > 0) {
-            A14_3_11 = bi.a143kx.getText().toString().trim();
-        } else {
-            A14_3_11 = "999";
-        }
-        if (bi.a143lx.getText().toString().trim().length() > 0) {
-            A143l = bi.a143lx.getText().toString().trim();
-        } else {
-            A143l = "999";
-        }
-        if (bi.a143mx.getText().toString().trim().length() > 0) {
-            A14_3_13 = bi.a143mx.getText().toString().trim();
-        } else {
-            A14_3_13 = "999";
-        }
-        if (bi.a14_3_14.getText().toString().trim().length() > 0) {
-            A14_3_14 = bi.a14_3_14.getText().toString().trim();
-        } else {
-            A14_3_14 = "999";
-        }
-        if (bi.a14_3_15.getText().toString().trim().length() > 0) {
-            A14_3_15 = bi.a14_3_15.getText().toString().trim();
-        } else {
-            A14_3_15 = "999";
-        }
-        if (bi.a14_3_16.getText().toString().trim().length() > 0) {
-            A14_3_16 = bi.a14_3_16.getText().toString().trim();
-        } else {
-            A14_3_16 = "999";
-        }
-        if (bi.a14_3_17.getText().toString().trim().length() > 0) {
-            A14_3_17 = bi.a14_3_17.getText().toString().trim();
-        } else {
-            A14_3_17 = "999";
-        }
+        A17 = bi.a17.getText().toString().trim().isEmpty() ? "-1" : bi.a17.getText().toString();
 
+        A18 = bi.a18a.isChecked() ? "1"
+                : bi.a18b.isChecked() ? "2"
+                : bi.a18c.isChecked() ? "3"
+                : bi.a18d.isChecked() ? "4"
+                : bi.a18e.isChecked() ? "5"
+                : bi.a18f.isChecked() ? "6"
+                : bi.a18g.isChecked() ? "7"
+                : bi.a1896.isChecked() ? "96"
+                : "-1";
+        A18 = bi.a1896x.getText().toString().trim().isEmpty() ? "-1" : bi.a1896x.getText().toString();
 
-        if (R_A15_1.isChecked()) {
-            A15 = "1";
-        } else if (R_A15_2.isChecked()) {
-            A15 = "2";
-        } else if (R_A15_3.isChecked()) {
-            A15 = "3";
-        } else if (R_A15_4.isChecked()) {
-            A15 = "4";
-        } else if (R_A15_5.isChecked()) {
-            A15 = "5";
-        } else if (R_A15_6.isChecked()) {
-            A15 = "6";
-        } else if (R_A15_7.isChecked()) {
-            A15 = "7";
-        } else if (R_A15_8.isChecked()) {
-            A15 = "8";
-        } else if (R_A15_9.isChecked()) {
-            if (bi.a15_9.getText().toString().trim().length() > 0) {
-                A15 = "NGO " + bi.a15_9.getText().toString().trim();
-                bi.a15_9.setError(null);
-            } else {
-                A15 = "999";
-
-                bi.a15_9.setError("Enter");
-                return false;
-            }
-        } else if (R_A15_10.isChecked()) {
-            A15 = "10";
-        } else if (R_A15_11.isChecked()) {
-            if (bi.a15_11.getText().toString().trim().length() > 0) {
-
-                A15 = bi.a15_11.getText().toString().trim();
-                bi.a15_11.setError(null);
-            } else {
-                A15 = "999";
-
-                bi.a15_11.setError("Enter");
-
-                return false;
-            }
-        } else {
-            A15 = "999";
-        }
-
-
-        if (R_A16_1.isChecked()) {
-            A16 = "1";
-        } else if (R_A16_2.isChecked()) {
-            A16 = "2";
-        } else if (R_A16_3.isChecked()) {
-            A16 = "3";
-        } else if (R_A16_4.isChecked()) {
-            A16 = "4";
-        } else if (R_A16_5.isChecked()) {
-            A16 = "5";
-        } else if (R_A16_6.isChecked()) {
-            A16 = "6";
-        } else if (R_A16_7.isChecked()) {
-            A16 = "7";
-        } else if (R_A16_8.isChecked()) {
-            A16 = "8";
-        } else if (R_A16_9.isChecked()) {
-            A16 = "9";
-        } else if (R_A16_10.isChecked()) {
-            A16 = "10";
-        } else if (R_A16_11.isChecked()) {
-            A16 = "11";
-        } else if (R_A16_12.isChecked()) {
-            A16 = "12";
-        } else if (R_A16_13.isChecked()) {
-            A16 = "13";
-        } else if (R_A16_14.isChecked()) {
-            A16 = "14";
-        } else if (R_A16_15.isChecked()) {
-            if (bi.a16_14.getText().toString().trim().length() > 0) {
-                A16 = bi.a16_14.getText().toString().trim();
-                bi.a16_14.setError(null);
-
-            } else {
-                A16 = "999";
-
-                bi.a16_14.setError("Enter");
-                return false;
-            }
-        } else {
-            A16 = "999";
-        }
-
-        if (bi.a17.getText().toString().trim().length() > 0) {
-            A17 = bi.a17.getText().toString().trim();
-        } else {
-            A17 = "999";
-        }
-
-
-        if (R_A18_1.isChecked()) {
-            A18 = "1";
-        } else if (R_A18_2.isChecked()) {
-            A18 = "2";
-        } else if (R_A18_3.isChecked()) {
-            A18 = "3";
-        } else if (R_A18_4.isChecked()) {
-            A18 = "4";
-        } else if (R_A18_5.isChecked()) {
-            A18 = "5";
-        } else if (R_A18_6.isChecked()) {
-            A18 = "6";
-        } else if (R_A18_7.isChecked()) {
-            A18 = "7";
-        } else if (R_A18_8.isChecked()) {
-
-            if (bi.a18_8.getText().toString().trim().length() > 0) {
-                A18 = bi.a18_8.getText().toString().trim();
-
-                bi.a18_8.setError(null);
-            } else {
-                A18 = "999";
-
-                bi.a18_8.setError("Enter");
-                return false;
-            }
-        } else {
-            A18 = "999";
-        }
 
         int A19_months = 0;
 
-        if (bi.a19_year.getText().toString().trim().length() > 0 || bi.a19_month.getText().toString().trim().length() > 0) {
-            if (bi.a19_year.getText().toString().trim().length() > 0) {
-                int a19year = Integer.parseInt(bi.a19_year.getText().toString().trim());
+        if (bi.a19year.getText().toString().trim().length() > 0 || bi.a19month.getText().toString().trim().length() > 0) {
+            if (bi.a19year.getText().toString().trim().length() > 0) {
+                int a19year = Integer.parseInt(bi.a19year.getText().toString().trim());
                 A19_months = a19year * 12;
             }
-            if (bi.a19_month.getText().toString().trim().length() > 0) {
-                int a19month = Integer.parseInt(bi.a19_month.getText().toString().trim());
+            if (bi.a19month.getText().toString().trim().length() > 0) {
+                int a19month = Integer.parseInt(bi.a19month.getText().toString().trim());
                 A19_months = A19_months + a19month;
             }
         } else {
@@ -909,19 +725,8 @@ public class Fragment_A extends Fragment {
         A19 = A19_months + "";
 
 
-        if (bi.a20.getText().toString().trim().length() > 0) {
-
-            A20 = bi.a20.getText().toString().trim();
-        } else {
-            A20 = "999";
-        }
-
-        if (bi.a21.getText().toString().trim().length() > 0) {
-
-            A21 = bi.a21.getText().toString().trim();
-        } else {
-            A21 = "999";
-        }
+        A20 = bi.a20a.getText().toString().trim().isEmpty() ? "-1" : bi.a20a.getText().toString();
+        A21 = bi.a20b.getText().toString().trim().isEmpty() ? "-1" : bi.a20b.getText().toString();
 
 
         String spA6 = "";
@@ -929,15 +734,10 @@ public class Fragment_A extends Fragment {
         String spA8;
         String spA9;
 
-        if (R_A6_1.isChecked()) {
-            spA6 = "B";
-        }
-        if (R_A6_2.isChecked()) {
-            spA6 = "P";
-        }
-        if (R_A6_3.isChecked()) {
-            spA6 = "S";
-        }
+        spA6 = bi.a6a.isChecked() ? "B"
+                : bi.a6b.isChecked() ? "P"
+                : bi.a6c.isChecked() ? "S"
+                : "-1";
 
         spA7 = bi.a7.getSelectedItem().toString().trim();
         spA8 = bi.a8.getSelectedItem().toString().trim();
@@ -973,19 +773,14 @@ public class Fragment_A extends Fragment {
 
         int id = adapterView.getId();
         switch (id) {
-            case R.id.bi.a7:
-
+            case R.id.a7:
                 if (bi.a7.getSelectedItem().toString().equals("Select"))
                     break;
-
                 GetTehsil(bi.a7.getSelectedItem().toString().trim());
-
-            case R.id.bi.a8:
+            case R.id.a8:
                 if (bi.a8.getSelectedItem().toString().equals("Select"))
                     break;
-
                 GetUC(bi.a8.getSelectedItem().toString().trim());
-
         }
 
     }
@@ -999,24 +794,19 @@ public class Fragment_A extends Fragment {
 
 
         String province;
-        if (R_A6_1.isChecked()) {
-            province = "Balochistan";
-        } else if (R_A6_2.isChecked()) {
-            province = "Punjab";
-        } else if (R_A6_3.isChecked()) {
-            province = "Sindh";
-        } else {
-            return;
-        }
 
+        province = bi.a6a.isChecked() ? "Balochistan"
+                : bi.a6b.isChecked() ? "Punjab"
+                : bi.a6c.isChecked() ? "Sindh"
+                : "-1";
+        if (province.equals("-1")) return;
 
-        list_District = Districts.get(province);
+        districts = Districts.get(province);
         ArrayAdapter<String> dataAdapterD = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_spinner_item, list_District);
+                android.R.layout.simple_spinner_item, districts);
 
         dataAdapterD.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         bi.a7.setAdapter(dataAdapterD);
-
 
         bi.a7.setSelection(0);
     }
@@ -1077,7 +867,7 @@ public class Fragment_A extends Fragment {
         query = String.format(query);
 
 
-        LocalDataManager Lm = new LocalDataManager(getContext());
+        LocalDataManager lm = new LocalDataManager(getContext());
 
         database.execSQL(query);
 

@@ -3,7 +3,6 @@ package edu.aku.abdulsajid.uen_hfa_bl;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
@@ -16,6 +15,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
 
 import data.LocalDataManager;
 import data.LogtableUpdates;
@@ -209,7 +210,7 @@ public class Fragment_G extends Fragment implements RadioButton.OnCheckedChangeL
 
         C_G11_13.setOnCheckedChangeListener(this);
 
-        Button btnNext = (Button) v.findViewById(R.id.btn_A_next);
+        Button btnNext = v.findViewById(R.id.btn_A_next);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -418,77 +419,77 @@ public class Fragment_G extends Fragment implements RadioButton.OnCheckedChangeL
 
     void initalzieLinerLayout(View v) {
 
-        lv_g1 = (LinearLayout) v.findViewById(R.id.lv_g1);
-        lv_g2 = (LinearLayout) v.findViewById(R.id.lv_g2);
-        lv_g3 = (LinearLayout) v.findViewById(R.id.lv_g3);
-        lv_g4 = (LinearLayout) v.findViewById(R.id.lv_g4);
-        lv_g5 = (LinearLayout) v.findViewById(R.id.lv_g5);
-        lv_g6 = (LinearLayout) v.findViewById(R.id.lv_g6);
-        lv_g7 = (LinearLayout) v.findViewById(R.id.lv_G7);
-        lv_g8 = (LinearLayout) v.findViewById(R.id.lv_G8);
-        lv_g9 = (LinearLayout) v.findViewById(R.id.lv_g9);
-        lv_g10 = (LinearLayout) v.findViewById(R.id.lv_g10);
+        lv_g1 = v.findViewById(R.id.lv_g1);
+        lv_g2 = v.findViewById(R.id.lv_g2);
+        lv_g3 = v.findViewById(R.id.lv_g3);
+        lv_g4 = v.findViewById(R.id.lv_g4);
+        lv_g5 = v.findViewById(R.id.lv_g5);
+        lv_g6 = v.findViewById(R.id.lv_g6);
+        lv_g7 = v.findViewById(R.id.lv_G7);
+        lv_g8 = v.findViewById(R.id.lv_G8);
+        lv_g9 = v.findViewById(R.id.lv_g9);
+        lv_g10 = v.findViewById(R.id.lv_g10);
 
-        lv_g11 = (LinearLayout) v.findViewById(R.id.lv_g11);
-        lv_sub_main = (LinearLayout) v.findViewById(R.id.lv_sub_main);
+        lv_g11 = v.findViewById(R.id.lv_g11);
+        lv_sub_main = v.findViewById(R.id.lv_sub_main);
 
     }
 
     void initalizeRadiobutton(View v) {
 
-        rb_G2_yes = (RadioButton) v.findViewById(R.id.rb_G2_yes);
-        rb_G2_no = (RadioButton) v.findViewById(R.id.rb_G2_no);
-        rb_G3_yes = (RadioButton) v.findViewById(R.id.rb_G3_yes);
-        rb_G3_no = (RadioButton) v.findViewById(R.id.rb_G3_no);
-        rb_G4_yes = (RadioButton) v.findViewById(R.id.rb_G4_yes);
-        rb_G4_no = (RadioButton) v.findViewById(R.id.rb_G4_no);
-        R_G8_Yes = (RadioButton) v.findViewById(R.id.R_G8_Yes);
-        R_G8_no = (RadioButton) v.findViewById(R.id.R_G8_no);
+        rb_G2_yes = v.findViewById(R.id.rb_G2_yes);
+        rb_G2_no = v.findViewById(R.id.rb_G2_no);
+        rb_G3_yes = v.findViewById(R.id.rb_G3_yes);
+        rb_G3_no = v.findViewById(R.id.rb_G3_no);
+        rb_G4_yes = v.findViewById(R.id.rb_G4_yes);
+        rb_G4_no = v.findViewById(R.id.rb_G4_no);
+        R_G8_Yes = v.findViewById(R.id.R_G8_Yes);
+        R_G8_no = v.findViewById(R.id.R_G8_no);
 
     }
 
     void initalizerCheckbox(View v) {
-        C_G1_1 = (CheckBox) v.findViewById(R.id.C_G1_1);
-        C_G1_2 = (CheckBox) v.findViewById(R.id.C_G1_2);
-        C_G1_3 = (CheckBox) v.findViewById(R.id.C_G1_3);
-        C_G1_4 = (CheckBox) v.findViewById(R.id.C_G1_4);
-        C_G1_5 = (CheckBox) v.findViewById(R.id.C_G1_5);
-        C_G11_1 = (CheckBox) v.findViewById(R.id.C_G11_1);
-        C_G11_2 = (CheckBox) v.findViewById(R.id.C_G11_2);
-        C_G11_3 = (CheckBox) v.findViewById(R.id.C_G11_3);
-        C_G11_4 = (CheckBox) v.findViewById(R.id.C_G11_4);
-        C_G11_5 = (CheckBox) v.findViewById(R.id.C_G11_5);
-        C_G11_6 = (CheckBox) v.findViewById(R.id.C_G11_6);
-        C_G11_7 = (CheckBox) v.findViewById(R.id.C_G11_7);
-        C_G11_8 = (CheckBox) v.findViewById(R.id.C_G11_8);
-        C_G11_9 = (CheckBox) v.findViewById(R.id.C_G11_9);
-        C_G11_10 = (CheckBox) v.findViewById(R.id.C_G11_10);
-        C_G11_11 = (CheckBox) v.findViewById(R.id.C_G11_11);
-        C_G11_12 = (CheckBox) v.findViewById(R.id.C_G11_12);
-        C_G11_13 = (CheckBox) v.findViewById(R.id.C_G11_13);
+        C_G1_1 = v.findViewById(R.id.C_G1_1);
+        C_G1_2 = v.findViewById(R.id.C_G1_2);
+        C_G1_3 = v.findViewById(R.id.C_G1_3);
+        C_G1_4 = v.findViewById(R.id.C_G1_4);
+        C_G1_5 = v.findViewById(R.id.C_G1_5);
+        C_G11_1 = v.findViewById(R.id.C_G11_1);
+        C_G11_2 = v.findViewById(R.id.C_G11_2);
+        C_G11_3 = v.findViewById(R.id.C_G11_3);
+        C_G11_4 = v.findViewById(R.id.C_G11_4);
+        C_G11_5 = v.findViewById(R.id.C_G11_5);
+        C_G11_6 = v.findViewById(R.id.C_G11_6);
+        C_G11_7 = v.findViewById(R.id.C_G11_7);
+        C_G11_8 = v.findViewById(R.id.C_G11_8);
+        C_G11_9 = v.findViewById(R.id.C_G11_9);
+        C_G11_10 = v.findViewById(R.id.C_G11_10);
+        C_G11_11 = v.findViewById(R.id.C_G11_11);
+        C_G11_12 = v.findViewById(R.id.C_G11_12);
+        C_G11_13 = v.findViewById(R.id.C_G11_13);
     }
 
     void initializerEditextview(View v) {
 
-        ed_G5_1 = (EditText) v.findViewById(R.id.ed_G5_1);
-        ed_G5_2 = (EditText) v.findViewById(R.id.ed_G5_2);
-        ed_G5_3 = (EditText) v.findViewById(R.id.ed_G5_3);
-        ed_G5_4 = (EditText) v.findViewById(R.id.ed_G5_4);
-        ed_G5_5 = (EditText) v.findViewById(R.id.ed_G5_5);
-        ed_G5_6 = (EditText) v.findViewById(R.id.ed_G5_6);
-        ed_G5_7 = (EditText) v.findViewById(R.id.ed_G5_7);
-        ed_G6_1 = (EditText) v.findViewById(R.id.ed_G6_1);
-        ed_G6_2 = (EditText) v.findViewById(R.id.ed_G6_2);
-        ed_G6_3 = (EditText) v.findViewById(R.id.ed_G6_3);
-        ed_G6_4 = (EditText) v.findViewById(R.id.ed_G6_4);
-        ed_G7 = (EditText) v.findViewById(R.id.ed_G7);
-        ed_G9_1 = (EditText) v.findViewById(R.id.ed_G9_1);
-        ed_G9_2 = (EditText) v.findViewById(R.id.ed_G9_2);
-        ed_G9_3 = (EditText) v.findViewById(R.id.ed_G9_3);
-        ed_G10_1 = (EditText) v.findViewById(R.id.ed_G10_1);
-        ed_G10_2 = (EditText) v.findViewById(R.id.ed_G10_2);
-        ed_G10_3 = (EditText) v.findViewById(R.id.ed_G10_3);
-        ed_G11_13 = (EditText) v.findViewById(R.id.ed_G11_13);
+        ed_G5_1 = v.findViewById(R.id.ed_G5_1);
+        ed_G5_2 = v.findViewById(R.id.ed_G5_2);
+        ed_G5_3 = v.findViewById(R.id.ed_G5_3);
+        ed_G5_4 = v.findViewById(R.id.ed_G5_4);
+        ed_G5_5 = v.findViewById(R.id.ed_G5_5);
+        ed_G5_6 = v.findViewById(R.id.ed_G5_6);
+        ed_G5_7 = v.findViewById(R.id.ed_G5_7);
+        ed_G6_1 = v.findViewById(R.id.ed_G6_1);
+        ed_G6_2 = v.findViewById(R.id.ed_G6_2);
+        ed_G6_3 = v.findViewById(R.id.ed_G6_3);
+        ed_G6_4 = v.findViewById(R.id.ed_G6_4);
+        ed_G7 = v.findViewById(R.id.ed_G7);
+        ed_G9_1 = v.findViewById(R.id.ed_G9_1);
+        ed_G9_2 = v.findViewById(R.id.ed_G9_2);
+        ed_G9_3 = v.findViewById(R.id.ed_G9_3);
+        ed_G10_1 = v.findViewById(R.id.ed_G10_1);
+        ed_G10_2 = v.findViewById(R.id.ed_G10_2);
+        ed_G10_3 = v.findViewById(R.id.ed_G10_3);
+        ed_G11_13 = v.findViewById(R.id.ed_G11_13);
 
 
     }
