@@ -493,8 +493,8 @@ public class Fragment_A extends Fragment {
                 col_A.A10 + "," +
                 col_A.A11 + "," +
                 col_A.A12 + "," +
-                col_A.A13_1 + "," +
-                col_A.A13_2 + "," +
+                col_A.A131 + "," +
+                col_A.A132 + "," +
                 col_A.A14 + "," +
                 col_A.A14_1 + "," +
                 col_A.A14_2 + "," +

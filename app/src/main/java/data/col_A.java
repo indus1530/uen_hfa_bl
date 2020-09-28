@@ -18,8 +18,8 @@ public class col_A {
     public static String A10 = "A10";
     public static String A11 = "A11";
     public static String A12 = "A12";
-    public static String A13_1 = "A13_1";
-    public static String A13_2 = "A13_2";
+    public static String A131 = "A131";
+    public static String A132 = "A13_2";
 
     public static String A14 = "A14";
 

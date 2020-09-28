@@ -21,8 +21,8 @@ public class HFATable {
                 col_A.A10 + " TEXT," +
                 col_A.A11 + " TEXT," +
                 col_A.A12 + " TEXT," +
-                col_A.A13_1 + " TEXT," +
-                col_A.A13_2 + " TEXT," +
+                col_A.A131 + " TEXT," +
+                col_A.A132 + " TEXT," +
                 col_A.A14 + " TEXT," +
                 col_A.A14_1 + " TEXT," +
                 col_A.A14_2 + " TEXT," +
